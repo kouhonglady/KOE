@@ -35,6 +35,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class ChangeInfo extends Activity {
+	//
 	private Context mContext;
 	private View mBaseView;
 	private TitleBarView mTitleBarView;
