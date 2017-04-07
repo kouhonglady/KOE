@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+       <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_weight="1.27"
+           android:orientation="vertical" >
+
+     <TextView
+        android:id="@+id/character_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.41"
+        android:textSize="40px" />
+        
+    <TextView
+        android:id="@+id/character_shuoming"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.41"
+        android:textSize="20px" />
+
+
+    </LinearLayout>
+        
+        
+         <com.voice.sidebar_switchoff.SwitchButton
+        android:id="@+id/switchbotton"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginRight="10dp"
+	     />
+    
+
+</LinearLayout>

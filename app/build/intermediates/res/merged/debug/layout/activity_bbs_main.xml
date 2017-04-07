@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.voice.bbs.XListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:divider="#dedede"
+        android:dividerHeight="5dp" >
+    </com.voice.bbs.XListView>
+  <LinearLayout
+    
+        android:id="@+id/ll_bo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <include layout="@layout/ll_bottom" />
+    </LinearLayout>
+    <LinearLayout
+           android:visibility="gone"
+        android:id="@+id/ll_po"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <include layout="@layout/ll_pop" />
+    </LinearLayout>
+
+  
+
+   
+
+</RelativeLayout>

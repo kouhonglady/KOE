@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/welcome"
+        android:orientation="vertical" >
+
+ 
+
+       <LinearLayout
+           android:layout_width="400dp"
+           android:layout_height="match_parent"
+           android:layout_gravity="center_horizontal"
+           android:background="@drawable/hornor"
+           android:orientation="vertical" >
+           <TextView
+     				android:id="@+id/title"
+     				android:layout_width="270dp"
+     				android:layout_height="wrap_content"
+     				android:layout_gravity="center_horizontal"
+     				android:layout_marginLeft="10dp"
+     				android:text="    荣誉墙"
+     				android:textColor="#ffffff"
+     				android:textSize="50dp" />
+           <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            >
+            <TextView
+                android:id="@+id/studynum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="80dp"
+                 android:text="学习次数：0"
+                 android:textSize="20dp"
+                 android:textColor="#000000"/>
+        </RelativeLayout>
+         <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            >
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="80dp"
+                 android:text="上次学习：暂无"
+                 android:textSize="20dp"
+                 android:textColor="#000000"/>
+        </RelativeLayout>
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            >
+            <TextView
+                android:id="@+id/testnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="80dp"
+                 android:text="练习次数：0"
+                 android:textSize="20dp"
+                 android:textColor="#000000"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            >
+            <TextView
+                android:id="@+id/grade"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="80dp"
+                 android:text="最高成绩：暂无"
+                 android:textSize="20dp"
+                 android:textColor="#000000"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            >
+            <TextView
+                android:id="@+id/bbsnum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true" 
+                android:layout_marginLeft="80dp"
+                 android:text="发帖数：0"
+                 android:textSize="20dp"
+                 android:textColor="#000000"/>
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/r"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp" >
+
+            <TextView
+                android:id="@+id/cancle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" 
+              	android:text="返回"
+                android:textSize="40dp"
+                android:textColor="#ffffff"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    
+
+</LinearLayout>
+

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.voice.view.TitleBarView
+        android:id="@+id/title_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.voice.view.CustomerScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:layout_below="@+id/title_bar" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:background="#ffffff">
+
+            <LinearLayout
+                android:id="@+id/ll_dynamic"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                
+                android:background="@drawable/ll_bg_d"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="172dp"
+                    android:background="#02b5c0" >
+                    <com.voice.view.CircleImageView
+                        android:id="@+id/fresh"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:contentDescription="@string/app_name"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/fresh" />
+
+                    <com.voice.view.CircleImageView
+                        android:id="@+id/pic"
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/app_name"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/channel_qq" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/devide_line" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/ll_dynamic"
+                android:layout_margin="10dp"
+                android:background="@drawable/ll_bg_d"
+                android:orientation="vertical" >
+
+              <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" >
+                  
+                    <TextView
+                        android:id="@+id/UsrID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="20dp"
+                        android:text="账号：" />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/devide_line" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" >
+
+                   
+
+                    <TextView
+                        android:id="@+id/UsrName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                    	android:textSize="20dp"
+                        android:text="用户名：" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/devide_line" />
+
+                
+            </LinearLayout>
+			<LinearLayout
+                android:id="@+id/three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/two"
+                android:layout_margin="10dp"
+                android:background="@drawable/ll_bg_d"
+                android:orientation="vertical" >
+            
+           <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp" >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:textSize="20dp"
+                        android:text="个性签名" />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/devide_line" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp" >
+
+                    <TextView
+                        android:id="@+id/Sign"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentTop="true"
+                        android:textSize="20dp"
+                        android:text="加载中..." />
+
+                </RelativeLayout>
+      </LinearLayout>  
+      <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp" 
+                android:layout_margin="10dp"
+                android:layout_below="@id/three"
+                android:id="@+id/ChangeInfo"
+                android:background="#8e8efb"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp"
+                    android:text="更改资料" />
+
+            </RelativeLayout>    
+           <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp" 
+                android:layout_margin="10dp"
+                android:layout_below="@id/ChangeInfo"
+                android:id="@+id/Logout"
+                android:background="#ff3535"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:textColor="#ffffff"
+                    android:textSize="20dp"
+                    android:text="注销" />
+
+            </RelativeLayout>
+            
+        </RelativeLayout>
+    </com.voice.view.CustomerScrollView>
+
+</RelativeLayout>

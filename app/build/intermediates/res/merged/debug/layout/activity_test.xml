@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/readytotest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="31dp"
+        android:layout_marginTop="15dp"
+        android:text="即将进入测验。。。"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/testtrue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/readytotest"
+        android:layout_below="@+id/readytotest"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="28dp"
+        android:text="确定" />
+
+    <Button
+        android:id="@+id/testback"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/testtrue"
+        android:layout_alignBottom="@+id/testtrue"
+        android:layout_alignRight="@+id/readytotest"
+        android:text="返回" />
+
+</RelativeLayout>

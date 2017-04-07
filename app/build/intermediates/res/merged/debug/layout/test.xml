@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9fbdff"
+    android:scrollbars="horizontal|vertical" >
+
+<LinearLayout
+    android:id="@+id/parent_view"
+    android:layout_width="319dp"
+    android:layout_height="530dp"
+    android:orientation="vertical"
+    android:weightSum="5" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/testimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/boluo" />
+
+            
+
+        </RelativeLayout>
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"></View>
+
+        
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="250dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:background="@drawable/pointboard"
+        android:orientation="vertical" >
+
+       <LinearLayout
+           android:layout_width="278dp"
+           android:layout_height="match_parent"
+           android:layout_gravity="center_horizontal"
+           android:orientation="vertical" >
+            <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            >
+            <TextView
+                android:id="@+id/num"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" 
+                android:layout_marginLeft="10dp"
+                 android:text="第  个/共 个"
+                 android:textSize="20dp"
+                 android:textColor="#ffcf0a"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            >
+            <TextView
+                android:id="@+id/diff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" 
+                android:layout_marginLeft="10dp"
+                 android:text="难度:"
+                 android:textSize="20dp"
+                 android:textColor="#ffcf0a"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            >
+            <TextView
+                android:id="@+id/socre"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" 
+                android:layout_marginLeft="8dp"
+                 android:text="您的得分"
+                 android:textSize="40dp"
+                 android:textColor="#02b5c0"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/point"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" 
+              	android:text="0"
+                android:textSize="30dp"
+                android:textColor="#02b5c0"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            >
+            <ImageButton
+                android:id="@+id/fayin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" 
+                android:layout_alignParentBottom="true"
+                 android:src="@drawable/practice_start"
+                 android:background="#ffffff"
+                android:text="Button" />
+        </RelativeLayout>
+        
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="50dp">
+            <ImageButton
+                android:id="@+id/practice_back"
+                android:layout_width="110dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/studylast"
+                 android:background="#ffffff" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp">
+
+            <ImageButton
+                android:id="@+id/practice_test"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/studynext"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                 android:background="#ffffff" />
+        </RelativeLayout>
+
+    </LinearLayout>
+    </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

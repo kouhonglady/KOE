@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp" 
+         android:layout_centerHorizontal="true"
+        >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+             android:layout_marginTop="15dp" 
+             android:layout_gravity="center_horizontal"
+            >
+
+            <ImageButton
+                android:id="@+id/bookcover1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:background="#00000000"
+                android:src="@drawable/bookcover1" />
+
+           <ImageButton
+                android:id="@+id/bookcover2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bookcover2" 
+                android:background="#00000000"
+            />
+            
+         <ImageButton
+                android:id="@+id/bookcover3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bookcover3" 
+                android:background="#00000000"       
+               
+                android:layout_marginRight="10dp"/>
+            
+  
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+             android:layout_marginTop="15dp">
+                     <ImageButton
+                android:id="@+id/bookcover4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+                android:src="@drawable/bookcover4"
+                android:background="#00000000" />
+
+           <ImageButton
+                android:id="@+id/bookcover5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bookcover5" 
+                android:background="#00000000"
+            />
+            
+         <ImageButton
+                android:id="@+id/bookcover6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bookcover6" 
+                android:background="#00000000"       
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" 
+             android:layout_marginTop="15dp">
+                              <ImageButton
+                android:id="@+id/bookcover7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+              android:layout_marginRight="10dp"
+                android:src="@drawable/bookcover7"
+                android:background="#00000000" />
+
+                              <ImageButton
+                                  android:id="@+id/bookcover8"
+                                  android:layout_width="wrap_content"
+                                  android:layout_height="wrap_content"
+                                  android:background="#00000000"
+                                  android:src="@drawable/bookcover8" />
+         
+        </TableRow>
+
+       
+    </TableLayout>
+
+</LinearLayout>

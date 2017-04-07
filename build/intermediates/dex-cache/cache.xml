@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="C:\Users\hcc11_000\Desktop\Voice _12.21\app\libs\zxing-1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="327bddfe22740db0419bd719a0f950b6ad2b3c3f">
+        <dex dex="C:\Users\hcc11_000\Desktop\Voice _12.21\app\build\intermediates\pre-dexed\debug\zxing-1.6_f53a21c82dd907fb0cf5783e97b419b27f0e14ad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hcc11_000\Desktop\Voice _12.21\app\libs\nineoldandroids-library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="C:\Users\hcc11_000\Desktop\Voice _12.21\app\build\intermediates\pre-dexed\debug\nineoldandroids-library-2.4.0_283beb093ac23426f8eb92e7f992309cf92fe23e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\Users\double\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\hcc11_000\Desktop\Voice _12.21\app\build\intermediates\pre-dexed\debug\support-v4-19.1.0_5538d06424509578b352790398a20b4a7bccaa5e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hcc11_000\Desktop\Voice _12.21\app\libs\VoiceRecognition-2.1.20.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="f6f1c929343ec741b10a82084c33ea4bfa5c9306">
+        <dex dex="C:\Users\hcc11_000\Desktop\Voice _12.21\app\build\intermediates\pre-dexed\debug\VoiceRecognition-2.1.20_cbe1cfb0e54de1f1f4bd666e2829e133051bdc80.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hcc11_000\Desktop\Voice _12.21\app\libs\achartengine-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
+        <dex dex="C:\Users\hcc11_000\Desktop\Voice _12.21\app\build\intermediates\pre-dexed\debug\achartengine-1.1.0_8645bcd7124b3ee65bb74018136754b66bafb5ac.jar" />
+    </item>
+
+</items>
