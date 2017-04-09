@@ -53,6 +53,7 @@ public class MainActivity extends FragmentActivity {
 	private TextView app_change;
 	public static User user;
 
+
 	private PopupWindow mPopupWindow;
 	private LinearLayout buttomBarGroup;
 	
