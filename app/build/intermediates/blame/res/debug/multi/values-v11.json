@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\hcc11_000\\Desktop\\Voice _12.21\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+        "outputFile": "F:\\Voice _12.21\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 187
                 },
                 "from": {
-                    "file": "C:\\Users\\hcc11_000\\Desktop\\Voice _12.21\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "file": "F:\\Voice _12.21\\app\\src\\main\\res\\values-v11\\styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,

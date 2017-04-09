@@ -1,14 +1,14 @@
 [
     {
-        "merged": "C:\\Users\\hcc11_000\\Desktop\\Voice _12.21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\pub2.png",
-        "source": "C:\\Users\\hcc11_000\\Desktop\\Voice _12.21\\app\\src\\main\\res\\drawable-xxhdpi\\pub2.png"
+        "merged": "F:\\Voice _12.21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ear.png",
+        "source": "F:\\Voice _12.21\\app\\src\\main\\res\\drawable-xxhdpi\\ear.png"
     },
     {
-        "merged": "C:\\Users\\hcc11_000\\Desktop\\Voice _12.21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
-        "source": "C:\\Users\\hcc11_000\\Desktop\\Voice _12.21\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+        "merged": "F:\\Voice _12.21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\pub2.png",
+        "source": "F:\\Voice _12.21\\app\\src\\main\\res\\drawable-xxhdpi\\pub2.png"
     },
     {
-        "merged": "C:\\Users\\hcc11_000\\Desktop\\Voice _12.21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ear.png",
-        "source": "C:\\Users\\hcc11_000\\Desktop\\Voice _12.21\\app\\src\\main\\res\\drawable-xxhdpi\\ear.png"
+        "merged": "F:\\Voice _12.21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "F:\\Voice _12.21\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     }
 ]
