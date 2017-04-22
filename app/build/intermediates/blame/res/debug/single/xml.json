@@ -1,10 +1,10 @@
 [
     {
-        "merged": "F:\\Voice _12.21\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preference.xml",
-        "source": "F:\\Voice _12.21\\app\\src\\main\\res\\xml\\preference.xml"
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preference.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\xml\\preference.xml"
     },
     {
-        "merged": "F:\\Voice _12.21\\app\\build\\intermediates\\res\\merged\\debug\\xml\\widget_info.xml",
-        "source": "F:\\Voice _12.21\\app\\src\\main\\res\\xml\\widget_info.xml"
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\xml\\widget_info.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\xml\\widget_info.xml"
     }
 ]

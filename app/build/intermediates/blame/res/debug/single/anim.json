@@ -1,38 +1,38 @@
 [
     {
-        "merged": "F:\\Voice _12.21\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_down.xml",
-        "source": "F:\\Voice _12.21\\app\\src\\main\\res\\anim\\activity_down.xml"
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\anim\\fade_in.xml"
     },
     {
-        "merged": "F:\\Voice _12.21\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_out.xml",
-        "source": "F:\\Voice _12.21\\app\\src\\main\\res\\anim\\pop_out.xml"
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_up.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\anim\\pop_up.xml"
     },
     {
-        "merged": "F:\\Voice _12.21\\app\\build\\intermediates\\res\\merged\\debug\\anim\\login_anim.xml",
-        "source": "F:\\Voice _12.21\\app\\src\\main\\res\\anim\\login_anim.xml"
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_out.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\anim\\pop_out.xml"
     },
     {
-        "merged": "F:\\Voice _12.21\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
-        "source": "F:\\Voice _12.21\\app\\src\\main\\res\\anim\\fade_in.xml"
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_enter.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\anim\\pop_enter.xml"
     },
     {
-        "merged": "F:\\Voice _12.21\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_up.xml",
-        "source": "F:\\Voice _12.21\\app\\src\\main\\res\\anim\\pop_up.xml"
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_down.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\anim\\pop_down.xml"
     },
     {
-        "merged": "F:\\Voice _12.21\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_down.xml",
-        "source": "F:\\Voice _12.21\\app\\src\\main\\res\\anim\\pop_down.xml"
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\login_anim.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\anim\\login_anim.xml"
     },
     {
-        "merged": "F:\\Voice _12.21\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_up.xml",
-        "source": "F:\\Voice _12.21\\app\\src\\main\\res\\anim\\activity_up.xml"
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_down.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\anim\\activity_down.xml"
     },
     {
-        "merged": "F:\\Voice _12.21\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_enter.xml",
-        "source": "F:\\Voice _12.21\\app\\src\\main\\res\\anim\\pop_enter.xml"
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_up.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\anim\\activity_up.xml"
     },
     {
-        "merged": "F:\\Voice _12.21\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
-        "source": "F:\\Voice _12.21\\app\\src\\main\\res\\anim\\fade_out.xml"
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\anim\\fade_out.xml"
     }
 ]

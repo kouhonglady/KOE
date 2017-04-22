@@ -1,406 +1,406 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:2:1-185:12
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:2:1-185:12
 	package
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:3:5-24
-		INJECTED from F:\Voice _12.21\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Voice _12.21\app\src\main\AndroidManifest.xml
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:3:5-24
+		INJECTED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml
+		INJECTED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml
 	android:versionName
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:5:5-30
-		INJECTED from F:\Voice _12.21\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Voice _12.21\app\src\main\AndroidManifest.xml
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml
+		INJECTED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:4:5-28
-		INJECTED from F:\Voice _12.21\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Voice _12.21\app\src\main\AndroidManifest.xml
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml
+		INJECTED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:2:11-69
 uses-sdk
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:6:5-8:41
-MERGED from [com.android.support:support-v4:25.3.0] F:\Voice _12.21\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.0\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.0] F:\Voice _12.21\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.0\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.0] F:\Voice _12.21\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.0\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.0] F:\Voice _12.21\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.0\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.0] F:\Voice _12.21\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.0\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.0] F:\Voice _12.21\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.0\AndroidManifest.xml:21:5-23:58
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\hcc11_000\.android\build-cache\9bbcaccd99e2b78e6a47b5c98a8810f22090dddb\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\hcc11_000\.android\build-cache\0a1166e505f8a4e11461e1ff3ec5c325e80c88df\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\hcc11_000\.android\build-cache\bf45ea661d7ca0fec838090ef8b8678ed698daf3\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\hcc11_000\.android\build-cache\6af0f6fd0a5450f78ae9e7eeefea72f5d877abc6\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\hcc11_000\.android\build-cache\83c006fd611fd7a3ffd1ac72d14e956b373dd32f\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\hcc11_000\.android\build-cache\138b60929c31ac7437facaeb50d0293e37d46af9\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:support-v4:25.3.0] F:\Voice _12.21\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.0\AndroidManifest.xml:23:9-51
+		ADDED from [com.android.support:support-v4:25.3.0] C:\Users\hcc11_000\.android\build-cache\9bbcaccd99e2b78e6a47b5c98a8810f22090dddb\output\AndroidManifest.xml:23:9-51
 	android:targetSdkVersion
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:8:9-38
-		INJECTED from F:\Voice _12.21\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Voice _12.21\app\src\main\AndroidManifest.xml
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:8:9-38
+		INJECTED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml
+		INJECTED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:7:9-34
-		INJECTED from F:\Voice _12.21\app\src\main\AndroidManifest.xml
-		INJECTED from F:\Voice _12.21\app\src\main\AndroidManifest.xml
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:7:9-34
+		INJECTED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml
+		INJECTED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:9:5-83
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:9:5-83
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:9:22-81
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:9:22-81
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:10:5-79
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:10:5-79
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:10:22-77
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:10:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:11:5-80
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:11:5-80
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:11:22-78
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:11:22-78
 uses-permission#android.permission.READ_CALL_LOG
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:12:5-71
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:12:5-71
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:12:22-69
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:12:22-69
 uses-permission#android.permission.READ_CONTACTS
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:13:5-71
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:13:5-71
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:13:22-69
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:13:22-69
 uses-permission#android.permission.CALL_PHONE
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:14:5-68
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:14:5-68
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:14:22-66
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:14:22-66
 uses-permission#android.permission.WAKE_LOCK
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:15:5-68
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:15:5-68
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:15:22-65
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:15:22-65
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:16:5-79
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:16:5-79
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:16:22-76
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:16:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:17:5-76
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:17:5-76
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:17:22-73
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:17:22-73
 uses-permission#android.permission.INTERNET
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:18:5-67
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:18:5-67
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:18:22-64
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:18:22-64
 uses-permission#android.permission.CHANGE_WIFI_STATE
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:19:5-76
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:19:5-76
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:19:22-73
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:19:22-73
 uses-permission#android.permission.CAMERA
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:21:5-65
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:21:5-65
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:21:22-62
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:21:22-62
 uses-feature#android.hardware.camera
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:22:5-60
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:22:5-60
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:22:19-57
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:22:19-57
 uses-feature#android.hardware.camera.autofocus
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:23:5-70
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:23:5-70
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:23:19-67
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:23:19-67
 uses-permission#android.permission.VIBRATE
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:24:5-66
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:24:5-66
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:24:22-63
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:24:22-63
 uses-permission#android.permission.FLASHLIGHT
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:25:5-69
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:25:5-69
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:25:22-66
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:25:22-66
 uses-permission#android.permission.RECORD_AUDIO
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:28:5-71
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:28:5-71
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:28:22-68
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:28:22-68
 uses-permission#android.permission.CHANGE_NETWORK_STATE
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:31:5-79
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:31:5-79
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:31:22-76
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:31:22-76
 uses-permission#android.permission.READ_PHONE_STATE
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:34:5-75
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:34:5-75
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:34:22-72
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:34:22-72
 application
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:40:5-183:19
-MERGED from [com.android.support:support-v4:25.3.0] F:\Voice _12.21\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.0\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.0] F:\Voice _12.21\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.0\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.0] F:\Voice _12.21\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.0\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.0] F:\Voice _12.21\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.0\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.0] F:\Voice _12.21\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.0\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.0] F:\Voice _12.21\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.0\AndroidManifest.xml:29:5-20
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:40:5-183:19
+MERGED from [com.android.support:support-v4:25.3.0] C:\Users\hcc11_000\.android\build-cache\9bbcaccd99e2b78e6a47b5c98a8810f22090dddb\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\hcc11_000\.android\build-cache\0a1166e505f8a4e11461e1ff3ec5c325e80c88df\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\hcc11_000\.android\build-cache\bf45ea661d7ca0fec838090ef8b8678ed698daf3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\hcc11_000\.android\build-cache\6af0f6fd0a5450f78ae9e7eeefea72f5d877abc6\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\hcc11_000\.android\build-cache\83c006fd611fd7a3ffd1ac72d14e956b373dd32f\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\hcc11_000\.android\build-cache\138b60929c31ac7437facaeb50d0293e37d46af9\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:43:9-41
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:43:9-41
 	android:allowBackup
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:41:9-35
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:41:9-35
 	android:icon
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:42:9-37
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:42:9-37
 	android:theme
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:44:9-40
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:44:9-40
 meta-data#com.baidu.speech.APP_ID
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:59:9-84
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:59:9-84
 	android:value
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:59:59-82
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:59:59-82
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:59:20-58
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:59:20-58
 meta-data#com.baidu.speech.API_KEY
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:60:9-102
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:60:9-102
 	android:value
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:60:60-100
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:60:60-100
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:60:20-59
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:60:20-59
 meta-data#com.baidu.speech.SECRET_KEY
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:61:9-113
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:61:9-113
 	android:value
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:61:63-111
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:61:63-111
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:61:20-62
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:61:20-62
 service#com.baidu.speech.VoiceRecognitionService
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:62:3-95
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:62:3-95
 	android:exported
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:62:68-92
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:62:68-92
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:62:12-67
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:62:12-67
 activity#com.baidu.voicerecognition.android.ui.BaiduASRDigitalDialog
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:63:9-73:20
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:63:9-73:20
 	android:screenOrientation
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:68:17-53
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:68:17-53
 	android:exported
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:67:17-41
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:67:17-41
 	android:configChanges
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:65:17-80
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:65:17-80
 	android:theme
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:66:17-60
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:66:17-60
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:64:17-91
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:64:17-91
 intent-filter#android.intent.category.DEFAULT+com.baidu.action.RECOGNIZE_SPEECH
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:69:13-72:29
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:69:13-72:29
 action#com.baidu.action.RECOGNIZE_SPEECH
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:70:17-76
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:70:17-76
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:70:25-73
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:70:25-73
 category#android.intent.category.DEFAULT
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:71:17-76
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:71:17-76
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:71:27-73
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:71:27-73
 activity#com.voice.activity.WelcomeActivity
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:77:9-86:20
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:77:9-86:20
 	android:label
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:79:13-45
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:79:13-45
 	android:theme
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:80:13-66
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:80:13-66
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:78:13-62
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:78:13-62
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:81:13-84:29
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:81:13-84:29
 action#android.intent.action.MAIN
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:82:13-65
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:82:13-65
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:82:21-62
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:82:21-62
 category#android.intent.category.LAUNCHER
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:83:13-73
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:83:13-73
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:83:23-70
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:83:23-70
 activity#com.voice.study.StudyActivity
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:88:9-91:20
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:88:9-91:20
 	android:screenOrientation
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:90:10-46
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:90:10-46
 	android:configChanges
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:89:13-63
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:89:13-63
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:88:19-63
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:88:19-63
 activity#com.voice.study.StudyMain
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:92:9-61
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:92:9-61
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:92:19-59
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:92:19-59
 activity#com.voice.activity.DifficultychoseActivity
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:93:9-78
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:93:9-78
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:93:19-76
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:93:19-76
 activity#com.voice.activity.TestActivity
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:94:9-67
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:94:9-67
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:94:19-65
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:94:19-65
 activity#com.voice.activity.HornorActivity
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:95:9-69
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:95:9-69
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:95:19-67
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:95:19-67
 activity#com.voice.activity.LoginActivity
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:96:9-98:46
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:96:9-98:46
 	android:launchMode
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:98:13-44
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:98:13-44
 	android:theme
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:97:13-66
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:97:13-66
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:96:19-66
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:96:19-66
 activity#com.voice.MainActivity
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:99:9-101:56
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:99:9-101:56
 	android:windowSoftInputMode
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:101:13-54
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:101:13-54
 	android:theme
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:100:13-66
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:100:13-66
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:99:19-56
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:99:19-56
 activity#com.voice.register.RegisterPhoneActivity
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:102:9-103:68
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:102:9-103:68
 	android:theme
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:103:13-66
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:103:13-66
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:102:19-74
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:102:19-74
 activity#com.voice.register.RegisterInfoActivity
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:104:9-105:68
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:104:9-105:68
 	android:theme
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:105:13-66
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:105:13-66
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:104:19-73
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:104:19-73
 activity#com.voice.register.RegisterResultActivity
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:106:9-107:68
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:106:9-107:68
 	android:theme
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:107:13-66
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:107:13-66
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:106:19-75
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:106:19-75
 activity#com.voice.activity.ErcodeScanActivity
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:108:9-109:68
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:108:9-109:68
 	android:theme
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:109:13-66
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:109:13-66
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:108:19-71
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:108:19-71
 activity#com.voice.activity.WaterCameraActivity
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:110:9-111:68
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:110:9-111:68
 	android:theme
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:111:13-66
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:111:13-66
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:110:19-72
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:110:19-72
 activity#com.voice.activity.WaterPhotoActivity
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:112:9-113:68
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:112:9-113:68
 	android:theme
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:113:13-66
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:113:13-66
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:112:19-71
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:112:19-71
 activity#com.voice.activity.QQconstactActivity
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:114:9-116:56
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:114:9-116:56
 	android:windowSoftInputMode
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:116:13-54
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:116:13-54
 	android:theme
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:115:13-66
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:115:13-66
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:114:19-71
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:114:19-71
 activity#com.voice.activity.WiFiActivity
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:117:9-118:68
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:117:9-118:68
 	android:theme
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:118:13-66
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:118:13-66
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:117:19-65
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:117:19-65
 activity#com.voice.study.StudyChoice
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:119:9-120:20
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:119:9-120:20
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:119:19-61
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:119:19-61
 activity#com.voice.study.Review
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:121:9-124:20
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:121:9-124:20
 	android:screenOrientation
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:123:10-46
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:123:10-46
 	android:configChanges
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:122:10-60
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:122:10-60
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:121:19-56
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:121:19-56
 activity#com.voice.study.ImportBook
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:125:9-128:20
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:125:9-128:20
 	android:screenOrientation
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:127:9-45
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:127:9-45
 	android:configChanges
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:126:9-59
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:126:9-59
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:125:19-60
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:125:19-60
 activity#com.voice.study.EditWord
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:129:9-130:20
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:129:9-130:20
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:129:19-58
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:129:19-58
 activity#com.voice.study.Preference
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:131:10-132:20
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:131:10-132:20
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:131:20-61
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:131:20-61
 activity#com.voice.sidebar_calendarview.Characterset
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:135:9-136:20
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:135:9-136:20
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:135:19-77
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:135:19-77
 activity#com.voice.sidebar_calendarview.SetplanActivity
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:137:8-138:20
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:137:8-138:20
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:137:18-79
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:137:18-79
 activity#com.voice.sidebar_calendarview.BookCoverActivity
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:139:10-140:20
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:139:10-140:20
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:139:20-83
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:139:20-83
 activity#com.voice.activity.ChangeInfo
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:141:9-142:20
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:141:9-142:20
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:141:19-63
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:141:19-63
 activity#com.voice.sidebar.Feedback
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:144:9-145:20
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:144:9-145:20
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:144:19-60
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:144:19-60
 activity#com.voice.bbs.BBS_MainActivity
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:149:11-152:20
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:149:11-152:20
 	android:label
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:151:13-45
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:151:13-45
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:150:13-58
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:150:13-58
 activity#com.voice.bbs.Reply
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:153:11-155:53
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:153:11-155:53
 	android:theme
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:155:13-41
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:155:13-41
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:153:21-55
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:153:21-55
 receiver#com.voice.widget.Wordroid_Widget
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:158:9-171:20
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:158:9-171:20
 	android:label
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:159:17-38
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:159:17-38
 	android:icon
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:160:17-45
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:160:17-45
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:158:19-66
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:158:19-66
 intent-filter#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:161:13-163:29
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:161:13-163:29
 action#android.appwidget.action.APPWIDGET_UPDATE
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:162:18-85
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:162:18-85
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:162:26-82
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:162:26-82
 intent-filter#ADD+LAST+NEXT
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:164:13-168:29
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:164:13-168:29
 action#NEXT
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:165:13-50
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:165:13-50
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:165:21-40
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:165:21-40
 action#LAST
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:166:13-50
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:166:13-50
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:166:21-40
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:166:21-40
 action#ADD
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:167:13-49
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:167:13-49
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:167:21-39
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:167:21-39
 meta-data#android.appwidget.provider
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:169:19-170:61
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:169:19-170:61
 	android:resource
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:170:23-58
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:170:23-58
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:169:30-71
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:169:30-71
 receiver#com.voice.business.makeNotify
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:172:9-178:20
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:172:9-178:20
 	android:process
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:173:9-34
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:173:9-34
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:172:19-63
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:172:19-63
 intent-filter#android.intent.action.BOOT_COMPLETED+shownotify
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:174:9-177:29
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:174:9-177:29
 action#android.intent.action.BOOT_COMPLETED
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:175:18-80
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:175:18-80
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:175:26-77
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:175:26-77
 action#shownotify
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:176:18-53
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:176:18-53
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:176:26-51
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:176:26-51
 service#com.voice.wifi.foregin.FTPServerService
-ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:180:9-74
+ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:180:9-74
 	android:name
-		ADDED from F:\Voice _12.21\app\src\main\AndroidManifest.xml:180:18-72
+		ADDED from E:\tyb\newVoice\app\src\main\AndroidManifest.xml:180:18-72
 meta-data#android.support.VERSION
-ADDED from [com.android.support:support-v4:25.3.0] F:\Voice _12.21\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.0\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.0] F:\Voice _12.21\app\build\intermediates\exploded-aar\com.android.support\support-fragment\25.3.0\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.0] F:\Voice _12.21\app\build\intermediates\exploded-aar\com.android.support\support-media-compat\25.3.0\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.0] F:\Voice _12.21\app\build\intermediates\exploded-aar\com.android.support\support-core-ui\25.3.0\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.0] F:\Voice _12.21\app\build\intermediates\exploded-aar\com.android.support\support-core-utils\25.3.0\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.0] F:\Voice _12.21\app\build\intermediates\exploded-aar\com.android.support\support-compat\25.3.0\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:support-v4:25.3.0] C:\Users\hcc11_000\.android\build-cache\9bbcaccd99e2b78e6a47b5c98a8810f22090dddb\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.0] C:\Users\hcc11_000\.android\build-cache\0a1166e505f8a4e11461e1ff3ec5c325e80c88df\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.0] C:\Users\hcc11_000\.android\build-cache\bf45ea661d7ca0fec838090ef8b8678ed698daf3\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.0] C:\Users\hcc11_000\.android\build-cache\6af0f6fd0a5450f78ae9e7eeefea72f5d877abc6\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.0] C:\Users\hcc11_000\.android\build-cache\83c006fd611fd7a3ffd1ac72d14e956b373dd32f\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.0] C:\Users\hcc11_000\.android\build-cache\138b60929c31ac7437facaeb50d0293e37d46af9\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:support-v4:25.3.0] F:\Voice _12.21\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.0\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:support-v4:25.3.0] C:\Users\hcc11_000\.android\build-cache\9bbcaccd99e2b78e6a47b5c98a8810f22090dddb\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:support-v4:25.3.0] F:\Voice _12.21\app\build\intermediates\exploded-aar\com.android.support\support-v4\25.3.0\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:support-v4:25.3.0] C:\Users\hcc11_000\.android\build-cache\9bbcaccd99e2b78e6a47b5c98a8810f22090dddb\output\AndroidManifest.xml:26:9-47

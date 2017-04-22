@@ -222,21 +222,23 @@ public class LoginActivity extends Activity {
 						}
 						else{
 							Toast.makeText(getApplicationContext(),
-									"登录成功", Toast.LENGTH_SHORT).show();	
+									"登录成功", Toast.LENGTH_SHORT).show();
 							String UserName=cursor.getString(cursor.getColumnIndex("name"));
 							String Sign=cursor.getString(cursor.getColumnIndex("sign"));
-							User user=new User(account,UserName,"",Sign);
-						cursor.close();
-						db.close();
-						myHelper.close();
-						Intent intent =new Intent(mContext,MainActivity.class);
-						Bundle u=new Bundle();
-	                    u.putSerializable("user", user);
-	                    intent.putExtras(u);
-						startActivity(intent);
-						finish();
-						}   
-			}
+							String Sex=cursor.getString(cursor.getColumnIndex("sex"));
+							String RegistDate=cursor.getString(cursor.getColumnIndex("regist_date"));
+							User user=new User(account,UserName,"",Sign,Sex,RegistDate);
+							cursor.close();
+							db.close();
+							myHelper.close();
+							Intent intent =new Intent(mContext,MainActivity.class);
+							Bundle u=new Bundle();
+							u.putSerializable("user", user);
+							intent.putExtras(u);
+							startActivity(intent);
+							finish();
+						}
+		}
 	};
 	
 	

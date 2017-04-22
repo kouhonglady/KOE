@@ -1,14 +1,26 @@
 [
     {
-        "merged": "F:\\Voice _12.21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ear.png",
-        "source": "F:\\Voice _12.21\\app\\src\\main\\res\\drawable-xxhdpi\\ear.png"
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\pub2.png",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\drawable-xxhdpi\\pub2.png"
     },
     {
-        "merged": "F:\\Voice _12.21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\pub2.png",
-        "source": "F:\\Voice _12.21\\app\\src\\main\\res\\drawable-xxhdpi\\pub2.png"
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_male.png",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\drawable-xxhdpi\\ic_male.png"
     },
     {
-        "merged": "F:\\Voice _12.21\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
-        "source": "F:\\Voice _12.21\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ear.png",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\drawable-xxhdpi\\ear.png"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_female.png",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\drawable-xxhdpi\\ic_female.png"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\setting.png",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\drawable-xxhdpi\\setting.png"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi-v4\\ic_launcher.png",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\drawable-xxhdpi\\ic_launcher.png"
     }
 ]

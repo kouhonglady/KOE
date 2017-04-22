@@ -95,7 +95,10 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
         }
         
 	}
-	
+	@Override
+	public void onResume(){
+		super.onResume();
+	}
 	private void findView(){
 		mPopView=LayoutInflater.from(mContext).inflate(R.layout.app_exit, null);
 		buttomBarGroup=(LinearLayout) findViewById(R.id.buttom_bar_group);

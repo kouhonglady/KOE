@@ -16,40 +16,99 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent" 
+            android:layout_height="match_parent"
             android:background="#ffffff">
 
             <LinearLayout
                 android:id="@+id/ll_dynamic"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                
+
                 android:background="@drawable/ll_bg_d"
                 android:orientation="vertical" >
 
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_height="172dp"
+                    android:layout_height="200dp"
                     android:background="#02b5c0" >
+                    <!--<com.voice.view.CircleImageView-->
+                    <!--android:id="@+id/fresh"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:layout_alignParentRight="true"-->
+                    <!--android:layout_alignParentTop="true"-->
+                    <!--android:contentDescription="@string/app_name"-->
+                    <!--android:scaleType="fitXY"-->
+                    <!--android:src="@drawable/fresh" />-->
                     <com.voice.view.CircleImageView
-                        android:id="@+id/fresh"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
+                        android:id="@+id/ChangeInfo"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
                         android:layout_alignParentRight="true"
                         android:layout_alignParentTop="true"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginTop="10dp"
                         android:contentDescription="@string/app_name"
                         android:scaleType="fitXY"
-                        android:src="@drawable/fresh" />
-
+                        android:src="@drawable/setting" />
+                    <TextView
+                        android:id="@+id/UsrID"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_above="@id/pic"
+                        android:textSize="20dp"
+                        android:text="账号" />
                     <com.voice.view.CircleImageView
                         android:id="@+id/pic"
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
                         android:layout_centerHorizontal="true"
                         android:layout_centerVertical="true"
                         android:contentDescription="@string/app_name"
                         android:scaleType="fitXY"
                         android:src="@drawable/channel_qq" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/usr"
+                        android:layout_below="@+id/pic">
+                        <TextView
+                            android:id="@+id/UsrName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginLeft="10dp"
+                            android:textSize="20dp"
+
+                            android:text="用户名" />
+                        <ImageView
+                            android:id="@+id/sex"
+                            android:layout_toRightOf="@+id/UsrName"
+                            android:layout_marginLeft="3dp"
+                            android:layout_centerVertical="true"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/ic_female"
+                            />
+                    </RelativeLayout>
+
+
+                    <TextView
+                        android:id="@+id/regist_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/usr"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="3dp"
+                        android:text="注册时间" />
+                    <!--android:src="@drawable/ic_female"-->
+
+
+
+
 
                 </RelativeLayout>
 
@@ -69,50 +128,52 @@
                 android:background="@drawable/ll_bg_d"
                 android:orientation="vertical" >
 
-              <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp" >
-                  
-                    <TextView
-                        android:id="@+id/UsrID"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                        android:textSize="20dp"
-                        android:text="账号：" />
-                </RelativeLayout>
+                <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:visibility="gone">-->
+                <!---->
+                <!--<TextView-->
+                <!--android:id="@+id/UsrID"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:textSize="20dp"-->
+                <!--android:text="账号：" />-->
+                <!--</RelativeLayout>-->
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="0.5dp"
                     android:background="@color/devide_line" />
 
-                <RelativeLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="50dp" >
+                <!--<RelativeLayout-->
+                <!--android:visibility="gone"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp" >-->
 
-                   
+                <!---->
 
-                    <TextView
-                        android:id="@+id/UsrName"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerVertical="true"
-                        android:layout_marginLeft="10dp"
-                    	android:textSize="20dp"
-                        android:text="用户名：" />
+                <!--<TextView-->
+                <!--android:id="@+id/UsrName"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:textSize="20dp"-->
+                <!--android:text="用户名：" />-->
 
-                </RelativeLayout>
+                <!--</RelativeLayout>-->
 
                 <View
                     android:layout_width="match_parent"
                     android:layout_height="0.5dp"
                     android:background="@color/devide_line" />
 
-                
+
             </LinearLayout>
-			<LinearLayout
+            <LinearLayout
                 android:id="@+id/three"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -120,8 +181,8 @@
                 android:layout_margin="10dp"
                 android:background="@drawable/ll_bg_d"
                 android:orientation="vertical" >
-            
-           <RelativeLayout
+
+                <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="50dp" >
 
@@ -156,31 +217,71 @@
                         android:text="加载中..." />
 
                 </RelativeLayout>
-      </LinearLayout>  
-      <RelativeLayout
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/devide_line" />
+                <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="50dp" >-->
+
+                <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_centerVertical="true"-->
+                <!--android:textSize="20dp"-->
+                <!--android:text="发帖记录" />-->
+
+                <!--</RelativeLayout>-->
+
+                <!--<View-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="0.5dp"-->
+                <!--android:background="@color/devide_line" />-->
+
+                <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="100dp" >-->
+
+                <!--<TextView-->
+                <!--android:id="@+id/bbs_record"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_alignParentBottom="true"-->
+                <!--android:layout_alignParentLeft="true"-->
+                <!--android:layout_alignParentRight="true"-->
+                <!--android:layout_alignParentTop="true"-->
+                <!--android:textSize="20dp"-->
+                <!--android:text="加载中..." />-->
+
+                <!--</RelativeLayout>-->
+            </LinearLayout>
+            <!--<RelativeLayout-->
+            <!--android:visibility="gone"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp" -->
+            <!--android:layout_margin="10dp"-->
+            <!--android:layout_below="@id/three"-->
+            <!--android:id="@+id/ChangeInfo"-->
+            <!--android:background="#8e8efb"-->
+            <!--&gt;-->
+
+            <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:textColor="#ffffff"-->
+            <!--android:textSize="20dp"-->
+            <!--android:text="更改资料" />-->
+
+            <!--</RelativeLayout>    -->
+            <RelativeLayout
                 android:layout_width="match_parent"
-                android:layout_height="50dp" 
+                android:layout_height="50dp"
                 android:layout_margin="10dp"
                 android:layout_below="@id/three"
-                android:id="@+id/ChangeInfo"
-                android:background="#8e8efb"
-                >
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:layout_centerVertical="true"
-                    android:textColor="#ffffff"
-                    android:textSize="20dp"
-                    android:text="更改资料" />
-
-            </RelativeLayout>    
-           <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="50dp" 
-                android:layout_margin="10dp"
-                android:layout_below="@id/ChangeInfo"
                 android:id="@+id/Logout"
                 android:background="#ff3535"
                 >
@@ -195,7 +296,7 @@
                     android:text="注销" />
 
             </RelativeLayout>
-            
+
         </RelativeLayout>
     </com.voice.view.CustomerScrollView>
 

@@ -13,16 +13,21 @@ import com.voice.view.CustomListView;
 import com.voice.view.TitleBarView;
 import com.voice.view.CustomListView.OnRefreshListener;
 import com.voice.view.LoadingView;
+
+import android.annotation.TargetApi;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
+import android.support.v4.widget.SearchViewCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.View.OnClickListener;
+import android.widget.SearchView;
 
 public class NewsFragment extends Fragment {
 	private static final String TAG = "NewsFragment";
@@ -30,7 +35,7 @@ public class NewsFragment extends Fragment {
 	private View mBaseView;
 	private CustomListView mCustomListView;
 	private LoadingView mLoadingView;
-	private View mSearchView;
+	private SearchView mSearchView;
 	private TitleBarView mTitleBarView;
 	private NewsAdapter adapter;
 	private LinkedList<RecentChat> chats = new LinkedList<RecentChat>();
@@ -39,10 +44,10 @@ public class NewsFragment extends Fragment {
 
 	@Override
 	public View onCreateView(LayoutInflater inflater, ViewGroup container,
-			Bundle savedInstanceState) {
+							 Bundle savedInstanceState) {
 		mContext = getActivity();
 		mBaseView = inflater.inflate(R.layout.fragment_news, null);
-		mSearchView = inflater.inflate(R.layout.common_search_l, null);
+		//mSearchView = inflater.inflate(R.layout.common_search_l, null);
 		findView();
 		init();
 		return mBaseView;
@@ -51,30 +56,47 @@ public class NewsFragment extends Fragment {
 	private void findView() {
 		mCustomListView = (CustomListView) mBaseView.findViewById(R.id.lv_news);
 		mLoadingView = (LoadingView) mBaseView.findViewById(R.id.loading);
-		
+		mSearchView=(SearchView)mBaseView.findViewById(R.id.search_view);
 	}
 
+	@TargetApi(Build.VERSION_CODES.HONEYCOMB)
 	private void init() {
 		adapter = new NewsAdapter(mContext, chats, mCustomListView);
 		mCustomListView.setAdapter(adapter);
-		mCustomListView.addHeaderView(mSearchView);
-		
+		//mCustomListView.addHeaderView(mSearchView);
+
 		mCustomListView.setOnRefreshListener(new OnRefreshListener() {
 			@Override
 			public void onRefresh() {
 				new AsyncRefresh().execute(0);
 			}
 		});
-		mSearchView.setOnClickListener(new OnClickListener(){
+//		mSearchView.setOnClickListener(new OnClickListener(){
+//			@Override
+//			public void onClick(View v){
+//				Intent intent = new Intent();
+//		        intent.setAction("android.intent.action.VIEW");
+//		        Uri content_url = Uri.parse("https://m.baidu.com/");
+//		        intent.setData(content_url);
+//		        mContext.startActivity(intent);
+//			}
+//			});
+		mSearchView.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
 			@Override
-			public void onClick(View v){
+			public boolean onQueryTextSubmit(String s) {
 				Intent intent = new Intent();
-		        intent.setAction("android.intent.action.VIEW");
-		        Uri content_url = Uri.parse("https://m.baidu.com/");
-		        intent.setData(content_url);
-		        mContext.startActivity(intent);
+				intent.setAction("android.intent.action.VIEW");
+				Uri content_url = Uri.parse("https://m.baidu.com/s?wd="+s);
+				intent.setData(content_url);
+				mContext.startActivity(intent);
+				return false;
 			}
-			});
+
+			@Override
+			public boolean onQueryTextChange(String s) {
+				return false;
+			}
+		});
 		mCustomListView.setCanLoadMore(false);
 		new NewsAsyncTask(mLoadingView).execute(0);
 	}

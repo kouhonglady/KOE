@@ -15,11 +15,15 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
+import android.text.format.DateFormat;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 public class RegisterInfoActivity extends Activity {
 	private Context mContext;
@@ -34,23 +38,23 @@ public class RegisterInfoActivity extends Activity {
 	private final String tableName="tableRegister";
 	private MyDatabase dbHelper;
 	private SQLiteDatabase db;
-	
+
 	String telephone;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_register_userinfo);
-		
-		  Bundle bundle = this.getIntent().getExtras();
+
+		Bundle bundle = this.getIntent().getExtras();
 	         /*获取Bundle中的数据，注意类型和key*/
-	        telephone= bundle.getString("telephone");
-	        
+		telephone= bundle.getString("telephone");
+
 		mContext=this;
 		findView();
 		initTitleView();
 		init();
 	}
-	
+
 	private void findView(){
 		mTitleBarView=(TitleBarView) findViewById(R.id.title_bar);
 		btn_complete=(Button) findViewById(R.id.register_complete);
@@ -58,26 +62,26 @@ public class RegisterInfoActivity extends Activity {
 		nameTextView=(TextView) findViewById(R.id.name);
 		dbHelper=new MyDatabase(this,dbName,null,1);
 	}
-	
+
 	private void init(){
 		btn_complete.setOnClickListener(completeOnClickListener);
 	}
-	
+
 	private void initTitleView(){
 		mTitleBarView.setCommonTitle(View.VISIBLE, View.VISIBLE,View.GONE, View.GONE);
 		mTitleBarView.setTitleText(R.string.title_register_info);
 		mTitleBarView.setBtnLeft(R.drawable.boss_unipay_icon_back, R.string.back);
-		mTitleBarView.setBtnLeftOnclickListener(new OnClickListener() {	
+		mTitleBarView.setBtnLeftOnclickListener(new OnClickListener() {
 			@Override
 			public void onClick(View v) {
 				finish();
-				
+
 			}
 		});
 	}
-	
+
 	private OnClickListener completeOnClickListener=new OnClickListener() {
-		
+
 		@Override
 		public void onClick(View v) {
 			db=dbHelper.getReadableDatabase();
@@ -107,26 +111,31 @@ public class RegisterInfoActivity extends Activity {
 							"用户名不能为空", Toast.LENGTH_SHORT).show();
 				else
 				{
+					SimpleDateFormat dateFormat=new SimpleDateFormat("yyyy-MM-dd");
+					Date date=new Date(System.currentTimeMillis());
+					String registDate=dateFormat.format(date);
 					ContentValues values=new ContentValues();
 					values.put("tele",telephone );
 					values.put("password",passwordRegist);
 					values.put("name", accountName);
 					values.put("sign", "暂无");
+					values.put("sex","");
+					values.put("regist_date",registDate);
 					db.insert("User",null,values);
-					
+
 					Intent intent=new Intent(mContext, RegisterResultActivity.class);
-                    User user=new User(UserID,UserName,UserPassword,"暂无");
-                    Bundle u=new Bundle();
-                    u.putSerializable("user", user);
-                    intent.putExtras(u);
-                    startActivity(intent);
-                    finish();	
+					User user=new User(UserID,UserName,UserPassword,"暂无","",registDate);
+					Bundle u=new Bundle();
+					u.putSerializable("user", user);
+					intent.putExtras(u);
+					startActivity(intent);
+					finish();
 				}
 			}
 		}
 	};
 
-	
+
 	private int checkpassword(String tele){
 		int flag=0;
 		if(tele.length()<6||tele.length()>16){
@@ -135,14 +144,14 @@ public class RegisterInfoActivity extends Activity {
 		else if(tele.length()<9){
 			for(int i=0;i<tele.length();i++)
 			{
-			if(Character.isDigit(tele.charAt(i))!=true)
-			{
-				flag=3;
-				break;
-			}
-			flag=2;
-			}
+				if(Character.isDigit(tele.charAt(i))!=true)
+				{
+					flag=3;
+					break;
 				}
+				flag=2;
+			}
+		}
 		else flag=3;
 		return flag;
 	}
