@@ -173,6 +173,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
 			newFragment=new BBS_MainActivity();
 		}
 		else{
+			//this is a test
 			newFragment=new SettingFragment();
 		}
 
