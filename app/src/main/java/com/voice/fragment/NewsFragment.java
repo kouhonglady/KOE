@@ -146,6 +146,7 @@ public class NewsFragment extends Fragment {
 		protected void onPostExecute(List<RecentChat> result) {
 			super.onPostExecute(result);
 			if (result != null) {
+
 				for (RecentChat rc : recentchats) {
 					chats.addFirst(rc);
 

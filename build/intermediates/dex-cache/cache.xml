@@ -30,21 +30,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\hcc11_000\.android\build-cache\138b60929c31ac7437facaeb50d0293e37d46af9\output\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
-        <dex dex="E:\tyb\newVoice\app\build\intermediates\pre-dexed\debug\classes_23d9748f4a4af644e16d9572351a6a0cde139b4e.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="E:\tyb\newVoice\app\libs\zxing-1.6.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="327bddfe22740db0419bd719a0f950b6ad2b3c3f">
         <dex dex="E:\tyb\newVoice\app\build\intermediates\pre-dexed\debug\zxing-1.6_688d282851e5d085e7e061e01c503da8e617653d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\hcc11_000\.android\build-cache\138b60929c31ac7437facaeb50d0293e37d46af9\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="E:\tyb\newVoice\app\build\intermediates\pre-dexed\debug\classes_23d9748f4a4af644e16d9572351a6a0cde139b4e.jar" />
     </item>
     <item
         is-multidex="false"
