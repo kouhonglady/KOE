@@ -148,6 +148,7 @@ public class NewsFragment extends Fragment {
 			if (result != null) {
 				for (RecentChat rc : recentchats) {
 					chats.addFirst(rc);
+
 				}
 				adapter.notifyDataSetChanged();
 				mCustomListView.onRefreshComplete();
