@@ -84,7 +84,7 @@ public class ImgUtil {
 		}
 		BitmapFactory.Options options = new Options();
 		options.inJustDecodeBounds = true;
-		Bitmap bitmap = BitmapFactory.decodeFile(path, options);
+
 		float height = 800f;
 		float width = 480f;
 		float scale = 1;
@@ -98,6 +98,7 @@ public class ImgUtil {
 		}
 		options.inSampleSize = (int) scale;
 		options.inJustDecodeBounds = false;
+		Bitmap bitmap;
 		bitmap = BitmapFactory.decodeFile(path, options);
 		bitmap = decodeBitmap(bitmap);
 		if (!imgCaches.containsKey(path)) {
@@ -110,7 +111,7 @@ public class ImgUtil {
 	private Bitmap decodeBitmap(Bitmap bitmap) {
 		int scale = 100;
 		ByteArrayOutputStream bos = new ByteArrayOutputStream();
-		bitmap.compress(Bitmap.CompressFormat.JPEG, scale, bos);
+//		bitmap.compress(Bitmap.CompressFormat.JPEG, scale, bos);
 		while ((bos.toByteArray().length / 1024) > 30) {
 			bos.reset();
 			bitmap.compress(Bitmap.CompressFormat.JPEG, scale, bos);

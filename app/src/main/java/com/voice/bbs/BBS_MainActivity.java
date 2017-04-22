@@ -16,8 +16,10 @@ import android.graphics.ColorFilter;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -37,9 +39,10 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class BBS_MainActivity extends Activity implements IXListViewListener{
+public class BBS_MainActivity extends Fragment implements IXListViewListener{
 private ArrayList<Map<String, Object>> mlList,mmList,list;
 private Context context;
+private View mBaseView;
 private LinearLayout ll_bo,ll_po;
 private PopupWindow pw;
 private RelativeLayout rl;
@@ -50,20 +53,30 @@ private XListView mListView;
 private ListView lv_hf;
 private MyHFAdapter myHFAdapter;
 private HolderView holder;
-private boolean flag=false;//�ж��Ƿ�ظ�ĳ��
+private boolean flag=false;
 private ImageView head_series;
-//����ظ�ĳ�����ݵ�λ��
+
 private int pos=0;
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.activity_bbs_main);
-        findView();
-        addData();
-        loadData();
-        addListenr();
-    }
+//    @Override
+//    protected void onCreate(Bundle savedInstanceState) {
+//        super.onCreate(savedInstanceState);
+//        requestWindowFeature(Window.FEATURE_NO_TITLE);
+//        setContentView(R.layout.activity_bbs_main);
+//
+//    }
+
+
+	@Override
+	public View onCreateView(LayoutInflater inflater, ViewGroup container,
+							 Bundle savedInstanceState) {
+		context=this.getActivity();
+		mBaseView=inflater.inflate(R.layout.activity_bbs_main, null);
+		findView();
+		addData();
+		loadData();
+		addListenr();
+		return mBaseView;
+	}
 
 
     private void addListenr() {
@@ -174,25 +187,24 @@ private int pos=0;
 		ll_po.setVisibility(View.VISIBLE);
 		et_pop.setFocusable(true);
 		et_pop.requestFocus();
-		((InputMethodManager)getSystemService(INPUT_METHOD_SERVICE)).
+		((InputMethodManager)context.getSystemService(context.INPUT_METHOD_SERVICE)).
 		showSoftInput(et_pop, 0);
     }
 
 	private void findView() {
 		// TODO Auto-generated method stub
-    	context=this;
     	
     	mlList=new ArrayList<Map<String,Object>>();
-    	mListView=(XListView) findViewById(R.id.lv);
-    	ll_bo=(LinearLayout) findViewById(R.id.ll_bo);
-    	ll_po=(LinearLayout) findViewById(R.id.ll_po);
-    	rl=(RelativeLayout) findViewById(R.id.rl);
-    	et_pop=(EditText) findViewById(R.id.tv_pop);
-    	tv_qs=(TextView) findViewById(R.id.tv_qs);
-    	tv_hf=(TextView) findViewById(R.id.tv_hf);
+    	mListView=(XListView) mBaseView.findViewById(R.id.lv);
+    	ll_bo=(LinearLayout) mBaseView.findViewById(R.id.ll_bo);
+    	ll_po=(LinearLayout) mBaseView.findViewById(R.id.ll_po);
+    	rl=(RelativeLayout) mBaseView.findViewById(R.id.rl);
+    	et_pop=(EditText) mBaseView.findViewById(R.id.tv_pop);
+    	tv_qs=(TextView) mBaseView.findViewById(R.id.tv_qs);
+    	tv_hf=(TextView) mBaseView.findViewById(R.id.tv_hf);
 		mListView.setPullLoadEnable(true);
 		mListView.setXListViewListener(this);
-		lv_hf=(ListView) findViewById(R.id.lv_hf);
+		lv_hf=(ListView) mBaseView.findViewById(R.id.lv_hf);
 	}
 
 
@@ -319,13 +331,13 @@ Log.i("test", ":"+mmList.size());
 	}
 
 
-	@Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
+//	@Override
+//    public boolean onCreateOptionsMenu(Menu menu) {
+//
+//        // Inflate the menu; this adds items to the action bar if it is present.
+//		getMenuInflater().inflate(R.menu.main, menu);
+//        return true;
+//    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
@@ -407,7 +419,7 @@ public class MyAdapter extends BaseAdapter{
 					showInput();
 					pos=position;
 					flag=true;
-					Toast.makeText(context, pos+"", 1).show();
+					//Toast.makeText(context, pos+"", 1).show();
 				}
 			});
 			return convertview;
