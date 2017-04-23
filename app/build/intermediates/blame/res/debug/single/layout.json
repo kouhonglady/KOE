@@ -1,35 +1,35 @@
 [
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_scan.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\dialog_scan.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_phone.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\activity_register_phone.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_qq_constact.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_qq_constact.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_exit.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\app_exit.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_child.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\fragment_constact_child.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_group.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_constact_group.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page2.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\water_camera_page2.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ll_pop.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\ll_pop.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_characterset.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\sidebar_characterset.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_header.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\xlistview_header.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_head_view.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\fragment_constact_head_view.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu_item.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\residemenu_item.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_header.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\xlistview_header.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\study.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\study.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_code_scan.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\fragment_news_code_scan.xml"
     },
     {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_xl.xml",
@@ -40,12 +40,24 @@
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\bdspeech_suggestion_item.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_qq_item.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_news_qq_item.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mine.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\fragment_mine.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_bookcover.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\sidebar_bookcover.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_camera.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\fragment_news_camera.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_waterphoto_save.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\fragment_news_waterphoto_save.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_set.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\sidebar_set.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page1.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\water_camera_page1.xml"
     },
     {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_loading_view.xml",
@@ -60,8 +72,8 @@
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\studychoice.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\activity_test.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page4.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\water_camera_page4.xml"
     },
     {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ll_bottom.xml",
@@ -72,24 +84,24 @@
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\list_item.xml"
     },
     {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\test.xml"
+    },
+    {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_layout.xml",
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\widget_layout.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_xxl.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\common_search_xxl.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_qq_friend.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\fragment_qq_friend.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_feedback.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\sidebar_feedback.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list5.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\list5.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_item.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_news_item.xml"
-    },
-    {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_result.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\activity_register_result.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_footer.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\xlistview_footer.xml"
     },
     {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page5.xml",
@@ -100,124 +112,124 @@
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\activity_register_userinfo.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page2.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\water_camera_page2.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_group.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\fragment_constact_group.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_setplan.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\sidebar_setplan.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_footer.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\refresh_footer.xml"
     },
     {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news.xml",
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_news.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_characterset.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\sidebar_characterset.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\fragment_constact.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_listitem.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\sidebar_listitem.xml"
     },
     {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_camera.xml",
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_news_camera.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_phone.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\activity_register_phone.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\changeinfo.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\changeinfo.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_footer.xml",
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\xlistview_footer.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_set.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\sidebar_set.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_xxl.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\common_search_xxl.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_main.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page5.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\water_camera_page5.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hornor.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\activity_hornor.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_phone_constacts_item.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\fragment_phone_constacts_item.xml"
     },
     {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_child.xml",
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_constact_child.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_l.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\common_search_l.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bbs_main.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\activity_bbs_main.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_x.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\common_search_x.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_item.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\fragment_news_item.xml"
     },
     {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page3.xml",
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\water_camera_page3.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_phone_constacts_item.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_phone_constacts_item.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_loading_view.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\common_loading_view.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_qq_friend.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_qq_friend.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\fragment_news.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_footer.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\refresh_footer.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pc_connect_wifi.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\pc_connect_wifi.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\activity_welcome.xml"
-    },
-    {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_title_bar.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\common_title_bar.xml"
-    },
-    {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_listitem.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\sidebar_listitem.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\residemenu.xml"
     },
     {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bbs_main.xml",
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\activity_bbs_main.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\activity_login.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_url_textview.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\common_url_textview.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list4.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\list4.xml"
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\activity_login.xml"
     },
     {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_head_view.xml",
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_constact_head_view.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_waterphoto_save.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_news_waterphoto_save.xml"
-    },
-    {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\residemenu.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_feedback.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\sidebar_feedback.xml"
     },
     {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_father.xml",
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_constact_father.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_call.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_news_call.xml"
-    },
-    {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hf_item.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\hf_item.xml"
-    },
-    {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\changeinfo.xml",
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\changeinfo.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tiezi_item.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\tiezi_item.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_father.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\fragment_constact_father.xml"
     },
     {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_code_scan.xml",
@@ -236,12 +248,272 @@
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_dynamic.xml"
     },
     {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_xl.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\common_search_xl.xml"
+    },
+    {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_url_textview.xml",
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\common_url_textview.xml"
     },
     {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_exit.xml",
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\app_exit.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_call.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\fragment_news_call.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_father.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\fragment_news_father.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_qq_constact.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\activity_qq_constact.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_constact.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_phone_constact.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\fragment_phone_constact.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\test.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_head.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\refresh_head.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_setplan.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\sidebar_setplan.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bdspeech_digital_layout.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\bdspeech_digital_layout.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_title_bar.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\common_title_bar.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_scan.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\dialog_scan.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_qq_constact.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_qq_constact.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu_item.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\residemenu_item.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_group.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_constact_group.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ll_pop.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\ll_pop.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\study.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\study.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_qq_item.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\fragment_news_qq_item.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_header.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\xlistview_header.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu_item.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\residemenu_item.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hf_item.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\hf_item.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\study.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\study.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_qq_item.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_news_qq_item.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_bookcover.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\sidebar_bookcover.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_layout.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\widget_layout.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\activity_test.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_head.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\refresh_head.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bdspeech_suggestion_item.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\bdspeech_suggestion_item.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_bookcover.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\sidebar_bookcover.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\activity_test.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_xxl.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\common_search_xxl.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_feedback.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\sidebar_feedback.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ll_pop.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\ll_pop.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_item.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_news_item.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_result.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\activity_register_result.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page2.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\water_camera_page2.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_difficulitychoice.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\activity_difficulitychoice.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_pop.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\fragment_news_pop.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_setplan.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\sidebar_setplan.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_characterset.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\sidebar_characterset.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_phone.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\activity_register_phone.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_set.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\sidebar_set.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_main.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hornor.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\activity_hornor.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_l.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\common_search_l.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_x.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\common_search_x.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_phone_constacts_item.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_phone_constacts_item.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_footer.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\refresh_footer.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_qq_friend.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_qq_friend.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_title_bar.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\common_title_bar.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_x.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\common_search_x.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_listitem.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\sidebar_listitem.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list4.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\list4.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_waterphoto_save.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_news_waterphoto_save.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\residemenu.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_call.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_news_call.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_qq_constact.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\fragment_qq_constact.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hf_item.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\hf_item.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hornor.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\activity_hornor.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ll_bottom.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\ll_bottom.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_scan.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\dialog_scan.xml"
     },
     {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_father.xml",
@@ -252,20 +524,24 @@
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\water_camera_page4.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_constact.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bdspeech_digital_layout.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\bdspeech_digital_layout.xml"
     },
     {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page1.xml",
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\water_camera_page1.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\test.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list4.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\list4.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_head.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\refresh_head.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page3.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\water_camera_page3.xml"
     },
     {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_qq_constact.xml",
@@ -284,11 +560,27 @@
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_news_pop.xml"
     },
     {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_userinfo.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\activity_register_userinfo.xml"
+    },
+    {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_phone_constact.xml",
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\fragment_phone_constact.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bdspeech_digital_layout.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\layout\\bdspeech_digital_layout.xml"
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\studychoice.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\studychoice.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_result.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\activity_register_result.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_l.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\common_search_l.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dynamic.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\layout\\fragment_dynamic.xml"
     }
 ]

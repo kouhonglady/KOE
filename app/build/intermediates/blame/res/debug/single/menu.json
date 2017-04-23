@@ -2,5 +2,9 @@
     {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\menu\\main.xml"
     }
 ]
