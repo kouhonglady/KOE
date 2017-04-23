@@ -36,6 +36,7 @@ public class TestActivity extends Activity implements OnClickListener{
 	private ImageButton fayinBotton;
 	private ImageView picture;
 	private String resultarray[]={"菠萝","草莓","橘子","梨子","芒果","柠檬","苹果"};
+	//change of test activity
 	private String picturename[]={"boluo","caomeng","juzi","lizi","mangguo","ningmeng","pingguo"};
 	private String result;
 	private TextView score;
