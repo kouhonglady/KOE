@@ -227,7 +227,8 @@ public class LoginActivity extends Activity {
 							String Sign=cursor.getString(cursor.getColumnIndex("sign"));
 							String Sex=cursor.getString(cursor.getColumnIndex("sex"));
 							String RegistDate=cursor.getString(cursor.getColumnIndex("regist_date"));
-							User user=new User(account,UserName,"",Sign,Sex,RegistDate);
+							String HeadPath=cursor.getString(cursor.getColumnIndex("head_path"));
+							User user=new User(account,UserName,"",Sign,Sex,RegistDate,HeadPath);
 							cursor.close();
 							db.close();
 							myHelper.close();

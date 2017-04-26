@@ -12,7 +12,8 @@ public class MyDatabase extends SQLiteOpenHelper{
 			"name text,"+
 			"sign text,"+
 			"sex text,"+
-			"regist_date)";
+			"regisit_date,"+
+			"head_path)";
 
 
 	private Context mContext;

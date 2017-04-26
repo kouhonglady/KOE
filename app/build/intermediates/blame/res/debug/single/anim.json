@@ -1,15 +1,7 @@
 [
     {
-        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
-        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\anim\\fade_out.xml"
-    },
-    {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\anim\\fade_in.xml"
-    },
-    {
-        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\login_anim.xml",
-        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\anim\\login_anim.xml"
     },
     {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_up.xml",
@@ -24,24 +16,76 @@
         "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\anim\\pop_down.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_enter.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\anim\\pop_enter.xml"
-    },
-    {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_down.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\anim\\pop_down.xml"
+        "merged": "E:\\tyb\\voice4.26\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_up.xml",
+        "source": "E:\\tyb\\voice4.26\\app\\src\\main\\res\\anim\\pop_up.xml"
     },
     {
         "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
         "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\anim\\fade_in.xml"
     },
     {
-        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_up.xml",
-        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\anim\\activity_up.xml"
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_down.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\anim\\pop_down.xml"
+    },
+    {
+        "merged": "E:\\tyb\\voice4.26\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_enter.xml",
+        "source": "E:\\tyb\\voice4.26\\app\\src\\main\\res\\anim\\pop_enter.xml"
     },
     {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\login_anim.xml",
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\anim\\login_anim.xml"
+    },
+    {
+        "merged": "E:\\tyb\\voice4.26\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_up.xml",
+        "source": "E:\\tyb\\voice4.26\\app\\src\\main\\res\\anim\\activity_up.xml"
+    },
+    {
+        "merged": "E:\\tyb\\voice4.26\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
+        "source": "E:\\tyb\\voice4.26\\app\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_down.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\anim\\activity_down.xml"
+    },
+    {
+        "merged": "E:\\tyb\\voice4.26\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_down.xml",
+        "source": "E:\\tyb\\voice4.26\\app\\src\\main\\res\\anim\\pop_down.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_enter.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\anim\\pop_enter.xml"
+    },
+    {
+        "merged": "E:\\tyb\\voice4.26\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in.xml",
+        "source": "E:\\tyb\\voice4.26\\app\\src\\main\\res\\anim\\push_bottom_in.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\login_anim.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\anim\\login_anim.xml"
+    },
+    {
+        "merged": "E:\\tyb\\voice4.26\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_out.xml",
+        "source": "E:\\tyb\\voice4.26\\app\\src\\main\\res\\anim\\pop_out.xml"
+    },
+    {
+        "merged": "E:\\tyb\\voice4.26\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
+        "source": "E:\\tyb\\voice4.26\\app\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_enter.xml",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\anim\\pop_enter.xml"
+    },
+    {
+        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_up.xml",
+        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\anim\\activity_up.xml"
+    },
+    {
+        "merged": "E:\\tyb\\voice4.26\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_out.xml",
+        "source": "E:\\tyb\\voice4.26\\app\\src\\main\\res\\anim\\push_bottom_out.xml"
     },
     {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_down.xml",
@@ -56,16 +100,16 @@
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\anim\\activity_up.xml"
     },
     {
-        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_down.xml",
-        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\anim\\activity_down.xml"
+        "merged": "E:\\tyb\\voice4.26\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_down.xml",
+        "source": "E:\\tyb\\voice4.26\\app\\src\\main\\res\\anim\\activity_down.xml"
+    },
+    {
+        "merged": "E:\\tyb\\voice4.26\\app\\build\\intermediates\\res\\merged\\debug\\anim\\login_anim.xml",
+        "source": "E:\\tyb\\voice4.26\\app\\src\\main\\res\\anim\\login_anim.xml"
     },
     {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\anim\\fade_out.xml"
-    },
-    {
-        "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_enter.xml",
-        "source": "E:\\Android_workspace\\newVoice\\app\\src\\main\\res\\anim\\pop_enter.xml"
     },
     {
         "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_out.xml",

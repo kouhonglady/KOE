@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\tyb\\voice4.26\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
+        "source": "E:\\tyb\\voice4.26\\app\\src\\main\\res\\menu\\main.xml"
+    },
+    {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\menu\\main.xml"
     },

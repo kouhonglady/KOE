@@ -33,7 +33,7 @@
                     android:background="#acacfd" >
 
                     <com.voice.view.CircleImageView
-                        android:id="@+id/pic"
+                        android:id="@+id/head_change"
                         android:layout_width="100dp"
                         android:layout_height="100dp"
                         android:layout_centerHorizontal="true"

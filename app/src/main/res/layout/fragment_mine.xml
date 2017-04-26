@@ -57,7 +57,7 @@
                         android:layout_height="wrap_content"
                         android:layout_centerHorizontal="true"
                         android:layout_marginLeft="10dp"
-                        android:layout_above="@id/pic"
+                        android:layout_above="@+id/pic"
                         android:textSize="20dp"
                         android:text="账号" />
                     <com.voice.view.CircleImageView

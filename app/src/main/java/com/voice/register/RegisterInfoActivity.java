@@ -121,10 +121,11 @@ public class RegisterInfoActivity extends Activity {
 					values.put("sign", "暂无");
 					values.put("sex","");
 					values.put("regist_date",registDate);
+					values.put("head_path","");
 					db.insert("User",null,values);
 
 					Intent intent=new Intent(mContext, RegisterResultActivity.class);
-					User user=new User(UserID,UserName,UserPassword,"暂无","",registDate);
+					User user=new User(UserID,UserName,UserPassword,"暂无","",registDate,"");
 					Bundle u=new Bundle();
 					u.putSerializable("user", user);
 					intent.putExtras(u);

@@ -4,6 +4,14 @@
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\drawable-xhdpi\\ear.png"
     },
     {
+        "merged": "E:\\tyb\\voice4.26\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\act_local.png",
+        "source": "E:\\tyb\\voice4.26\\app\\src\\main\\res\\drawable-xhdpi\\act_local.png"
+    },
+    {
+        "merged": "E:\\tyb\\voice4.26\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ear.png",
+        "source": "E:\\tyb\\voice4.26\\app\\src\\main\\res\\drawable-xhdpi\\ear.png"
+    },
+    {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\act_local.png",
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\drawable-xhdpi\\act_local.png"
     },
@@ -18,6 +26,10 @@
     {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\tyb\\voice4.26\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
+        "source": "E:\\tyb\\voice4.26\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
     },
     {
         "merged": "E:\\Android_workspace\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_launcher.png",
