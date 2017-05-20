@@ -35,4 +35,8 @@ dependencies {
     compile files('libs/VoiceRecognition-2.1.20.jar')
     compile files('libs/zxing-1.6.jar')
     compile 'com.android.support:support-v4:25.3.0'
+    compile files('libs/recyclerview-v7-25.0.0-sources.jar')
+    compile 'com.android.support:appcompat-v7:26.0.0-alpha1'
+    compile 'org.jsoup:jsoup:1.10.2'
+    compile files('libs/android-support-v7-recyclerview.jar')
 }

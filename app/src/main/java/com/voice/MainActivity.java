@@ -1,6 +1,8 @@
 package com.voice;
 
 import java.io.File;
+
+import com.voice.bbs.BBSFragment;
 import com.voice.bbs.BBS_MainActivity;
 import com.voice.fragment.DynamicFragment;
 import com.voice.fragment.NewsFatherFragment;
@@ -170,7 +172,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
 		else if(v==mNews){
 			newFragment=new NewsFatherFragment();
 		}else if(v == mConstact){
-			newFragment=new BBS_MainActivity();
+			newFragment=new BBSFragment();
 		}
 		else{
 			//this is a test
