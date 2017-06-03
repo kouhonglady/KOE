@@ -152,12 +152,12 @@
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\drawable-hdpi\\fresh.png"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\no_chat.png",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\drawable-hdpi\\no_chat.png"
-    },
-    {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\terminal_icon_ios_pressed.png",
         "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\drawable-hdpi\\terminal_icon_ios_pressed.png"
+    },
+    {
+        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\no_chat.png",
+        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\drawable-hdpi\\no_chat.png"
     },
     {
         "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sidebar_left_arrow.png",

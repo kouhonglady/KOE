@@ -12,7 +12,7 @@ public class MyDatabase extends SQLiteOpenHelper{
 			"name text,"+
 			"sign text,"+
 			"sex text,"+
-			"regisit_date,"+
+			"regist_date,"+
 			"head_path)";
 
 
