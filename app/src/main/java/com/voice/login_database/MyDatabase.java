@@ -15,7 +15,6 @@ public class MyDatabase extends SQLiteOpenHelper{
 			"regist_date,"+
 			"head_path)";
 
-
 	private Context mContext;
 
 	public MyDatabase(Context context,String name,CursorFactory factory,int version){
