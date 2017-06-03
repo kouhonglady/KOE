@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="recyclerview-v7-25.0.0-sources">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/recyclerview-v7-25.0.0-sources.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
