@@ -38,7 +38,8 @@ public class BBSFetchr {
      */
     public void fetchBBSTime(List<BBS> mBBSList){
         try {
-            String result=new Fetchr().getUrlString("http://115.159.215.125/bbs/api.php?mod=js&bid=6");
+            String result=new Fetchr().getUrlString("http://115.159.215.125/bbs/api.php?mod=js&bid=7");
+            System.out.println("bid=7-----------------"+result+"\n");
             Document document= Jsoup.parse(result);
             Elements content= document.getElementsByTag("li");
             for(Element thing:content){
@@ -64,7 +65,8 @@ public class BBSFetchr {
      */
     public void fetchBBSAuthor(List<BBS> mBBSList){
         try {
-            String result=new Fetchr().getUrlString("http://115.159.215.125/bbs/api.php?mod=js&bid=8");
+            String result=new Fetchr().getUrlString("http://115.159.215.125/bbs/api.php?mod=js&bid=6");
+            System.out.println("bid=6-----------------"+result+"\n");
             Document document= Jsoup.parse(result);
             Elements content= document.getElementsByTag("dl");
             int i=0;
@@ -100,13 +102,14 @@ public class BBSFetchr {
     public void fetchBBSHot(List<BBS> mBBSList){
 
         try {
-            String result=new Fetchr().getUrlString("http://115.159.215.125/bbs/api.php?mod=js&bid=10");
+            String result=new Fetchr().getUrlString("http://115.159.215.125/bbs/api.php?mod=js&bid=9");
+            System.out.println("bid=9-----------------"+result+"\n");
             Document document= Jsoup.parse(result);
             Elements content= document.getElementsByTag("li");
             int i=0;
             for(Element thing:content){
                 String bbsHot=thing.getElementsByTag("em").text();
-
+                Log.i(TAG,"bbsHot:------"+bbsHot);
                 mBBSList.get(i).setBBSHot(bbsHot);
                 i++;
                 Log.i(TAG, "bbs: " + bbsHot);
@@ -124,7 +127,8 @@ public class BBSFetchr {
      */
     public void fetchBBSReply(List<BBS> mBBSList){
         try {
-            String result=new Fetchr().getUrlString("http://115.159.215.125/bbs/api.php?mod=js&bid=9");
+            String result=new Fetchr().getUrlString("http://115.159.215.125/bbs/api.php?mod=js&bid=11");
+            System.out.println("bid=11-----------------"+result+"\n");
             Document document= Jsoup.parse(result);
             Elements content= document.getElementsByTag("li");
             int i=0;

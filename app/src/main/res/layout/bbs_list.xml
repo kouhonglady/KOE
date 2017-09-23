@@ -23,21 +23,21 @@
             <ImageView
                 android:id="@+id/bbs_head_iamge_view"
                 app:srcCompat="@drawable/bbs_head"
-                android:layout_width="wrap_content"
+                android:layout_width="60dp"
 
                 android:layout_marginLeft="2dp"
-                android:layout_weight="1"
-                android:layout_height="wrap_content"/>
+                android:layout_height="60dp"/>
 
             <TextView
                 android:text="author"
-                android:layout_width="match_parent"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/bbs_author_text_view"
 
                 android:layout_marginLeft="2dp"
                 android:layout_weight="1"
-                android:layout_marginTop="15dp"/>
+                android:layout_marginTop="20dp"
+                android:textSize="16sp"/>
         </LinearLayout>
 
         <TextView
@@ -47,21 +47,21 @@
             android:textStyle="bold"
             android:text="title"
             android:textSize="16sp"
-            android:layout_marginLeft="25dp"/>
+            android:layout_marginLeft="5dp"/>
 
         <TextView
             android:text="abstract"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/bbs_abstract_text_View"
-            android:layout_marginLeft="25dp"/>
+            android:layout_marginLeft="5dp"/>
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:id="@+id/time_hot_reply"
-            android:layout_marginLeft="25dp">
+            android:layout_marginLeft="5dp">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -69,8 +69,8 @@
                 android:id="@+id/bbs_time_text_view"
 
                 android:text="time"
-                android:layout_marginLeft="2dp"
-                android:layout_weight="3"/>
+                android:layout_marginLeft="0dp"
+                android:layout_weight="3.93"/>
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -111,7 +111,7 @@
             android:text="href"
             android:layout_below="@id/time_hot_reply"
             android:layout_weight="2"
-            android:layout_marginLeft="25dp"/>
+            android:layout_marginLeft="5dp"/>
 
     </LinearLayout>
 

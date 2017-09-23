@@ -17,8 +17,10 @@ import android.widget.TextView;
 
 import com.voice.R;
 
+import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Random;
 
 /**
  * Created by EXcalibur on 2017/5/20.
@@ -143,8 +145,29 @@ public class BBSFragment extends Fragment{
         }
 
         public void bindBBS(BBS bbs){
+            Context theContext;
             thisBBS=bbs;
-            mBBSHeadImageView.setImageDrawable(getResources().getDrawable(R.drawable.bbs_head));
+            String bbs_head_name;
+            int max=15;
+            int min=0;
+            Random random=new Random();
+            int i=random.nextInt(max)%(max-min+1)+min;
+            bbs_head_name="bbs_head_"+i;
+            System.out.println("bbs_head_name-------------"+i);
+            System.out.println("bbs_head_name-----------------"+bbs_head_name);
+
+            Class drawable=R.drawable.class;
+            try {
+                Field field=drawable.getField(bbs_head_name);
+                int resId=field.getInt(field.getName());
+                mBBSHeadImageView.setImageResource(resId);
+            } catch (NoSuchFieldException e) {
+                e.printStackTrace();
+            } catch (IllegalAccessException e) {
+                e.printStackTrace();
+            }
+
+            //mBBSHeadImageView.setImageResource(getResources().getIdentifier(bbs_head_name,"drawable",theContext.getPackageName()));
             mBBSLikeImageView.setImageDrawable(getResources().getDrawable(R.drawable.bbs_like));
             mBBSLineImageView.setImageDrawable(getResources().getDrawable(R.drawable.bbs_line));
             mBBSMailImageView.setImageDrawable(getResources().getDrawable(R.drawable.bbs_mail));
@@ -185,8 +208,10 @@ public class BBSFragment extends Fragment{
 
         @Override
         public void onBindViewHolder(BBSHolder holder, int position) {
+
             BBS mBBS=mBBSList.get(position);
             holder.bindBBS(mBBS);
+
         }
 
         @Override
