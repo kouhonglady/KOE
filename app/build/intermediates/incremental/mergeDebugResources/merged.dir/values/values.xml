@@ -51,6 +51,7 @@
     <color name="gray">#AFAFAF</color>
     <color name="gray_font">#818181</color>
     <color name="grays">#818181</color>
+    <color name="grid_line">#66ffffff</color>
     <color name="highlighted_text_material_dark">#6680cbc4</color>
     <color name="highlighted_text_material_light">#66009688</color>
     <color name="lingxue">#456125</color>
@@ -72,6 +73,7 @@
     <color name="notification_material_background_media_default_color">#ff424242</color>
     <color name="orange">#ff9900</color>
     <color name="orange_yellow">#9b9ba0</color>
+    <color name="playback_indicator">#ffff66</color>
     <color name="possible_result_points">#c0ffff00</color>
     <color name="primary_dark_material_dark">@android:color/black</color>
     <color name="primary_dark_material_light">@color/material_grey_600</color>
@@ -96,6 +98,7 @@
     <color name="secondary_text_default_material_light">#8a000000</color>
     <color name="secondary_text_disabled_material_dark">#36ffffff</color>
     <color name="secondary_text_disabled_material_light">#24000000</color>
+    <color name="selection_border">#ffffff</color>
     <color name="shadowcolor">#333333</color>
     <color name="shenblue">#445899</color>
     <color name="shenfen">#FF537B</color>
@@ -106,9 +109,19 @@
     <color name="switch_thumb_normal_material_dark">#ffbdbdbd</color>
     <color name="switch_thumb_normal_material_light">#fff1f1f1</color>
     <color name="tarns">#ab000000</color>
+    <color name="timecode">#ddffffdd</color>
+    <color name="timecode_shadow">#aa000000</color>
     <color name="transparent">#00000000</color>
+    <color name="type_bkgnd_alarm">#88880000</color>
+    <color name="type_bkgnd_music">#88000000</color>
+    <color name="type_bkgnd_notification">#88666600</color>
+    <color name="type_bkgnd_ringtone">#88008888</color>
+    <color name="type_bkgnd_unsupported">#88cccccc</color>
     <color name="viewfinder_frame">#2477ab</color>
     <color name="viewfinder_mask">#60000000</color>
+    <color name="waveform_selected">#33b5e5</color>
+    <color name="waveform_unselected">#195a72</color>
+    <color name="waveform_unselected_bkgnd_overlay">#0a242d</color>
     <color name="white">#ffffffff</color>
     <color name="whites">#ffffff</color>
     <color name="yellow">#F99503</color>

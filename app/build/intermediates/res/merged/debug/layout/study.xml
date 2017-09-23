@@ -248,6 +248,7 @@
                                     android:layout_marginLeft="10dp"
                                     android:background="#ffffff"
                                     android:src="@drawable/captureyours" />
+                                <!--录制口型-->
                             </RelativeLayout>
 
                             <RelativeLayout
@@ -265,6 +266,81 @@
                                     android:layout_marginRight="10dp"
                                     android:background="#ffffff"
                                     android:src="@drawable/watchyours" />
+                                <!--你的口型-->
+                            </RelativeLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:id="@+id/tab3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <com.cokus.wavelibrary.view.WaveSurfaceView
+                                android:id="@+id/wavesfv"
+                                android:layout_width="fill_parent"
+                                android:layout_height="120dp"/>
+                            <com.cokus.wavelibrary.view.WaveformView
+                                android:id="@+id/waveview"
+                                android:visibility="invisible"
+                                android:layout_width="fill_parent"
+                                android:layout_height="120dp" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_below="@+id/wavesfv"
+                            android:id="@+id/status"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:text="未开始录音"/>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_weight="1"
+                            android:layout_marginTop="5dp"
+                            android:orientation="horizontal">
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:layout_marginRight="5dp">
+
+                                <ImageButton
+                                    android:id="@+id/switch_wave"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_alignParentLeft="true"
+                                    android:layout_alignParentTop="true"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginLeft="10dp"
+                                    android:background="#ffffff"
+                                    android:src="@drawable/captureyours" />
+                                <!--录制口型-->
+                            </RelativeLayout>
+
+                            <RelativeLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent">
+
+                                <ImageButton
+                                    android:id="@+id/play_wave"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_centerHorizontal="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_gravity="center_horizontal"
+                                    android:layout_marginLeft="15dp"
+                                    android:layout_marginRight="10dp"
+                                    android:background="#ffffff"
+                                    android:src="@drawable/watchyours" />
+                                <!--你的口型-->
                             </RelativeLayout>
 
                         </LinearLayout>

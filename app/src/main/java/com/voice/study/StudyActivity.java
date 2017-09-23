@@ -11,12 +11,28 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Locale;
 
+import android.Manifest;
 import android.app.TabActivity;
+import android.graphics.PixelFormat;
+import android.media.AudioFormat;
+import android.media.AudioRecord;
+import android.media.MediaRecorder;
 import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 
 
+import com.cokus.wavelibrary.draw.WaveCanvas;
+import com.cokus.wavelibrary.view.WaveSurfaceView;
+import com.cokus.wavelibrary.view.WaveformView;
+import com.voice.util.MusicSimilarityUtil;
+import com.voice.util.U;
+import com.cokus.wavelibrary.utils.SamplePlayer;
+import com.cokus.wavelibrary.utils.SoundFile;
+import com.cokus.wavelibrary.view.WaveSurfaceView;
+import com.cokus.wavelibrary.view.WaveformView;
 import com.voice.Hornor;
 import com.voice.R;
 import com.voice.model.Word;
@@ -87,8 +103,15 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.Toast;
+import permissions.dispatcher.NeedsPermission;
+import permissions.dispatcher.OnNeverAskAgain;
+import permissions.dispatcher.OnPermissionDenied;
+import permissions.dispatcher.OnShowRationale;
+import permissions.dispatcher.PermissionRequest;
+import permissions.dispatcher.RuntimePermissions;
 
-
+import butterknife.ButterKnife;
+//@RuntimePermissions
 public class StudyActivity extends TabActivity implements OnClickListener {
     private Context mContext;
     //private TextView grade;
@@ -111,6 +134,11 @@ public class StudyActivity extends TabActivity implements OnClickListener {
     private ImageButton playyours;
     private ImageButton playexample;
     private ImageButton watchyou;
+    private WaveSurfaceView waveSfv;
+    private WaveformView waveView;
+    private ImageButton swichwavebtn;
+    private TextView status;
+    private ImageButton playwave;
     private String strVideoPath = "";// 视频文件的绝对路径
     //  private TextView spelling;
     private TextView info;
@@ -118,6 +146,14 @@ public class StudyActivity extends TabActivity implements OnClickListener {
     VideoPlayer player;
     MediaController MediaCtrl;
     MediaController MediaCtrl1;
+    private static final int FREQUENCY = 16000;// 设置音频采样率，44100是目前的标准，但是某些设备仍然支持22050，16000，11025
+    private static final int CHANNELCONGIFIGURATION = AudioFormat.CHANNEL_IN_MONO;// 设置单声道声道
+    private static final int AUDIOENCODING = AudioFormat.ENCODING_PCM_16BIT;// 音频数据格式：每个样本16位
+    public final static int AUDIO_SOURCE = MediaRecorder.AudioSource.MIC;// 音频获取源
+    private int recBufSize;// 录音最小buffer大小3
+    private AudioRecord audioRecord;
+    private WaveCanvas waveCanvas;
+    private String mFileName = "test";
 
     public StudyActivity() {
     }
@@ -145,6 +181,16 @@ public class StudyActivity extends TabActivity implements OnClickListener {
         numoflist = list.size();
         initWidgets();
         UpdateView();
+        ButterKnife.bind(this);
+        if(waveSfv != null) {
+            waveSfv.setLine_off(42);
+            //解决surfaceView黑色闪动效果
+            waveSfv.setZOrderOnTop(true);
+            waveSfv.getHolder().setFormat(PixelFormat.TRANSLUCENT);
+        }
+        waveView.setLine_offset(42);
+        //initPermission();
+
 
 
         TabHost tabHost = getTabHost();
@@ -158,6 +204,10 @@ public class StudyActivity extends TabActivity implements OnClickListener {
                 .setIndicator("我的口型")
                 .setContent(R.id.tab2);
         tabHost.addTab(page2);
+        TabSpec page3 = tabHost.newTabSpec("tab3")
+                .setIndicator("波形图")
+                .setContent(R.id.tab3);
+        tabHost.addTab(page3);
         TabWidget tabWidget = tabHost.getTabWidget();
         for (int i = 0; i < tabWidget.getChildCount(); i++) {
             //修改显示字体大小
@@ -187,6 +237,7 @@ public class StudyActivity extends TabActivity implements OnClickListener {
 
     }
 
+
     private void initWidgets() {
         // TODO Auto-generated method stub
         this.title = (TextView) this.findViewById(R.id.title);
@@ -204,6 +255,13 @@ public class StudyActivity extends TabActivity implements OnClickListener {
         DisplayMetrics dm = new DisplayMetrics();
         this.watchyou = (ImageButton) this.findViewById(R.id.watchyours);
         this.playexample = (ImageButton) this.findViewById(R.id.playexample);
+        this.waveSfv=(WaveSurfaceView)this.findViewById(R.id.wavesfv);
+        this.waveView=(WaveformView)this.findViewById(R.id.waveview);
+        this.playwave=(ImageButton)this.findViewById(R.id.play_wave);
+        this.status=(TextView)this.findViewById(R.id.status);
+        this.swichwavebtn=(ImageButton)this.findViewById(R.id.switch_wave);
+
+
         dm = getApplicationContext().getResources().getDisplayMetrics();
         int screenWidth = dm.widthPixels;
         //add.setWidth(screenWidth/3);
@@ -214,6 +272,8 @@ public class StudyActivity extends TabActivity implements OnClickListener {
         this.playyours.setOnClickListener(this);
         this.watchyou.setOnClickListener(this);
         this.playexample.setOnClickListener(this);
+        this.swichwavebtn.setOnClickListener(this);
+        this.playwave.setOnClickListener(this);
 
         title.setText("单元" + listnum);
 
@@ -233,10 +293,10 @@ public class StudyActivity extends TabActivity implements OnClickListener {
         } else if (v == last) {
             currentnum--;
             this.UpdateView();
-        } else if (v == playyours) {
+        } else if (v == playyours) {//录制口型
             videoMethod();
             //playyours.setVisibility(View.INVISIBLE);
-        } else if (v == watchyou) {
+        } else if (v == watchyou) {//你的口型
             MediaCtrl1 = new MediaController(StudyActivity.this, false);
             MediaCtrl1.setAnchorView(you);
             you.setMediaController(MediaCtrl);
@@ -248,10 +308,31 @@ public class StudyActivity extends TabActivity implements OnClickListener {
             int exampleid = R.raw.p0101 + currentnum;
             String VideoUri = "android.resource://" + getPackageName() + "/" + exampleid;
             VeidoPlay(VideoUri);
+        }else if(v==playwave){
+            onPlay(0);//播放 从头开始播放
+        }else if(v==swichwavebtn){
+            if (waveCanvas == null || !waveCanvas.isRecording) {
+                status.setText("录音中...");
+                //swichwavebtn.setText("停止录音");
+                waveSfv.setVisibility(View.VISIBLE);
+                waveView.setVisibility(View.INVISIBLE);
+                initAudio();
+                startAudio();
+
+            } else {
+                status.setText("停止录音");
+                //swichwavebtn.setText("开始录音");
+                waveCanvas.Stop();
+                waveCanvas = null;
+                initWaveView();
+            }
         }
         Log.i("3", "3");
     }
-
+//    public void initPermission(){
+//        MainActivityPermissionsDispatcher.initAudioWithCheck(this);
+//
+//    }
     public boolean onKeyDown(int keyCode, KeyEvent event) {
         // TODO Auto-generated method stub
         if (keyCode == KeyEvent.KEYCODE_BACK) {
@@ -495,7 +576,182 @@ public class StudyActivity extends TabActivity implements OnClickListener {
         Context context = getApplicationContext();
         viewGroup = (ViewGroup) findViewById(R.id.parent_view);
     }
+    private void  initWaveView(){
+        loadFromFile();
+    }
+    File mFile;
+    Thread mLoadSoundFileThread;
+    SoundFile mSoundFile;
+    boolean mLoadingKeepGoing;
+    SamplePlayer mPlayer;
+    private void loadFromFile() {
+        try {
+            Thread.sleep(300);//让文件写入完成后再载入波形 适当的休眠下
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        mFile = new File(U.DATA_DIRECTORY + mFileName + ".wav");
+        mLoadingKeepGoing = true;
+        // Load the sound file in a background thread
+        mLoadSoundFileThread = new Thread() {
+            public void run() {
+                try {
+                    mSoundFile = SoundFile.create(mFile.getAbsolutePath(),null);
+                    if (mSoundFile == null) {
+                        return;
+                    }
+                    mPlayer = new SamplePlayer(mSoundFile);
+                } catch (final Exception e) {
+                    e.printStackTrace();
+                    return;
+                }
+                if (mLoadingKeepGoing) {
+                    Runnable runnable = new Runnable() {
+                        public void run() {
+                            finishOpeningSoundFile();
+                            waveSfv.setVisibility(View.INVISIBLE);
+                            waveView.setVisibility(View.VISIBLE);
+                        }
+                    };
+                    StudyActivity.this.runOnUiThread(runnable);
+                }
+            }
+        };
+        mLoadSoundFileThread.start();
+    }
 
+
+    float mDensity;
+    /**waveview载入波形完成*/
+    private void finishOpeningSoundFile() {
+        waveView.setSoundFile(mSoundFile);
+        DisplayMetrics metrics = new DisplayMetrics();
+        getWindowManager().getDefaultDisplay().getMetrics(metrics);
+        mDensity = metrics.density;
+        waveView.recomputeHeights(mDensity);
+    }
+    /**
+            * 开始录音
+     */
+    private void startAudio(){
+        waveCanvas = new WaveCanvas();
+        waveCanvas.baseLine = waveSfv.getHeight() / 2;
+        waveCanvas.Start(audioRecord, recBufSize, waveSfv, mFileName, U.DATA_DIRECTORY, new Handler.Callback() {
+            @Override
+            public boolean handleMessage(Message msg) {
+                return true;
+            }
+        });
+    }
+    @NeedsPermission({Manifest.permission.RECORD_AUDIO,Manifest.permission.WRITE_EXTERNAL_STORAGE,Manifest.permission.READ_EXTERNAL_STORAGE})
+    public void initAudio(){
+        recBufSize = AudioRecord.getMinBufferSize(FREQUENCY,
+                CHANNELCONGIFIGURATION, AUDIOENCODING);// 录音组件
+        audioRecord = new AudioRecord(AUDIO_SOURCE,// 指定音频来源，这里为麦克风
+                FREQUENCY, // 16000HZ采样频率
+                CHANNELCONGIFIGURATION,// 录制通道
+                AUDIO_SOURCE,// 录制编码格式
+                recBufSize);// 录制缓冲区大小 //先修改
+        U.createDirectory();
+    }
+    @OnShowRationale({Manifest.permission.RECORD_AUDIO,Manifest.permission.WRITE_EXTERNAL_STORAGE,Manifest.permission.READ_EXTERNAL_STORAGE})
+    void showRationaleForRecord(final PermissionRequest request){
+        new android.support.v7.app.AlertDialog.Builder(this)
+                .setPositiveButton("好的", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        request.proceed();
+                    }
+                })
+                .setNegativeButton("取消", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        request.cancel();
+                    }
+                })
+                .setCancelable(false)
+                .setMessage("是否开启录音权限")
+                .show();
+    }
+
+    @OnPermissionDenied({Manifest.permission.RECORD_AUDIO,Manifest.permission.WRITE_EXTERNAL_STORAGE,Manifest.permission.READ_EXTERNAL_STORAGE})
+    void showRecordDenied(){
+        Toast.makeText(StudyActivity.this,"拒绝录音权限将无法进行挑战",Toast.LENGTH_LONG).show();
+    }
+
+    @OnNeverAskAgain({Manifest.permission.RECORD_AUDIO,Manifest.permission.WRITE_EXTERNAL_STORAGE,Manifest.permission.READ_EXTERNAL_STORAGE})
+    void onRecordNeverAskAgain() {
+        new android.support.v7.app.AlertDialog.Builder(this)
+                .setPositiveButton("确定", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+
+                        dialog.cancel();
+                    }
+                })
+                .setNegativeButton("取消", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.cancel();
+                    }
+                })
+                .setCancelable(false)
+                .setMessage("您已经禁止了录音权限,是否现在去开启")
+                .show();
+    }
+    private int mPlayStartMsec;
+    private int mPlayEndMsec;
+    private final int UPDATE_WAV = 100;
+    /**播放音频，@param startPosition 开始播放的时间*/
+    private synchronized void onPlay(int startPosition) {
+        if (mPlayer == null)
+            return;
+        if (mPlayer != null && mPlayer.isPlaying()) {
+            mPlayer.pause();
+            updateTime.removeMessages(UPDATE_WAV);
+        }
+        mPlayStartMsec = waveView.pixelsToMillisecs(startPosition);
+        mPlayEndMsec = waveView.pixelsToMillisecsTotal();
+        mPlayer.setOnCompletionListener(new SamplePlayer.OnCompletionListener() {
+            @Override
+            public void onCompletion() {
+                waveView.setPlayback(-1);
+                updateDisplay();
+                updateTime.removeMessages(UPDATE_WAV);
+                Toast.makeText(getApplicationContext(),"播放完成",Toast.LENGTH_LONG).show();
+            }
+        });
+        mPlayer.seekTo(mPlayStartMsec);
+        mPlayer.start();
+        Message msg = new Message();
+        msg.what = UPDATE_WAV;
+        updateTime.sendMessage(msg);
+    }
+
+    Handler updateTime = new Handler() {
+        public void handleMessage(Message msg) {
+            updateDisplay();
+            updateTime.sendMessageDelayed(new Message(), 10);
+        };
+    };
+
+    /**更新upd
+     * ateview 中的播放进度*/
+    private void updateDisplay() {
+        int now = mPlayer.getCurrentPosition();// nullpointer
+        int frames = waveView.millisecsToPixels(now);
+        waveView.setPlayback(frames);//通过这个更新当前播放的位置
+        if (now >= mPlayEndMsec ) {
+            waveView.setPlayFinish(1);
+            if (mPlayer != null && mPlayer.isPlaying()) {
+                mPlayer.pause();
+                updateTime.removeMessages(UPDATE_WAV);
+            }
+        }else{
+            waveView.setPlayFinish(0);
+        }
+        waveView.invalidate();//刷新真个视图
+    }
     @Override
     protected void onDestroy() {
         // TODO Auto-generated method stub

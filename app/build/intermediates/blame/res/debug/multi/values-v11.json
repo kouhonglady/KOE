@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\tyb\\newVoice\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
+        "outputFile": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v11\\values-v11.xml",
         "map": [
             {
                 "to": {
@@ -12,14 +12,14 @@
                     "endOffset": 187
                 },
                 "from": {
-                    "file": "E:\\tyb\\newVoice\\app\\src\\main\\res\\values-v11\\styles.xml",
+                    "file": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\values-v11\\styles.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 177,
+                        "startOffset": 183,
                         "endLine": 8,
                         "endColumn": 12,
-                        "endOffset": 309
+                        "endOffset": 317
                     }
                 }
             },

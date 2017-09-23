@@ -3,12 +3,30 @@
 
     <item
         is-multidex="false"
+        jar="E:\tyb\KOE_9.16\wavelibrary\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="646aa00efdf63e6c539601e49447d57393e942a8">
+        <dex dex="E:\tyb\KOE_9.16\app\build\intermediates\pre-dexed\debug\classes_d3f8259d9c5738e9617593d88bd0a594b47c2a75.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\hcc11_000\.android\build-cache\f3cd8f868160ab4e382d0db28c7009623e5e06ae\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
         <dex dex="E:\tyb\newVoice\app\build\intermediates\pre-dexed\debug\classes_ec83df3bfe5c6b642b827ae560ea731ad5328e72.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\tyb\KOE_9.16\app\libs\android-support-v7-recyclerview.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95c892d244f49414bbdf92c2235a32ea06bc68aa">
+        <dex dex="E:\tyb\KOE_9.16\app\build\intermediates\pre-dexed\debug\android-support-v7-recyclerview_15ef4d97c07b0b03bf0907831162be516582132f.jar" />
     </item>
     <item
         is-multidex="false"
@@ -27,6 +45,15 @@
         revision="25.0.2"
         sha1="33ee82e324f4b1e40167f3dc5e01234a1c5cab61">
         <dex dex="E:\tyb\newVoice\app\build\intermediates\pre-dexed\debug\jsoup-1.10.2_27fb302c5826ee05ae1816e98eecfc4f3a3dc39b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\tyb\KOE_9.16\app\libs\zxing-1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="327bddfe22740db0419bd719a0f950b6ad2b3c3f">
+        <dex dex="E:\tyb\KOE_9.16\app\build\intermediates\pre-dexed\debug\zxing-1.6_4bfb15cbb9b66be01768a1d94a010542112ad617.jar" />
     </item>
     <item
         is-multidex="false"
@@ -84,6 +111,24 @@
     </item>
     <item
         is-multidex="false"
+        jar="E:\tyb\KOE_9.16\app\libs\achartengine-1.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
+        <dex dex="E:\tyb\KOE_9.16\app\build\intermediates\pre-dexed\debug\achartengine-1.1.0_238ac8f897753d36943765da36d9c88a89a40084.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\tyb\KOE_9.16\app\libs\VoiceRecognition-2.1.20.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f6f1c929343ec741b10a82084c33ea4bfa5c9306">
+        <dex dex="E:\tyb\KOE_9.16\app\build\intermediates\pre-dexed\debug\VoiceRecognition-2.1.20_bd3411739f33e5eaa9cf827fe5ad985d62420129.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="C:\Users\hcc11_000\.android\build-cache\5a623805b4ab4afed92e2931e4a9d25ebbefbde8\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
@@ -93,21 +138,21 @@
     </item>
     <item
         is-multidex="false"
-        jar="E:\tyb\newVoice\app\libs\android-support-v7-recyclerview.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="95c892d244f49414bbdf92c2235a32ea06bc68aa">
-        <dex dex="E:\tyb\newVoice\app\build\intermediates\pre-dexed\debug\android-support-v7-recyclerview_f80e83c210a69a3959fea2fcfdb15b0724323f71.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="C:\Users\hcc11_000\.android\build-cache\b31a8a2ad36d90116c31c7b2300a4027dc2d9043\output\jars\classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="88246166d5afb106f532f6e6deae683c66b42c89">
         <dex dex="E:\tyb\newVoice\app\build\intermediates\pre-dexed\debug\classes_92fa3e096b2c6ecce3cc81cfd821757710cde206.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\tyb\newVoice\app\libs\android-support-v7-recyclerview.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="95c892d244f49414bbdf92c2235a32ea06bc68aa">
+        <dex dex="E:\tyb\newVoice\app\build\intermediates\pre-dexed\debug\android-support-v7-recyclerview_f80e83c210a69a3959fea2fcfdb15b0724323f71.jar" />
     </item>
     <item
         is-multidex="false"
@@ -126,6 +171,15 @@
         revision="25.0.2"
         sha1="023ee503b631f69511e335a061ea008f8da60f40">
         <dex dex="E:\tyb\newVoice\app\build\intermediates\pre-dexed\debug\support-annotations-26.0.0-alpha1_6b9e0cbd8a9ac4841cb1816fb7e281af7713843f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\tyb\KOE_9.16\app\libs\musicg-1.4.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e4cc5194d9313717e173c63eb38dd220a63b5532">
+        <dex dex="E:\tyb\KOE_9.16\app\build\intermediates\pre-dexed\debug\musicg-1.4.2.0_0ec980b238a71b0cb81026abb2c74e8632045540.jar" />
     </item>
     <item
         is-multidex="false"
@@ -180,6 +234,15 @@
         revision="25.0.2"
         sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
         <dex dex="E:\tyb\newVoice\app\build\intermediates\pre-dexed\debug\nineoldandroids-library-2.4.0_b07252b99b08ea45f6c5f45428ff0f4418d4c79b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="E:\tyb\KOE_9.16\app\libs\nineoldandroids-library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="E:\tyb\KOE_9.16\app\build\intermediates\pre-dexed\debug\nineoldandroids-library-2.4.0_6acaa6d8745f2704e9d4e20efadbb34e0827b69f.jar" />
     </item>
 
 </items>

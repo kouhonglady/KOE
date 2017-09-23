@@ -1,10 +1,10 @@
 [
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preference.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\xml\\preference.xml"
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\xml\\widget_info.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\xml\\widget_info.xml"
     },
     {
-        "merged": "E:\\tyb\\newVoice\\app\\build\\intermediates\\res\\merged\\debug\\xml\\widget_info.xml",
-        "source": "E:\\tyb\\newVoice\\app\\src\\main\\res\\xml\\widget_info.xml"
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preference.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\xml\\preference.xml"
     }
 ]

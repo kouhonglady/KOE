@@ -39,4 +39,9 @@ dependencies {
     compile 'com.android.support:appcompat-v7:26.0.0-alpha1'
     compile 'org.jsoup:jsoup:1.10.2'
     compile files('libs/android-support-v7-recyclerview.jar')
+    compile project(':wavelibrary')
+    compile 'junit:junit:4.12'
+    compile 'com.jakewharton:butterknife:8.8.1'
+    compile 'com.github.hotchemi:permissionsdispatcher:3.0.0'
+    compile files('libs/musicg-1.4.2.0.jar')
 }
