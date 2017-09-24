@@ -51,7 +51,7 @@ public class StudyMain extends Activity{
 		this.setContentView(R.layout.fragment_dynamic);
 		LayoutInflater mInflater = LayoutInflater.from(this);
 		myView = mInflater.inflate(R.layout.fragment_dynamic, null);
-		
+
 		Thread thread = new Thread(){
 			public void run(){
 				try {
@@ -63,43 +63,43 @@ public class StudyMain extends Activity{
 					// TODO Auto-generated catch block
 					e1.printStackTrace();
 				}
-				
+
 			}
 		};
 		thread.start();
-		
+
 		OperationOfBooks OOB = new OperationOfBooks();
 		SharedPreferences setting = getSharedPreferences("wordroid.model_preferences", MODE_PRIVATE);
 		OOB.setNotify(setting.getString("time", "18:00 下午"),StudyMain.this);
-		File dir = new File("data/data/com.qq/databases");    
-	    if (!dir.exists()) 
-	        dir.mkdir(); 
-	    if (!(new File(SqlHelper.DB_NAME)).exists()) {    
-	    	FileOutputStream fos;
-	    	try {
+		File dir = new File("data/data/com.voice/databases");
+		if (!dir.exists())
+			dir.mkdir();
+		if (!(new File(SqlHelper.DB_NAME)).exists()) {
+			FileOutputStream fos;
+			try {
 				fos = new FileOutputStream(SqlHelper.DB_NAME);
-				
-				byte[] buffer = new byte[8192]; 
-	            int count = 0; 
-	            InputStream is = getResources().openRawResource(R.raw.wordorid); 
-	            while ((count = is.read(buffer)) > 0) { 
-	                fos.write(buffer, 0, count); 
-	            }
 
-	            fos.close(); 
-	            is.close(); 
+				byte[] buffer = new byte[8192];
+				int count = 0;
+				InputStream is = getResources().openRawResource(R.raw.wordorid);
+				while ((count = is.read(buffer)) > 0) {
+					fos.write(buffer, 0, count);
+				}
+
+				fos.close();
+				is.close();
 			} catch (Exception e) {
-					// TODO Auto-generated catch block
+				// TODO Auto-generated catch block
 				e.printStackTrace();
-			} 
-	    }
+			}
+		}
 
-	    SharedPreferences settings=getSharedPreferences(SETTING_BOOKID, 0);
+		SharedPreferences settings=getSharedPreferences(SETTING_BOOKID, 0);
 		DataAccess.difficultyID=settings.getString(BOOKNAME, "");
 		studybegin=(RelativeLayout)myView.findViewById(R.id.ll_dynamic);
 		pickBook=(Spinner)myView.findViewById(R.id.pickBook);
 		initSpinner();
-		
+
 	}
 	private void initSpinner() {
 		pickBook.setVisibility(View.VISIBLE);
@@ -111,20 +111,20 @@ public class StudyMain extends Activity{
 		for (;i<bookList.size();i++){
 			books[i]=bookList.get(i).getName();
 		}
-		
+
 		ArrayAdapter< CharSequence > adapter = new ArrayAdapter< CharSequence >(this, android.R.layout.simple_spinner_item, books);
 
 		adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
 		pickBook.setAdapter(adapter);
 		pickBook.setOnItemSelectedListener(new OnItemSelectedListener(){
 			public void onItemSelected(AdapterView<?> arg0, View arg1,
-					int arg2, long arg3) {
+									   int arg2, long arg3) {
 				if (arg2<bookList.size()){
 					DataAccess.difficultyID=bookList.get(arg2).getID();
 					//info.setText("\n词库名称:\n    "+bookList.get(arg2).getName()+"\n总词汇量:\n    "+bookList.get(arg2).getNumOfWord()+"\n创建时间：\n    "+bookList.get(arg2).getGenerateTime());
-					
+
 					studybegin.setEnabled(true);
-					
+
 					DataAccess data2 = new DataAccess(StudyMain.this);
 					ArrayList<WordList> lists = data2.QueryList("BOOKID ='"+DataAccess.difficultyID+"'", null);
 					//learn_progress.setMax(lists.size());
@@ -138,12 +138,12 @@ public class StudyMain extends Activity{
 							//learn_progress.incrementProgressBy(1);
 							learned++;
 						}
-						
+
 						if (Integer.parseInt(lists.get(k).getReview_times())>=5){
 							//review_progress.incrementProgressBy(1);
 							reviewed++;
 						}
-						
+
 						//if (Integer.parseInt(lists.get(k).getReview_times())>0)
 						//review_progress.incrementSecondaryProgressBy(1);
 						//review_text.setText("已复习"+reviewed+"/"+lists.size());
@@ -151,12 +151,12 @@ public class StudyMain extends Activity{
 					}
 				}
 				studybegin.setOnClickListener(new OnClickListener() {
-					
+
 					@Override
 					public void onClick(View v) {
 						Intent intent=new Intent(StudyMain.this, StudyChoice.class);
 						startActivity(intent);
-						
+
 					}
 				});
 			}
@@ -164,9 +164,9 @@ public class StudyMain extends Activity{
 			@Override
 			public void onNothingSelected(AdapterView<?> arg0) {
 				// TODO Auto-generated method stub
-				
+
 			}
-			
+
 		});
 		if (bookList.size()==0) {
 			pickBook.setSelection(1);
@@ -180,18 +180,18 @@ public class StudyMain extends Activity{
 		Log.i("BookID", DataAccess.difficultyID);
 		for (;j<bookList.size();j++){
 			if (DataAccess.difficultyID.equals(bookList.get(j).getID())){
-				pickBook.setSelection(j);	
+				pickBook.setSelection(j);
 				break;
 			}
-				
+
 		}
 	}
 	protected void onDestroy() {
 		// TODO Auto-generated method stub
 		SharedPreferences settings=getSharedPreferences(SETTING_BOOKID, 0);
 		settings.edit()
-		.putString(BOOKNAME, DataAccess.difficultyID)
-		.commit();
+				.putString(BOOKNAME, DataAccess.difficultyID)
+				.commit();
 		super.onDestroy();
 	}
 
@@ -203,10 +203,10 @@ public class StudyMain extends Activity{
 		super.onResume();
 	}
 
-	private Handler mHandler = new Handler(){ 
-        public void handleMessage(Message msg) {
-        	if (msg.what==1)
-        	setContentView(myView);
-         } 
-     }; 
+	private Handler mHandler = new Handler(){
+		public void handleMessage(Message msg) {
+			if (msg.what==1)
+				setContentView(myView);
+		}
+	};
 }

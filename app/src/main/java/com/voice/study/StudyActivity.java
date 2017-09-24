@@ -1,6 +1,7 @@
 package com.voice.study;
 
 import java.io.File;
+import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -219,6 +220,50 @@ public class StudyActivity extends TabActivity implements OnClickListener {
             tv.setTextSize(16);
             //tv.setTextColor(this.getResources().getColorStateList(android.R.color.white));
         }
+        tabHost.setOnTabChangedListener(new TabHost.OnTabChangeListener(){
+            public void onTabChanged(String tabId) {
+                if (tabId.equals("tab1")) {   //第一个标签
+                    //tab1
+                    example.setVisibility(View.VISIBLE);
+                    playexample.setVisibility(View.VISIBLE);
+                    //tab2
+                    you.setVisibility(View.     INVISIBLE);
+                    playyours.setVisibility(View.INVISIBLE);
+                    watchyou.setVisibility(View.INVISIBLE);
+                    //tab3
+                    waveSfv.setVisibility(View.INVISIBLE);
+                    swichwavebtn.setVisibility(View.INVISIBLE);
+                    playwave.setVisibility(View.INVISIBLE);
+
+                }
+                if (tabId.equals("tab2")) {   //第二个标签
+                    //tab1
+                    example.setVisibility(View.INVISIBLE);
+                    playexample.setVisibility(View.INVISIBLE);
+                    //tab2
+                    you.setVisibility(View. VISIBLE);
+                    playyours.setVisibility(View.VISIBLE);
+                    watchyou.setVisibility(View.VISIBLE);
+                    //tab3
+                    waveSfv.setVisibility(View.INVISIBLE);
+                    swichwavebtn.setVisibility(View.INVISIBLE);
+                    playwave.setVisibility(View.INVISIBLE);
+                }
+                if (tabId.equals("tab3")) {   //第三个标签
+                    //tab1
+                    example.setVisibility(View.INVISIBLE);
+                    playexample.setVisibility(View.INVISIBLE);
+                    //tab2
+                    you.setVisibility(View. INVISIBLE);
+                    playyours.setVisibility(View.INVISIBLE);
+                    watchyou.setVisibility(View.INVISIBLE);
+                    //tab3
+                    waveSfv.setVisibility(View.VISIBLE);
+                    swichwavebtn.setVisibility(View.VISIBLE);
+                    playwave.setVisibility(View.VISIBLE);
+                }
+            }
+        });
 
         tabHost.setOnTabChangedListener(new TabHost.OnTabChangeListener(){
             public void onTabChanged(String tabId) {
@@ -380,7 +425,7 @@ public class StudyActivity extends TabActivity implements OnClickListener {
         }
         Log.i("3", "3");
     }
-//    public void initPermission(){
+    //    public void initPermission(){
 //        MainActivityPermissionsDispatcher.initAudioWithCheck(this);
 //
 //    }
@@ -442,7 +487,7 @@ public class StudyActivity extends TabActivity implements OnClickListener {
             String imgUrl = "http://115.159.215.125/voicepicture/" + filename + ".jpg";
             String handUrl = "http://115.159.215.125/voicegesture/" + filename + ".JPG";
             String mouseUrl = "http://115.159.215.125/voicemouse/" + filename + ".jpg";
-            String pronunciationUrl="http://115.159.215.125/voicepronumciation/" + filename + ".wav";
+            String pronunciationUrl="http://115.159.215.125/voicepronunciation/" + filename + ".wav";
             downloadFile(imgUrl);
             downloadmouseFile(mouseUrl);
             downloadhandFile(handUrl);
@@ -478,12 +523,12 @@ public class StudyActivity extends TabActivity implements OnClickListener {
 
         //player.playUrl(VideoUri);
 				/*
-			    Uri uri = Uri.parse(Environment.getExternalStorageDirectory().getPath()+"/Test_Movie.m4v");  
-			    VideoView videoView = (VideoView)this.findViewById(R.id.video_view);  
-			    videoView.setMediaController(new MediaController(this));  
-			    videoView.setVideoURI(uri);  
-			    videoView.start();  
-			    videoView.requestFocus();  
+			    Uri uri = Uri.parse(Environment.getExternalStorageDirectory().getPath()+"/Test_Movie.m4v");
+			    VideoView videoView = (VideoView)this.findViewById(R.id.video_view);
+			    videoView.setMediaController(new MediaController(this));
+			    videoView.setVideoURI(uri);
+			    videoView.start();
+			    videoView.requestFocus();
 			         **/
     }
 
@@ -512,7 +557,7 @@ public class StudyActivity extends TabActivity implements OnClickListener {
 	    	 example.setMediaController(new MediaController(this));
 	    	 example.setVideoURI(VideoUri);
 	    	 example.start();
-	    	 example.requestFocus(); 
+	    	 example.requestFocus();
 	    	 */
     }
 
@@ -598,28 +643,55 @@ public class StudyActivity extends TabActivity implements OnClickListener {
             }
         }
     }
-    public void downloadpronunciationUrl(String furl,String fname){
-        String path="";
-        path=getPronunciationPath();
-        String name=fname+".wav";
-        String filename=path+name;
-        OutputStream output=null;
-        try{
-            URL url=new URL(furl);
-            HttpURLConnection conn=(HttpURLConnection)url.openConnection();
-            //取得inputStream，并将流中的信息写入SDCard
-            File file=new File(filename);
-            if(file.exists()){
-                System.out.println(filename+"已存在！");
-                return;
-            }else {
+    public void downloadpronunciationUrl(final String furl, final String fname){
 
+        new Thread(new Runnable() {
+            @Override
+            public void run(){
+                try{
+                    String path="";
+                    path=getPronunciationPath();
+                    String name=fname+".wav";
+                    String filename=path+name;
+                    OutputStream output=null;
+                    URL url=new URL(furl);
+                    HttpURLConnection conn=(HttpURLConnection)url.openConnection();
+                    //取得inputStream，并将流中的信息写入SDCard
+                    File file=new File(filename);
+                    conn.setDoInput(true);
+                    conn.setDoOutput(true);
+                    conn.connect();
+                    InputStream input=conn.getInputStream();
+                    if(file.exists()){
+                        System.out.println(filename+"已存在！");
+                        return;
+                    }else {
+                        file.createNewFile();
+                        output=new FileOutputStream(file);
+                        byte[] buffer=new byte[4*1024];
+                        while (input.read(buffer)!=-1){
+                            output.write(buffer);
+                        }
+                        output.flush();
+                        input.close();
+                        output.close();
+                    }
+                } catch (MalformedURLException e) {
+                    e.printStackTrace();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
             }
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+            // finally {
+//            try{
+//                output.close();
+//                System.out.println("OutputStream closed success");
+//            } catch (IOException e) {
+//                System.out.println("OutputStream closed fail");
+//                e.printStackTrace();
+//            }
+//
+        }).start();
 
     }
 
@@ -706,7 +778,7 @@ public class StudyActivity extends TabActivity implements OnClickListener {
         waveView.recomputeHeights(mDensity);
     }
     /**
-            * 开始录音
+     * 开始录音
      */
     private void startAudio(){
         waveCanvas = new WaveCanvas();
