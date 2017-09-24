@@ -3,6 +3,7 @@ package com.voice.study;
 import java.io.File;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -111,6 +112,9 @@ import permissions.dispatcher.PermissionRequest;
 import permissions.dispatcher.RuntimePermissions;
 
 import butterknife.ButterKnife;
+
+import static com.voice.util.FileUtil.getPronunciationPath;
+
 //@RuntimePermissions
 public class StudyActivity extends TabActivity implements OnClickListener {
     private Context mContext;
@@ -391,9 +395,11 @@ public class StudyActivity extends TabActivity implements OnClickListener {
             String imgUrl = "http://115.159.215.125/voicepicture/" + filename + ".jpg";
             String handUrl = "http://115.159.215.125/voicegesture/" + filename + ".JPG";
             String mouseUrl = "http://115.159.215.125/voicemouse/" + filename + ".jpg";
+            String pronunciationUrl="http://115.159.215.125/voicepronumciation/" + filename + ".wav";
             downloadFile(imgUrl);
             downloadmouseFile(mouseUrl);
             downloadhandFile(handUrl);
+            downloadpronunciationUrl(pronunciationUrl,filename);
         } else if (currentnum >= numoflist) {
             currentnum--;
             Dialog dialog = new AlertDialog.Builder(this)
@@ -544,7 +550,29 @@ public class StudyActivity extends TabActivity implements OnClickListener {
                 //mouth.setImageBitmap(result);
             }
         }
+    }
+    public void downloadpronunciationUrl(String furl,String fname){
+        String path="";
+        path=getPronunciationPath();
+        String name=fname+".wav";
+        String filename=path+name;
+        OutputStream output=null;
+        try{
+            URL url=new URL(furl);
+            HttpURLConnection conn=(HttpURLConnection)url.openConnection();
+            //取得inputStream，并将流中的信息写入SDCard
+            File file=new File(filename);
+            if(file.exists()){
+                System.out.println(filename+"已存在！");
+                return;
+            }else {
 
+            }
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 
     }
 

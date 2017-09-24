@@ -28,20 +28,26 @@ public class FileUtil {
 	private static String path="";
 	static{
 		if(Environment.getExternalStorageState().equals(Environment.MEDIA_MOUNTED)){
-			path=Environment.getExternalStorageDirectory()+"/QQ";
+			path=Environment.getExternalStorageDirectory()+"/Voice";
 		}else{
-			path=Environment.getDataDirectory().getAbsolutePath()+"/QQ";
+			path=Environment.getDataDirectory().getAbsolutePath()+"/Voice";
 		}
 	}
 	
 	public static String getRecentChatPath(){
-		File file=new File(path+"/RecentChat/");
-		if(!file.exists()){
-			file.mkdirs();
-		}
-		return path+"/RecentChat/";
-	}
-	
+        File file=new File(path+"/RecentChat/");
+        if(!file.exists()){
+            file.mkdirs();
+        }
+        return path+"/RecentChat/";
+    }
+    public static String getPronunciationPath(){
+        File file=new File(path+"/Study/Pronunciation/");
+        if(!file.exists()){
+            file.mkdirs();
+        }
+        return path+"/Study/Pronunciation/";
+    }
 	public static String getWaterPhotoPath(){
 		File file=new File(path+"/WaterPhoto/");
 		if(!file.exists()){

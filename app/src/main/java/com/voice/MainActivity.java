@@ -123,8 +123,8 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
 		
 		mDeynaimic.performClick();
 
-		File dir = new File("data/data/com.qq/databases"); 
-		File res = new File("data/data/com.qq/video"); 
+		File dir = new File("data/data/com.voice/databases");
+		File res = new File("data/data/com.voice/video");
 		System.out.println("创建数据库。。。。");
 	    if (!dir.exists()){ 
 	    	try{
