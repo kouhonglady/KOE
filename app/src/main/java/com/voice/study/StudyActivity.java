@@ -220,6 +220,51 @@ public class StudyActivity extends TabActivity implements OnClickListener {
             //tv.setTextColor(this.getResources().getColorStateList(android.R.color.white));
         }
 
+        tabHost.setOnTabChangedListener(new TabHost.OnTabChangeListener(){
+            public void onTabChanged(String tabId) {
+                if (tabId.equals("tab1")) {   //第一个标签
+                    //tab1
+                    example.setVisibility(View.VISIBLE);
+                    playexample.setVisibility(View.VISIBLE);
+                    //tab2
+                    you.setVisibility(View.     INVISIBLE);
+                    playyours.setVisibility(View.INVISIBLE);
+                    watchyou.setVisibility(View.INVISIBLE);
+                    //tab3
+                    waveSfv.setVisibility(View.INVISIBLE);
+                    swichwavebtn.setVisibility(View.INVISIBLE);
+                    playwave.setVisibility(View.INVISIBLE);
+
+                }
+                if (tabId.equals("tab2")) {   //第二个标签
+                    //tab1
+                    example.setVisibility(View.INVISIBLE);
+                    playexample.setVisibility(View.INVISIBLE);
+                    //tab2
+                    you.setVisibility(View. VISIBLE);
+                    playyours.setVisibility(View.VISIBLE);
+                    watchyou.setVisibility(View.VISIBLE);
+                    //tab3
+                    waveSfv.setVisibility(View.INVISIBLE);
+                    swichwavebtn.setVisibility(View.INVISIBLE);
+                    playwave.setVisibility(View.INVISIBLE);
+                }
+                if (tabId.equals("tab3")) {   //第三个标签
+                    //tab1
+                    example.setVisibility(View.INVISIBLE);
+                    playexample.setVisibility(View.INVISIBLE);
+                    //tab2
+                    you.setVisibility(View. INVISIBLE);
+                    playyours.setVisibility(View.INVISIBLE);
+                    watchyou.setVisibility(View.INVISIBLE);
+                    //tab3
+                    waveSfv.setVisibility(View.VISIBLE);
+                    swichwavebtn.setVisibility(View.VISIBLE);
+                    playwave.setVisibility(View.VISIBLE);
+                }
+            }
+        });
+
         mActivity = StudyActivity.this;
         // Set the application-wide context global, if not already set
         Context myContext = Globals.getContext();
@@ -283,6 +328,8 @@ public class StudyActivity extends TabActivity implements OnClickListener {
 
 
     }
+
+
 
     public void onClick(View v) {
         Log.i("3", "3");

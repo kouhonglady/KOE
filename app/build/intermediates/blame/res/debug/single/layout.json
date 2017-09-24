@@ -1,15 +1,19 @@
 [
     {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_layout.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\widget_layout.xml"
+    },
+    {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ll_bottom.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\ll_bottom.xml"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page2.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\water_camera_page2.xml"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
@@ -24,10 +28,6 @@
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\study.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_phone.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\activity_register_phone.xml"
-    },
-    {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mine.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\fragment_mine.xml"
     },
@@ -36,8 +36,460 @@
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\activity_fragment.xml"
     },
     {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_loading_view.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\common_loading_view.xml"
+    },
+    {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_code_scan.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\fragment_news_code_scan.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\residemenu.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hornor.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\activity_hornor.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\tiezi_item.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\tiezi_item.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_header.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\xlistview_header.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page2.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\water_camera_page2.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page3.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\water_camera_page3.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_item.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\fragment_news_item.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_head_view.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\fragment_constact_head_view.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\test.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bdspeech_digital_layout.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\bdspeech_digital_layout.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_feedback.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\sidebar_feedback.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_xl.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\common_search_xl.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_group.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\fragment_constact_group.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hf_item.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\hf_item.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_code_scan.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\fragment_news_code_scan.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_characterset.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\sidebar_characterset.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bdspeech_digital_layout.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\bdspeech_digital_layout.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_qq_friend.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\fragment_qq_friend.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page1.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\water_camera_page1.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_set.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\sidebar_set.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hornor.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\activity_hornor.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page4.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\water_camera_page4.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_qq_constact.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\activity_qq_constact.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_qq_constact.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\activity_qq_constact.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_x.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\common_search_x.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bdspeech_suggestion_item.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\bdspeech_suggestion_item.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_difficulitychoice.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\activity_difficulitychoice.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dynamic.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\fragment_dynamic.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_url_textview.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\common_url_textview.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_l.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\common_search_l.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_call.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\fragment_news_call.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_camera.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\fragment_news_camera.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_call.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\fragment_news_call.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_header.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\xlistview_header.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\residemenu.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_fragment.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\activity_fragment.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_scan.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\dialog_scan.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_phone_constacts_item.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\fragment_phone_constacts_item.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_userinfo.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\activity_register_userinfo.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\studychoice.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\studychoice.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_xxl.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\common_search_xxl.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_mine.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\fragment_mine.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bbs_list.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\bbs_list.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_listitem.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\sidebar_listitem.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_layout.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\widget_layout.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head_change.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\head_change.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_father.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\fragment_news_father.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ll_bottom.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\ll_bottom.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bbs_main.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\activity_bbs_main.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_exit.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\app_exit.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\fragment_constact.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page3.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\water_camera_page3.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_feedback.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\sidebar_feedback.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\studychoice.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\studychoice.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_footer.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\refresh_footer.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_group.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\fragment_constact_group.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_phone_constact.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\fragment_phone_constact.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_title_bar.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\common_title_bar.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_test.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\activity_test.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pc_connect_wifi.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\pc_connect_wifi.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hf_item.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\hf_item.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_xl.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\common_search_xl.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ll_bottom.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\ll_bottom.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page2.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\water_camera_page2.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pc_connect_wifi.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\pc_connect_wifi.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_qq_item.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\fragment_news_qq_item.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_phone.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\activity_register_phone.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_result.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\activity_register_result.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_head_view.xml",
@@ -48,24 +500,32 @@
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\fragment_news_qq_item.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_header.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\xlistview_header.xml"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\changeinfo.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\changeinfo.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_set.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\sidebar_set.xml"
     },
     {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_father.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\fragment_constact_father.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bbs_main.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\activity_bbs_main.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page3.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\water_camera_page3.xml"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_webview.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\activity_webview.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_bookcover.xml",
@@ -76,12 +536,28 @@
         "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\ll_pop.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\ll_pop.xml"
+    },
+    {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
         "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bbs_list.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\bbs_list.xml"
+    },
+    {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\head_change.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\head_change.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_child.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\fragment_constact_child.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_footer.xml",
@@ -96,8 +572,12 @@
         "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\notification_template_custom_big.xml"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_setplan.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\sidebar_setplan.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
@@ -108,28 +588,28 @@
         "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\test.xml"
-    },
-    {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_father.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\fragment_constact_father.xml"
-    },
-    {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_feedback.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\sidebar_feedback.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
         "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_xl.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\common_search_xl.xml"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_group.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\fragment_constact_group.xml"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu_item.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\residemenu_item.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu_item.xml",
@@ -142,6 +622,18 @@
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_pop.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\fragment_news_pop.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_qq_friend.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\fragment_qq_friend.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_scan.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\dialog_scan.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bbs.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\fragment_bbs.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_qq_constact.xml",
@@ -168,44 +660,52 @@
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\tiezi_item.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\fragment_main.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bdspeech_digital_layout.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\bdspeech_digital_layout.xml"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_exit.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\app_exit.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bdspeech_suggestion_item.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\bdspeech_suggestion_item.xml"
     },
     {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_url_textview.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\common_url_textview.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\fragment_news.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\fragment_news.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_qq_friend.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\fragment_qq_friend.xml"
-    },
-    {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
         "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_phone.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\activity_register_phone.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page4.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\water_camera_page4.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page1.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\water_camera_page1.xml"
-    },
-    {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_action_mode_bar.xml"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact_child.xml",
@@ -216,72 +716,64 @@
         "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\list_item.xml"
-    },
-    {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_listitem.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\sidebar_listitem.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hornor.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\activity_hornor.xml"
+        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list_item.xml",
+        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\list_item.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\study.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\study.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_main.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\fragment_main.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_welcome.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\activity_welcome.xml"
-    },
-    {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_x.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\common_search_x.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_qq_constact.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\activity_qq_constact.xml"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_head.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\refresh_head.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page1.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\water_camera_page1.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_title_bar.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\common_title_bar.xml"
     },
     {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
         "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_bookcover.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\sidebar_bookcover.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_l.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\common_search_l.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_call.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\fragment_news_call.xml"
-    },
-    {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_characterset.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\sidebar_characterset.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_dialog_title_material.xml"
-    },
-    {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_camera.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\fragment_news_camera.xml"
-    },
-    {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list5.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\list5.xml"
-    },
-    {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\notification_template_icon_group.xml"
-    },
-    {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
@@ -296,56 +788,48 @@
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\activity_test.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\residemenu.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\residemenu.xml"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_father.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\fragment_news_father.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_pop.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\fragment_news_pop.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\changeinfo.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\changeinfo.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list5.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\list5.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
         "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page5.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\water_camera_page5.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_scan.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\dialog_scan.xml"
-    },
-    {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_userinfo.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\activity_register_userinfo.xml"
-    },
-    {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_xxl.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\common_search_xxl.xml"
-    },
-    {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
-        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
-    },
-    {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_alert_dialog_material.xml"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_phone_constact.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\fragment_phone_constact.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_webview.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\activity_webview.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_footer.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\refresh_footer.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\xlistview_footer.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\xlistview_footer.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_userinfo.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\activity_register_userinfo.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
@@ -356,40 +840,28 @@
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\fragment_news_item.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\bbs_list.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\bbs_list.xml"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_waterphoto_save.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\fragment_news_waterphoto_save.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\widget_layout.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\widget_layout.xml"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bbs.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\fragment_bbs.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_father.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\fragment_news_father.xml"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page5.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\water_camera_page5.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_result.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\activity_register_result.xml"
-    },
-    {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_exit.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\app_exit.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
@@ -400,28 +872,28 @@
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\common_loading_view.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\fragment_constact.xml"
-    },
-    {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list4.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\list4.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
         "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\test.xml"
+    },
+    {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_setplan.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\sidebar_setplan.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\studychoice.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\studychoice.xml"
-    },
-    {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_footer.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\refresh_footer.xml"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_qq_constact.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\fragment_qq_constact.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
@@ -432,28 +904,36 @@
         "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_constact.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\fragment_constact.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list4.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\list4.xml"
+    },
+    {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\refresh_head.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\refresh_head.xml"
     },
     {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_camera.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\fragment_news_camera.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_dynamic.xml",
         "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\fragment_dynamic.xml"
     },
     {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_xxl.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\common_search_xxl.xml"
+    },
+    {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
         "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
-    },
-    {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_phone_constact.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\fragment_phone_constact.xml"
-    },
-    {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
-        "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\notification_action.xml"
     },
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_phone_constacts_item.xml",
@@ -462,13 +942,5 @@
     {
         "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
         "source": "C:\\Users\\hcc11_000\\.android\\build-cache\\f3cd8f868160ab4e382d0db28c7009623e5e06ae\\output\\res\\layout\\notification_template_media.xml"
-    },
-    {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\pc_connect_wifi.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\pc_connect_wifi.xml"
-    },
-    {
-        "merged": "E:\\tyb\\KOE_9.16\\app\\build\\intermediates\\res\\merged\\debug\\layout\\hf_item.xml",
-        "source": "E:\\tyb\\KOE_9.16\\app\\src\\main\\res\\layout\\hf_item.xml"
     }
 ]
