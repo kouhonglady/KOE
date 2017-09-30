@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/list_item"
+                android:padding="5dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bbs_a_group_linear_layout">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/bbs_head_iamge_view"
+                app:srcCompat="@drawable/bbs_head"
+                android:layout_width="55dp"
+
+                android:layout_marginLeft="2dp"
+                android:layout_height="55dp"/>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/author_time_linear_layout"
+    android:orientation="vertical">
+    <TextView
+        android:text="author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bbs_author_text_view"
+
+        android:layout_marginLeft="2dp"
+        android:layout_weight="1"
+        android:layout_marginTop="15dp"
+        android:textSize="16sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="2dp"
+        android:id="@+id/bbs_time_text_view"
+        android:textSize="10sp"
+        android:text="time"/>
+
+</LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bbs_title_text_view"
+            android:textStyle="bold"
+            android:text="title"
+            android:textSize="16sp"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:text="abstract"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bbs_abstract_text_View"
+            android:layout_marginLeft="5dp"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/time_hot_reply"
+            android:layout_marginLeft="0dp">
+
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/bbs_like"
+                android:id="@+id/bbs_like_image_view"
+                android:layout_weight="0.03"/>
+
+            <TextView
+                android:text="hot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_hot_text_view"
+                android:layout_weight="0.3"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/bbs_mail"
+                android:id="@+id/bbs_reply_image_view"
+                android:layout_weight="0.03"/>
+
+            <TextView
+                android:text="reply"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_reply_text_view"
+
+                android:layout_marginLeft="2dp"
+                android:layout_weight="0.3"/>
+
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bbs_comment_edit_text"
+            android:text="评论"
+            android:textSize="16sp"
+            android:background="@drawable/bbs_comment_bg"
+            android:layout_marginBottom="2dp"/>
+
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/bbs_line"
+        android:id="@+id/bbs_line_image_view"
+        android:layout_below="@+id/bbs_a_group_linear_layout"
+        android:layout_marginBottom="5dp"/>
+
+
+</RelativeLayout>

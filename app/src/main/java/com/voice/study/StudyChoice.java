@@ -64,8 +64,8 @@ public class StudyChoice extends TabActivity implements TabHost.TabContentFactor
         ll.setOrientation(LinearLayout.VERTICAL);
         TextView tv = new TextView(this);
         tv.setTextColor(Color.WHITE);
-        tv.setTextSize(40);
-        tv.setBackgroundDrawable(this.getResources().getDrawable(R.drawable.main_budget_lv_header));
+        tv.setTextSize(5);
+        //tv.setBackgroundDrawable(this.getResources().getDrawable(R.drawable.main_budget_lv_header));
         ll.addView(tv);
    	 ll.addView(lv);
    	 
@@ -74,7 +74,7 @@ public class StudyChoice extends TabActivity implements TabHost.TabContentFactor
    	 SimpleAdapter adapterStudid = new SimpleAdapter(this, getData(tag), R.layout.list4, new String[]{"label","image"}, new int[]{R.id.label,R.id.list4_image});
         
           if(tag.equals("all")){
-       	   tv.setText("    所有");
+       	   //tv.setText("    所有");
        	   lv.setAdapter(adapterAll);
               lv.setOnItemClickListener(new OnItemClickListener(){
 
@@ -97,7 +97,7 @@ public class StudyChoice extends TabActivity implements TabHost.TabContentFactor
               
           }
           else if(tag.equals("studid")){
-       	   tv.setText("    未学");
+       	   //tv.setText("    未学");
            	 lv.setAdapter(adapterStudid);
                 lv.setOnItemClickListener(new OnItemClickListener(){
 

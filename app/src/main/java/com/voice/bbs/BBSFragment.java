@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -115,12 +116,13 @@ public class BBSFragment extends Fragment{
         private ImageView mBBSLineImageView;
         private ImageView mBBSMailImageView;
         private TextView mBBSTitleTextView;
-        private TextView mBBSUrlTextView;
+        //private TextView mBBSUrlTextView;
         private TextView mBBSTimeTextView;
         private TextView mBBSAuthorTextView;
         private TextView mBBSAbstractTextView;
         private TextView mBBSHotTextView;
         private TextView mBBSReplyTextView;
+        private EditText mBBSAddComEditView;
         private BBS thisBBS;
         private WebView mWebView;
         private String BBS_URL ="BBS_URL";
@@ -135,13 +137,14 @@ public class BBSFragment extends Fragment{
             mBBSMailImageView=(ImageView) itemView.findViewById(R.id.bbs_reply_image_view);
 
             mBBSTitleTextView= (TextView) itemView.findViewById(R.id.bbs_title_text_view);
-            mBBSUrlTextView= (TextView) itemView.findViewById(R.id.bbs_href_text_view);
+           // mBBSUrlTextView= (TextView) itemView.findViewById(R.id.bbs_href_text_view);
             mBBSTimeTextView= (TextView) itemView.findViewById(R.id.bbs_time_text_view);
 
             mBBSAuthorTextView= (TextView) itemView.findViewById(R.id.bbs_author_text_view);
             mBBSAbstractTextView= (TextView) itemView.findViewById(R.id.bbs_abstract_text_View);
             mBBSHotTextView= (TextView) itemView.findViewById(R.id.bbs_hot_text_view);
             mBBSReplyTextView= (TextView) itemView.findViewById(R.id.bbs_reply_text_view);
+            mBBSAddComEditView= (EditText) itemView.findViewById(R.id.bbs_comment_edit_text);
         }
 
         public void bindBBS(BBS bbs){
@@ -173,7 +176,7 @@ public class BBSFragment extends Fragment{
             mBBSMailImageView.setImageDrawable(getResources().getDrawable(R.drawable.bbs_mail));
             mBBSTimeTextView.setText(bbs.getBBSTime());
             mBBSTitleTextView.setText(bbs.getBBSTitle());
-            mBBSUrlTextView.setText(bbs.getBBSUrl());
+            //mBBSUrlTextView.setText(bbs.getBBSUrl());
             mBBSAuthorTextView.setText(bbs.getBBSAuthor());
             mBBSAbstractTextView.setText(bbs.getBBSAbstract());
             mBBSHotTextView.setText(bbs.getBBSHot());

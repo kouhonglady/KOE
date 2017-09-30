@@ -1,11 +1,15 @@
 <component name="libraryTable">
   <library name="appcompat-v7-26.0.0-alpha1">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.android/build-cache/72c4a6d5adb8b15ff7644784bc89aedb673b732a/output/annotations.zip!/" />
+    </ANNOTATIONS>
     <CLASSES>
-      <root url="file://$USER_HOME$/.android/build-cache/7012788fa8db1fbf1918c7757a1e0c3128842fdf/output/res" />
-      <root url="jar://$USER_HOME$/.android/build-cache/7012788fa8db1fbf1918c7757a1e0c3128842fdf/output/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.android/build-cache/72c4a6d5adb8b15ff7644784bc89aedb673b732a/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/72c4a6d5adb8b15ff7644784bc89aedb673b732a/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
+      <root url="jar://D:/Unity/AndroidStudio/AndroidSdk/extras/android/m2repository/com/android/support/appcompat-v7/26.0.0-alpha1/appcompat-v7-26.0.0-alpha1-sources.jar!/" />
       <root url="jar://F:/Users/double/AppData/Local/Android/sdk/extras/android/m2repository/com/android/support/appcompat-v7/26.0.0-alpha1/appcompat-v7-26.0.0-alpha1-sources.jar!/" />
     </SOURCES>
   </library>

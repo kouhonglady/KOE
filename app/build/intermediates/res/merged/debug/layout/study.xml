@@ -289,6 +289,19 @@
                                 android:layout_width="fill_parent"
                                 android:layout_height="120dp" />
                         </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <com.cokus.wavelibrary.view.WaveSurfaceView
+                                android:id="@+id/wavesfv_exmple"
+                                android:layout_width="fill_parent"
+                                android:layout_height="120dp"/>
+                            <com.cokus.wavelibrary.view.WaveformView
+                                android:id="@+id/waveview_example"
+                                android:visibility="invisible"
+                                android:layout_width="fill_parent"
+                                android:layout_height="120dp" />
+                        </RelativeLayout>
 
                         <TextView
                             android:layout_marginLeft="10dp"
@@ -321,7 +334,7 @@
                                     android:layout_gravity="center_horizontal"
                                     android:layout_marginLeft="10dp"
                                     android:background="#ffffff"
-                                    android:src="@drawable/captureyours" />
+                                    android:src="@drawable/wave_start" />
                                 <!--录制口型-->
                             </RelativeLayout>
 
@@ -339,7 +352,7 @@
                                     android:layout_marginLeft="15dp"
                                     android:layout_marginRight="10dp"
                                     android:background="#ffffff"
-                                    android:src="@drawable/watchyours" />
+                                    android:src="@drawable/wave_play" />
                                 <!--你的口型-->
                             </RelativeLayout>
 
