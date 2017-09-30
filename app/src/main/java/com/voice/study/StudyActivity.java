@@ -141,6 +141,8 @@ public class StudyActivity extends TabActivity implements OnClickListener {
     private ImageButton watchyou;
     private WaveSurfaceView waveSfv;
     private WaveformView waveView;
+    private WaveSurfaceView waveSfvExm;
+    private WaveformView waveViewExm;
     private ImageButton swichwavebtn;
     private TextView status;
     private ImageButton playwave;
@@ -159,6 +161,9 @@ public class StudyActivity extends TabActivity implements OnClickListener {
     private AudioRecord audioRecord;
     private WaveCanvas waveCanvas;
     private String mFileName = "test";
+    private File yourWaveFile;
+    private File exampleWaveFile;
+    SamplePlayer mPlayer;
 
     public StudyActivity() {
     }
@@ -193,7 +198,14 @@ public class StudyActivity extends TabActivity implements OnClickListener {
             waveSfv.setZOrderOnTop(true);
             waveSfv.getHolder().setFormat(PixelFormat.TRANSLUCENT);
         }
-        waveView.setLine_offset(42);
+        waveViewExm.setLine_offset(42);
+        if(waveSfvExm != null) {
+            waveSfvExm.setLine_off(42);
+            //解决surfaceView黑色闪动效果
+            waveSfvExm.setZOrderOnTop(true);
+            waveSfvExm.getHolder().setFormat(PixelFormat.TRANSLUCENT);
+        }
+        waveViewExm.setLine_offset(42);
         //initPermission();
 
 
@@ -232,6 +244,7 @@ public class StudyActivity extends TabActivity implements OnClickListener {
                     watchyou.setVisibility(View.INVISIBLE);
                     //tab3
                     waveSfv.setVisibility(View.INVISIBLE);
+                    waveSfvExm.setVisibility(View.INVISIBLE);
                     swichwavebtn.setVisibility(View.INVISIBLE);
                     playwave.setVisibility(View.INVISIBLE);
 
@@ -246,6 +259,7 @@ public class StudyActivity extends TabActivity implements OnClickListener {
                     watchyou.setVisibility(View.VISIBLE);
                     //tab3
                     waveSfv.setVisibility(View.INVISIBLE);
+                    waveSfvExm.setVisibility(View.INVISIBLE);
                     swichwavebtn.setVisibility(View.INVISIBLE);
                     playwave.setVisibility(View.INVISIBLE);
                 }
@@ -259,6 +273,7 @@ public class StudyActivity extends TabActivity implements OnClickListener {
                     watchyou.setVisibility(View.INVISIBLE);
                     //tab3
                     waveSfv.setVisibility(View.VISIBLE);
+                    waveSfvExm.setVisibility(View.INVISIBLE);
                     swichwavebtn.setVisibility(View.VISIBLE);
                     playwave.setVisibility(View.VISIBLE);
                 }
@@ -279,6 +294,7 @@ public class StudyActivity extends TabActivity implements OnClickListener {
                     waveSfv.setVisibility(View.INVISIBLE);
                     swichwavebtn.setVisibility(View.INVISIBLE);
                     playwave.setVisibility(View.INVISIBLE);
+                    waveSfvExm.setVisibility(View.INVISIBLE);
 
                 }
                 if (tabId.equals("tab2")) {   //第二个标签
@@ -291,6 +307,7 @@ public class StudyActivity extends TabActivity implements OnClickListener {
                     watchyou.setVisibility(View.VISIBLE);
                     //tab3
                     waveSfv.setVisibility(View.INVISIBLE);
+                    waveSfvExm.setVisibility(View.INVISIBLE);
                     swichwavebtn.setVisibility(View.INVISIBLE);
                     playwave.setVisibility(View.INVISIBLE);
                 }
@@ -304,6 +321,7 @@ public class StudyActivity extends TabActivity implements OnClickListener {
                     watchyou.setVisibility(View.INVISIBLE);
                     //tab3
                     waveSfv.setVisibility(View.VISIBLE);
+                    waveSfvExm.setVisibility(View.VISIBLE);
                     swichwavebtn.setVisibility(View.VISIBLE);
                     playwave.setVisibility(View.VISIBLE);
                 }
@@ -351,6 +369,8 @@ public class StudyActivity extends TabActivity implements OnClickListener {
         this.playexample = (ImageButton) this.findViewById(R.id.playexample);
         this.waveSfv=(WaveSurfaceView)this.findViewById(R.id.wavesfv);
         this.waveView=(WaveformView)this.findViewById(R.id.waveview);
+        this.waveSfvExm=(WaveSurfaceView)this.findViewById(R.id.wavesfv_exmple);
+        this.waveViewExm=(WaveformView)this.findViewById(R.id.waveview_example);
         this.playwave=(ImageButton)this.findViewById(R.id.play_wave);
         this.status=(TextView)this.findViewById(R.id.status);
         this.swichwavebtn=(ImageButton)this.findViewById(R.id.switch_wave);
@@ -405,7 +425,8 @@ public class StudyActivity extends TabActivity implements OnClickListener {
             String VideoUri = "android.resource://" + getPackageName() + "/" + exampleid;
             VeidoPlay(VideoUri);
         }else if(v==playwave){
-            onPlay(0);//播放 从头开始播放
+                onPlay(0);//播放 从头开始播放
+            //onPlay(0,waveViewExm);
         }else if(v==swichwavebtn){
             if (waveCanvas == null || !waveCanvas.isRecording) {
                 status.setText("录音中...");
@@ -420,7 +441,15 @@ public class StudyActivity extends TabActivity implements OnClickListener {
                 //swichwavebtn.setText("开始录音");
                 waveCanvas.Stop();
                 waveCanvas = null;
-                initWaveView();
+                yourWaveFile=new File(U.DATA_DIRECTORY + mFileName + ".wav");
+
+                try {
+                    initWaveView();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                } catch (SoundFile.InvalidInputException e) {
+                    e.printStackTrace();
+                }
             }
         }
         Log.i("3", "3");
@@ -657,17 +686,18 @@ public class StudyActivity extends TabActivity implements OnClickListener {
                     URL url=new URL(furl);
                     HttpURLConnection conn=(HttpURLConnection)url.openConnection();
                     //取得inputStream，并将流中的信息写入SDCard
-                    File file=new File(filename);
+                    exampleWaveFile=new File(filename);
+                    //File file=new File(filename);
                     conn.setDoInput(true);
                     conn.setDoOutput(true);
                     conn.connect();
                     InputStream input=conn.getInputStream();
-                    if(file.exists()){
+                    if(exampleWaveFile.exists()){
                         System.out.println(filename+"已存在！");
                         return;
                     }else {
-                        file.createNewFile();
-                        output=new FileOutputStream(file);
+                        exampleWaveFile.createNewFile();
+                        output=new FileOutputStream(exampleWaveFile);
                         byte[] buffer=new byte[4*1024];
                         while (input.read(buffer)!=-1){
                             output.write(buffer);
@@ -675,10 +705,14 @@ public class StudyActivity extends TabActivity implements OnClickListener {
                         output.flush();
                         input.close();
                         output.close();
+                        SoundFile es=SoundFile.create(exampleWaveFile.getAbsolutePath(),null);
+                        loadFromFile(es,waveSfvExm,waveViewExm);
                     }
                 } catch (MalformedURLException e) {
                     e.printStackTrace();
                 } catch (IOException e) {
+                    e.printStackTrace();
+                } catch (SoundFile.InvalidInputException e) {
                     e.printStackTrace();
                 }
             }
@@ -723,31 +757,35 @@ public class StudyActivity extends TabActivity implements OnClickListener {
         Context context = getApplicationContext();
         viewGroup = (ViewGroup) findViewById(R.id.parent_view);
     }
-    private void  initWaveView(){
-        loadFromFile();
+    private void  initWaveView() throws IOException, SoundFile.InvalidInputException {
+        SoundFile ys=SoundFile.create(yourWaveFile.getAbsolutePath(),null);
+        SoundFile es=SoundFile.create(exampleWaveFile.getAbsolutePath(),null);
+        loadFromFile(ys,waveSfv,waveView);
+        loadFromFile(es,waveSfvExm,waveViewExm);
+        mPlayer = new SamplePlayer(ys);
     }
-    File mFile;
+    //File mFile;
     Thread mLoadSoundFileThread;
-    SoundFile mSoundFile;
+    //SoundFile mSoundFile;
     boolean mLoadingKeepGoing;
-    SamplePlayer mPlayer;
-    private void loadFromFile() {
+
+    private void loadFromFile(final SoundFile mSoundFile,final WaveSurfaceView ws,final WaveformView wv) {
         try {
             Thread.sleep(300);//让文件写入完成后再载入波形 适当的休眠下
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        mFile = new File(U.DATA_DIRECTORY + mFileName + ".wav");
+        //mFile = new File(U.DATA_DIRECTORY + mFileName + ".wav");
         mLoadingKeepGoing = true;
         // Load the sound file in a background thread
         mLoadSoundFileThread = new Thread() {
             public void run() {
                 try {
-                    mSoundFile = SoundFile.create(mFile.getAbsolutePath(),null);
+                    //mSoundFile = SoundFile.create(mFile.getAbsolutePath(),null);
                     if (mSoundFile == null) {
                         return;
                     }
-                    mPlayer = new SamplePlayer(mSoundFile);
+                    //mPlayer = new SamplePlayer(mSoundFile);
                 } catch (final Exception e) {
                     e.printStackTrace();
                     return;
@@ -755,9 +793,9 @@ public class StudyActivity extends TabActivity implements OnClickListener {
                 if (mLoadingKeepGoing) {
                     Runnable runnable = new Runnable() {
                         public void run() {
-                            finishOpeningSoundFile();
-                            waveSfv.setVisibility(View.INVISIBLE);
-                            waveView.setVisibility(View.VISIBLE);
+                            finishOpeningSoundFile(mSoundFile,wv);
+                            ws.setVisibility(View.INVISIBLE);
+                            wv.setVisibility(View.VISIBLE);
                         }
                     };
                     StudyActivity.this.runOnUiThread(runnable);
@@ -770,12 +808,12 @@ public class StudyActivity extends TabActivity implements OnClickListener {
 
     float mDensity;
     /**waveview载入波形完成*/
-    private void finishOpeningSoundFile() {
-        waveView.setSoundFile(mSoundFile);
+    private void finishOpeningSoundFile(SoundFile mSoundFile,WaveformView wv) {
+        wv.setSoundFile(mSoundFile);
         DisplayMetrics metrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(metrics);
         mDensity = metrics.density;
-        waveView.recomputeHeights(mDensity);
+        wv.recomputeHeights(mDensity);
     }
     /**
      * 开始录音
@@ -874,7 +912,6 @@ public class StudyActivity extends TabActivity implements OnClickListener {
         msg.what = UPDATE_WAV;
         updateTime.sendMessage(msg);
     }
-
     Handler updateTime = new Handler() {
         public void handleMessage(Message msg) {
             updateDisplay();
@@ -897,7 +934,7 @@ public class StudyActivity extends TabActivity implements OnClickListener {
         }else{
             waveView.setPlayFinish(0);
         }
-        waveView.invalidate();//刷新真个视图
+        waveView.invalidate();//刷新整个视图
     }
     @Override
     protected void onDestroy() {

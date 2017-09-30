@@ -289,6 +289,19 @@
                                 android:layout_width="fill_parent"
                                 android:layout_height="120dp" />
                         </RelativeLayout>
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <com.cokus.wavelibrary.view.WaveSurfaceView
+                                android:id="@+id/wavesfv_exmple"
+                                android:layout_width="fill_parent"
+                                android:layout_height="120dp"/>
+                            <com.cokus.wavelibrary.view.WaveformView
+                                android:id="@+id/waveview_example"
+                                android:visibility="invisible"
+                                android:layout_width="fill_parent"
+                                android:layout_height="120dp" />
+                        </RelativeLayout>
 
                         <TextView
                             android:layout_marginLeft="10dp"
