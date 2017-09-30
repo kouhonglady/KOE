@@ -431,6 +431,7 @@ public class StudyActivity extends TabActivity implements OnClickListener {
             if (waveCanvas == null || !waveCanvas.isRecording) {
                 status.setText("录音中...");
                 //swichwavebtn.setText("停止录音");
+                swichwavebtn.setImageDrawable(getResources().getDrawable(R.drawable.wave_stop));
                 waveSfv.setVisibility(View.VISIBLE);
                 waveView.setVisibility(View.INVISIBLE);
                 initAudio();
@@ -439,6 +440,7 @@ public class StudyActivity extends TabActivity implements OnClickListener {
             } else {
                 status.setText("停止录音");
                 //swichwavebtn.setText("开始录音");
+                swichwavebtn.setImageDrawable(getResources().getDrawable(R.drawable.wave_start));
                 waveCanvas.Stop();
                 waveCanvas = null;
                 yourWaveFile=new File(U.DATA_DIRECTORY + mFileName + ".wav");

@@ -334,7 +334,7 @@
                                     android:layout_gravity="center_horizontal"
                                     android:layout_marginLeft="10dp"
                                     android:background="#ffffff"
-                                    android:src="@drawable/captureyours" />
+                                    android:src="@drawable/wave_start" />
                                 <!--录制口型-->
                             </RelativeLayout>
 
@@ -352,7 +352,7 @@
                                     android:layout_marginLeft="15dp"
                                     android:layout_marginRight="10dp"
                                     android:background="#ffffff"
-                                    android:src="@drawable/watchyours" />
+                                    android:src="@drawable/wave_play" />
                                 <!--你的口型-->
                             </RelativeLayout>
 
