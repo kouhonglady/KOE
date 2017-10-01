@@ -64,8 +64,8 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
        
 
         // create menu items;
-        String titles[] = { "我的计划", "个性学习", "关于"};
-        int icon[] = { R.drawable.sidebar_icon_home, R.drawable.sidebar_icon_profile, R.drawable.sidebar_icon_calendar, R.drawable.sidebar_icon_settings };
+        String titles[] = { "我的计划", "个性学习", "我的收藏","个性设置","VIP特权","关于"};
+        int icon[] = { R.drawable.sidebar_icon_plan_64, R.drawable.sidebar_icon_profile, R.drawable.sidebar_icon_collect,R.drawable.sidebar_icon_individual,R.drawable.sidebar_icon_vip,R.drawable.sidebar_icon_calendar, R.drawable.sidebar_icon_settings };
 
         for ( int i = 0; i < titles.length; i++){
             ResideMenuItem item = new ResideMenuItem(this, icon[i], titles[i],i);
@@ -81,7 +81,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
         					Intent intent = new Intent(mContext, Characterset.class);
         					startActivity(intent);
         						}	
-    				    if(temp==2){
+    				    if(temp==5){
         					Intent intent = new Intent(mContext, Feedback.class);
         					startActivity(intent);
         						}	

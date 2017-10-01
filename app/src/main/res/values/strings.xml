@@ -119,13 +119,33 @@
     <string name="xlistview_footer_hint_ready">松开载入更多</string>
     
      <string name="about">关于</string>
-    <string name="introduce">\n\t软件名称：Voice-听障人士学说话助手</string>
-    <string name="introduce2">\n\t开发团队：Voice项目组</string>
-    <string name="introduce3">\n\t软件说明：Voice适用于发音器官正常的听障人士</string>
-    <string name="introduce4">\n\t\t\t\t\t\t分为4个功能模块：</string>
-    <string name="introduce5">\n\t\t\t\t\t\t学习模块、娱乐模块</string>
-    <string name="introduce6">\n\t\t\t\t\t\t社区模块、用户模块\n\n\n</string>
+    <string name="introduce">\n软件名称：声之形-基于声波图形的发音矫正软件</string>
+    <string name="introduce2">\n开发团队：VoiceTalker</string>
+    <string name="introduce3">\n软件说明：适用于发音器官正常的听障人士</string>
+    <string name="introduce4">\n分为4个功能模块：</string>
+    <string name="introduce5">\n学习模块、娱乐模块</string>
+    <string name="introduce6">\n社区模块、用户模块</string>
       <string name="feedback">\n意见反馈网址:</string>
+
+    <string name="bbs_1_A_1">凌雪</string>
+    <string name="bbs_1_A_2">黄纯纯</string>
+    <string name="bbs_1_A_3">一骑红尘</string>
+    <string name="bbs_1_A_4">人气呆毛选手</string>
+    <string name="bbs_1_A_5">口红小姐</string>
+    <string name="bbs_1_A_6">HARUKI</string>
+    <string name="bbs_Q_1">:今天学的怎么样？</string>
+    <string name="bbs_Q_2">：今天天气很适合学习呀！</string>
+    <string name="bbs_Q_3">:约一起练习？</string>
+    <string name="bbs_Q_4">:厉害了呀</string>
+    <string name="bbs_Q_5">:佩服佩服</string>
+    <string name="bbs_Q_6">:改天叫我一起呀</string>
+    <string name="bbs_A_1">:一般啦</string>
+    <string name="bbs_A_2">:下次叫你一起</string>
+    <string name="bbs_A_3">:嘻嘻</string>
+    <string name="bbs_A_4">:再接再厉</string>
+    <string name="bbs_A_5">:互相加油吧</string>
+    <string name="bbs_A_6">:你也很厉害哟</string>
+
     
     
    

@@ -23,9 +23,9 @@
             <ImageView
                 android:id="@+id/bbs_head_iamge_view"
                 app:srcCompat="@drawable/bbs_head"
-                android:layout_width="55dp"
+                android:layout_width="50dp"
                 android:layout_marginLeft="2dp"
-                android:layout_height="55dp"/>
+                android:layout_height="50dp"/>
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -61,21 +61,25 @@
             android:textStyle="bold"
             android:text="title"
             android:textSize="16sp"
-            android:layout_marginLeft="5dp"/>
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"/>
 
         <TextView
             android:text="abstract"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/bbs_abstract_text_View"
-            android:layout_marginLeft="5dp"/>
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="3dp"/>
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:id="@+id/time_hot_reply"
-            android:layout_marginLeft="0dp">
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="3dp">
 
 
 
@@ -111,15 +115,78 @@
 
         </LinearLayout>
 
+        <ImageView
+            android:layout_width="match_parent"
+            app:srcCompat="@drawable/bbs_line"
+            android:id="@+id/bbs_line_before_comment"
+            android:src="@drawable/bbs_line"
+            android:layout_marginBottom="0dp"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bbs_1_comment_linear_layout"
+            android:orientation="horizontal">
+
+            <TextView
+                android:text="张大仙儿"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_comment_1_A"
+                android:textColor="@color/viewfinder_frame"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_1_comment_content"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bbs_2_comment_linear_layout"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:text="TextView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_comment_2_author"
+                android:textColor="@color/viewfinder_frame"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_2_comment_reply"
+                android:text="回复"
+                android:layout_marginLeft="2dp"
+                android:layout_marginRight="2dp"/>
+
+            <TextView
+                android:text="张大仙儿"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_comment_2_A"
+                android:textColor="@color/viewfinder_frame"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_2_comment_content"/>
+
+        </LinearLayout>
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/bbs_comment_edit_text"
-            android:text="评论"
+            android:text="  评论 "
             android:textSize="10sp"
             android:background="@drawable/bbs_comment_bg"
             android:layout_marginLeft="5dp"
-            android:layout_marginBottom="2dp"/>
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="3dp"/>
 
 
     </LinearLayout>

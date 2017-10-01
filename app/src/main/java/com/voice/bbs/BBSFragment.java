@@ -126,6 +126,11 @@ public class BBSFragment extends Fragment{
         private BBS thisBBS;
         private WebView mWebView;
         private String BBS_URL ="BBS_URL";
+        private TextView mBBSCommentOneA;
+        private TextView mBBSCommentOneContent;
+        private TextView mBBSCommentTwoAuthor;
+        private TextView mBBSCommentTwoA;
+        private TextView mBBSCommentTwoContent;
 
 
 
@@ -145,6 +150,12 @@ public class BBSFragment extends Fragment{
             mBBSHotTextView= (TextView) itemView.findViewById(R.id.bbs_hot_text_view);
             mBBSReplyTextView= (TextView) itemView.findViewById(R.id.bbs_reply_text_view);
             mBBSAddComEditView= (EditText) itemView.findViewById(R.id.bbs_comment_edit_text);
+
+            mBBSCommentOneA= (TextView) itemView.findViewById(R.id.bbs_comment_1_A);
+            mBBSCommentOneContent= (TextView) itemView.findViewById(R.id.bbs_1_comment_content);
+            mBBSCommentTwoAuthor= (TextView) itemView.findViewById(R.id.bbs_comment_2_author);
+            mBBSCommentTwoA= (TextView) itemView.findViewById(R.id.bbs_comment_2_A);
+            mBBSCommentTwoContent= (TextView) itemView.findViewById(R.id.bbs_2_comment_content);
         }
 
         public void bindBBS(BBS bbs){
@@ -153,17 +164,58 @@ public class BBSFragment extends Fragment{
             String bbs_head_name;
             int max=15;
             int min=0;
+            int mid=5;
             Random random=new Random();
             int i=random.nextInt(max)%(max-min+1)+min;
             bbs_head_name="bbs_head_"+i;
             System.out.println("bbs_head_name-------------"+i);
             System.out.println("bbs_head_name-----------------"+bbs_head_name);
 
+            int j=random.nextInt(mid)%(mid-min+1)+min;
+            String bbs_1_A_num="bbs_1_A_"+j;
+            String bbs_Q_num="bbs_Q_"+j;
+            String bbs_A_num="bbs_A_"+j;
+
             Class drawable=R.drawable.class;
             try {
                 Field field=drawable.getField(bbs_head_name);
                 int resId=field.getInt(field.getName());
                 mBBSHeadImageView.setImageResource(resId);
+            } catch (NoSuchFieldException e) {
+                e.printStackTrace();
+            } catch (IllegalAccessException e) {
+                e.printStackTrace();
+            }
+
+            Class bbs_1_A_string=R.string.class;
+            try {
+                Field OneAField=bbs_1_A_string.getField(bbs_1_A_num);
+                int OneAResId=OneAField.getInt(OneAField.getName());
+                mBBSCommentOneA.setText(OneAResId);
+                mBBSCommentTwoA.setText(OneAResId);
+            } catch (NoSuchFieldException e) {
+                e.printStackTrace();
+            } catch (IllegalAccessException e) {
+                e.printStackTrace();
+            }
+
+            Class bbs_Q_string=R.string.class;
+            try {
+                Field QField=bbs_Q_string.getField(bbs_Q_num);
+                int QResId=QField.getInt(QField.getName());
+                mBBSCommentOneContent.setText(QResId);
+            } catch (NoSuchFieldException e) {
+                e.printStackTrace();
+            } catch (IllegalAccessException e) {
+                e.printStackTrace();
+            }
+
+
+            Class bbs_A_string=R.string.class;
+            try {
+                Field AField=bbs_A_string.getField(bbs_A_num);
+                int AResId=AField.getInt(AField.getName());
+                mBBSCommentTwoContent.setText(AResId);
             } catch (NoSuchFieldException e) {
                 e.printStackTrace();
             } catch (IllegalAccessException e) {
@@ -181,6 +233,7 @@ public class BBSFragment extends Fragment{
             mBBSAbstractTextView.setText(bbs.getBBSAbstract());
             mBBSHotTextView.setText(bbs.getBBSHot());
             mBBSReplyTextView.setText(bbs.getBBSReply());
+            mBBSCommentTwoAuthor.setText(bbs.getBBSAuthor());
             itemView.setOnClickListener(this);
         }
 
