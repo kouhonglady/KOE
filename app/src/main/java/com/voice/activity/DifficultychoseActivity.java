@@ -82,6 +82,7 @@ public class DifficultychoseActivity extends Activity {
                 } else if (checkedId == hard.getId()) {
                     result.setText("困难");
                     difficultyId = 3;
+
                 }
             }
         });
