@@ -2,7 +2,7 @@ package com.voice;
 
 public class Hornor {
 	private static int studynum=0;
-	private static String date="";
+	private static String date="暂无";
 	private static int grade=0;
 	private static int testnum=0;
 	private static int bbsnum=0;
@@ -13,6 +13,14 @@ public class Hornor {
 		this.testnum=testnum;
 		this.bbsnum=bbsnum;
     }
+    public Hornor(){
+        studynum=0;
+        date="暂无";
+        grade=0;
+        testnum=0;
+        bbsnum=0;
+    }
+
 	public static int getstudynum() {
         return studynum;
     }

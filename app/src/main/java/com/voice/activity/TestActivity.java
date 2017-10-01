@@ -3,6 +3,7 @@ package com.voice.activity;
 import java.util.ArrayList;
 
 import com.voice.Hornor;
+import com.voice.MainActivity;
 import com.voice.R;
 import com.voice.wifi.foregin.Globals;
 
@@ -26,6 +27,7 @@ import android.widget.ImageButton;
 
 public class TestActivity extends Activity implements OnClickListener {
     private Context mContext;
+    final MainActivity m=new MainActivity();
     private ImageButton last;//beforeone
     private ImageButton next;
     private int currentnum;
@@ -35,7 +37,7 @@ public class TestActivity extends Activity implements OnClickListener {
     private TextView hanzi;
     private int numoflist = 7;
     private Activity mActivity;
-    int testnum = Hornor.gettestnum();
+    int testnum = m.hornor.gettestnum();
     private ImageButton fayinBotton;
     private ImageView picture;
     private String resultarray[] = {"菠萝", "草莓", "橘子", "梨子", "芒果", "柠檬", "苹果"};
@@ -56,7 +58,7 @@ public class TestActivity extends Activity implements OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.test);
 
-        Hornor.settestnum(testnum + 1);
+        m.hornor.settestnum(testnum + 1);
         mActivity = TestActivity.this;
         currentnum = 0;
         initWidgets();
