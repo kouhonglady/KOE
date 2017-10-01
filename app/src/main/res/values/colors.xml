@@ -51,7 +51,8 @@
     <color name="qianhuang">#FEF8B5</color>
     <color name="qianblue">#18B4ED</color>
     <color name="shenblue">#445899</color>
- 
+    <color name="hornor_l_blue">#B0E0E6</color>
+    <color name="hornor_l_blue2">#7f97ff</color>
     <color name="shenfen">#FF537B</color>
     <color name="tarns">#ab000000</color>
 </resources>

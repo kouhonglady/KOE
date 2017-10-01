@@ -41,7 +41,7 @@ public class HornorActivity extends Activity{
 	protected void onCreate(Bundle savedInstanceState) {
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_hornor_new);
+		setContentView(R.layout.activity_hornor_new1);
 		mActivity = HornorActivity.this;
 		// Set the application-wide context global, if not already set
         Context myContext = Globals.getContext();
@@ -68,9 +68,9 @@ public class HornorActivity extends Activity{
 	}
 	void init(){
 
-		studynum.setText(""+m.hornor.getstudynum());
-		testnum.setText(""+m.hornor.gettestnum());
-		bbsnum.setText(""+m.hornor.getbbsnum());
+		studynum.setText(""+m.hornor.getstudynum()+"次");
+		testnum.setText(""+m.hornor.gettestnum()+"次");
+		bbsnum.setText(""+m.hornor.getbbsnum()+"篇");
 		grade.setText(""+m.hornor.getgrade());
 		date.setText(""+m.hornor.getdate());
 		UsrName_h.setText(""+m.user.getLogName());
