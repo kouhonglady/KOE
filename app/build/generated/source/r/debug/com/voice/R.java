@@ -2074,8 +2074,8 @@ containing a value of this type.
         public static final int notification_bg_normal=0x7f0200f4;
         public static final int notification_bg_normal_pressed=0x7f0200f5;
         public static final int notification_icon_background=0x7f0200f6;
-        public static final int notification_template_icon_bg=0x7f020172;
-        public static final int notification_template_icon_low_bg=0x7f020173;
+        public static final int notification_template_icon_bg=0x7f020171;
+        public static final int notification_template_icon_low_bg=0x7f020172;
         public static final int notification_tile_bg=0x7f0200f7;
         public static final int notify_panel_notification_icon_bg=0x7f0200f8;
         public static final int number_base=0x7f0200f9;
@@ -2132,74 +2132,73 @@ containing a value of this type.
         public static final int qvip_pay_wallet_icon_arrow_right_normal=0x7f02012c;
         public static final int qvip_profile_vip_annual_7=0x7f02012d;
         public static final int qzone_feed_hotbar_icon_star=0x7f02012e;
-        public static final int qzone_icon_action_sheet_qq=0x7f02012f;
-        public static final int qzone_list_icon_arrow=0x7f020130;
-        public static final int refresh_arrow=0x7f020131;
-        public static final int refresh_arrow_2=0x7f020132;
-        public static final int refresh_progress=0x7f020133;
-        public static final int register_phone_bg=0x7f020134;
-        public static final int register_user_btn=0x7f020135;
-        public static final int sacn_pic=0x7f020136;
-        public static final int scan_ercode=0x7f020137;
-        public static final int scan_light=0x7f020138;
-        public static final int search=0x7f020139;
-        public static final int semi_black=0x7f020174;
-        public static final int setting=0x7f02013a;
-        public static final int sidebar_add=0x7f02013b;
-        public static final int sidebar_back_border=0x7f02013c;
-        public static final int sidebar_background=0x7f02013d;
-        public static final int sidebar_bg_switch_off=0x7f02013e;
-        public static final int sidebar_bg_switch_on=0x7f02013f;
-        public static final int sidebar_bottom=0x7f020140;
-        public static final int sidebar_btn_pressed=0x7f020141;
-        public static final int sidebar_btn_unpressed=0x7f020142;
-        public static final int sidebar_frame=0x7f020143;
-        public static final int sidebar_ic_launcher=0x7f020144;
-        public static final int sidebar_icon_calendar=0x7f020145;
-        public static final int sidebar_icon_home=0x7f020146;
-        public static final int sidebar_icon_profile=0x7f020147;
-        public static final int sidebar_icon_settings=0x7f020148;
-        public static final int sidebar_left_arrow=0x7f020149;
-        public static final int sidebar_mask=0x7f02014a;
-        public static final int sidebar_menu_background=0x7f02014b;
-        public static final int sidebar_right_arrow=0x7f02014c;
-        public static final int sidebar_shadow=0x7f02014d;
-        public static final int skin_conversation_title_right_btn=0x7f02014e;
-        public static final int skin_conversation_title_right_btn_selected=0x7f02014f;
-        public static final int skin_indicator_expanded=0x7f020150;
-        public static final int skin_indicator_unexpanded=0x7f020151;
-        public static final int skin_qzone_title_progress=0x7f020152;
-        public static final int skin_tab_icon_contact_normal=0x7f020153;
-        public static final int skin_tab_icon_contact_selected=0x7f020154;
-        public static final int skin_tab_icon_conversation_normal=0x7f020155;
-        public static final int skin_tab_icon_conversation_selected=0x7f020156;
-        public static final int skin_tab_icon_plugin_normal=0x7f020157;
-        public static final int skin_tab_icon_plugin_selected=0x7f020158;
-        public static final int skin_tab_icon_setup_normal=0x7f020159;
-        public static final int skin_tab_icon_setup_selected=0x7f02015a;
-        public static final int status_online=0x7f02015b;
-        public static final int status_online_btn=0x7f02015c;
-        public static final int studylast=0x7f02015d;
-        public static final int studynext=0x7f02015e;
-        public static final int terminal_icon_ios=0x7f02015f;
-        public static final int terminal_icon_ios_pressed=0x7f020160;
-        public static final int terminal_icon_mobile=0x7f020161;
-        public static final int terminal_icon_pc=0x7f020162;
-        public static final int testpoint=0x7f020163;
-        public static final int toolbar=0x7f020164;
-        public static final int toolbar_right=0x7f020165;
-        public static final int watchyours=0x7f020166;
-        public static final int wave_play=0x7f020167;
-        public static final int wave_start=0x7f020168;
-        public static final int wave_stop=0x7f020169;
-        public static final int wel_background=0x7f02016a;
-        public static final int welcome=0x7f02016b;
-        public static final int wifi_state0=0x7f02016c;
-        public static final int wifi_state4=0x7f02016d;
-        public static final int word=0x7f02016e;
-        public static final int xlistview_arrow=0x7f02016f;
-        public static final int zebra_ic_album=0x7f020170;
-        public static final int zebra_ic_bt_normal=0x7f020171;
+        public static final int qzone_list_icon_arrow=0x7f02012f;
+        public static final int refresh_arrow=0x7f020130;
+        public static final int refresh_arrow_2=0x7f020131;
+        public static final int refresh_progress=0x7f020132;
+        public static final int register_phone_bg=0x7f020133;
+        public static final int register_user_btn=0x7f020134;
+        public static final int sacn_pic=0x7f020135;
+        public static final int scan_ercode=0x7f020136;
+        public static final int scan_light=0x7f020137;
+        public static final int search=0x7f020138;
+        public static final int semi_black=0x7f020173;
+        public static final int setting=0x7f020139;
+        public static final int sidebar_add=0x7f02013a;
+        public static final int sidebar_back_border=0x7f02013b;
+        public static final int sidebar_background=0x7f02013c;
+        public static final int sidebar_bg_switch_off=0x7f02013d;
+        public static final int sidebar_bg_switch_on=0x7f02013e;
+        public static final int sidebar_bottom=0x7f02013f;
+        public static final int sidebar_btn_pressed=0x7f020140;
+        public static final int sidebar_btn_unpressed=0x7f020141;
+        public static final int sidebar_frame=0x7f020142;
+        public static final int sidebar_ic_launcher=0x7f020143;
+        public static final int sidebar_icon_calendar=0x7f020144;
+        public static final int sidebar_icon_home=0x7f020145;
+        public static final int sidebar_icon_profile=0x7f020146;
+        public static final int sidebar_icon_settings=0x7f020147;
+        public static final int sidebar_left_arrow=0x7f020148;
+        public static final int sidebar_mask=0x7f020149;
+        public static final int sidebar_menu_background=0x7f02014a;
+        public static final int sidebar_right_arrow=0x7f02014b;
+        public static final int sidebar_shadow=0x7f02014c;
+        public static final int skin_conversation_title_right_btn=0x7f02014d;
+        public static final int skin_conversation_title_right_btn_selected=0x7f02014e;
+        public static final int skin_indicator_expanded=0x7f02014f;
+        public static final int skin_indicator_unexpanded=0x7f020150;
+        public static final int skin_qzone_title_progress=0x7f020151;
+        public static final int skin_tab_icon_contact_normal=0x7f020152;
+        public static final int skin_tab_icon_contact_selected=0x7f020153;
+        public static final int skin_tab_icon_conversation_normal=0x7f020154;
+        public static final int skin_tab_icon_conversation_selected=0x7f020155;
+        public static final int skin_tab_icon_plugin_normal=0x7f020156;
+        public static final int skin_tab_icon_plugin_selected=0x7f020157;
+        public static final int skin_tab_icon_setup_normal=0x7f020158;
+        public static final int skin_tab_icon_setup_selected=0x7f020159;
+        public static final int status_online=0x7f02015a;
+        public static final int status_online_btn=0x7f02015b;
+        public static final int studylast=0x7f02015c;
+        public static final int studynext=0x7f02015d;
+        public static final int terminal_icon_ios=0x7f02015e;
+        public static final int terminal_icon_ios_pressed=0x7f02015f;
+        public static final int terminal_icon_mobile=0x7f020160;
+        public static final int terminal_icon_pc=0x7f020161;
+        public static final int testpoint=0x7f020162;
+        public static final int toolbar=0x7f020163;
+        public static final int toolbar_right=0x7f020164;
+        public static final int watchyours=0x7f020165;
+        public static final int wave_play=0x7f020166;
+        public static final int wave_start=0x7f020167;
+        public static final int wave_stop=0x7f020168;
+        public static final int wel_background=0x7f020169;
+        public static final int welcome=0x7f02016a;
+        public static final int wifi_state0=0x7f02016b;
+        public static final int wifi_state4=0x7f02016c;
+        public static final int word=0x7f02016d;
+        public static final int xlistview_arrow=0x7f02016e;
+        public static final int zebra_ic_album=0x7f02016f;
+        public static final int zebra_ic_bt_normal=0x7f020170;
     }
     public static final class id {
         public static final int ChangeFinish=0x7f0c00b5;
@@ -2970,15 +2969,8 @@ containing a value of this type.
         public static final int Animation_AppCompat_DropDownUp=0x7f0900a4;
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
-
-            Theme customizations available in newer API levels can go in
-            res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
-        
          */
         public static final int AppBaseTheme=0x7f09000b;
-        /**  All customizations that are NOT specific to a particular API-level can go here. 
-         */
         public static final int AppTheme=0x7f0900a5;
         public static final int Base_AlertDialog_AppCompat=0x7f0900a6;
         public static final int Base_AlertDialog_AppCompat_Light=0x7f0900a7;
@@ -3135,8 +3127,6 @@ containing a value of this type.
         public static final int ButtomBar=0x7f0900d1;
         public static final int ButtomBarImgBtn=0x7f0900d2;
         public static final int HuiFu=0x7f0900d3;
-        /**  模糊 
-         */
         public static final int MyDialogStyleBottom=0x7f0900d4;
         public static final int Platform_AppCompat=0x7f09001f;
         public static final int Platform_AppCompat_Light=0x7f090020;

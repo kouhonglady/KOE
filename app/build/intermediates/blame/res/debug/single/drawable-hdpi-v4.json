@@ -32,6 +32,10 @@
         "source": "D:\\KOE\\app\\src\\main\\res\\drawable-hdpi\\playyours.png"
     },
     {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\welcome.png",
+        "source": "D:\\KOE\\app\\src\\main\\res\\drawable-hdpi\\welcome.png"
+    },
+    {
         "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\notification_bg_low_normal.9.png",
         "source": "C:\\Users\\tangyubao\\.android\\build-cache\\72c4a6d5adb8b15ff7644784bc89aedb673b732a\\output\\res\\drawable-hdpi-v4\\notification_bg_low_normal.9.png"
     },
@@ -728,10 +732,6 @@
         "source": "D:\\KOE\\app\\src\\main\\res\\drawable-hdpi\\head_default.png"
     },
     {
-        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\qzone_icon_action_sheet_qq.png",
-        "source": "D:\\KOE\\app\\src\\main\\res\\drawable-hdpi\\qzone_icon_action_sheet_qq.png"
-    },
-    {
         "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\sidebar_right_arrow.png",
         "source": "D:\\KOE\\app\\src\\main\\res\\drawable-hdpi\\sidebar_right_arrow.png"
     },
@@ -838,10 +838,6 @@
     {
         "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\skin_tab_icon_plugin_selected.png",
         "source": "D:\\KOE\\app\\src\\main\\res\\drawable-hdpi\\skin_tab_icon_plugin_selected.png"
-    },
-    {
-        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\welcome.jpg",
-        "source": "D:\\KOE\\app\\src\\main\\res\\drawable-hdpi\\welcome.jpg"
     },
     {
         "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4\\qq_leba_list_seek_individuation.png",

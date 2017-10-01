@@ -4,7 +4,7 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <!-- QQ -->
-    <string name="app_name">Voice</string>
+    <string name="app_name">声之形</string>
     <string name="et_account_hint">账号</string>
     <string name="et_password_hint">密码</string>
     <string name="register">注册</string>

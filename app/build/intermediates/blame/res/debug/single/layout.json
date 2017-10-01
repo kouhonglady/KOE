@@ -88,12 +88,12 @@
         "source": "D:\\KOE\\app\\src\\main\\res\\layout\\test.xml"
     },
     {
-        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_result.xml",
-        "source": "D:\\KOE\\app\\src\\main\\res\\layout\\activity_register_result.xml"
-    },
-    {
         "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\sidebar_bookcover.xml",
         "source": "D:\\KOE\\app\\src\\main\\res\\layout\\sidebar_bookcover.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register_result.xml",
+        "source": "D:\\KOE\\app\\src\\main\\res\\layout\\activity_register_result.xml"
     },
     {
         "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_search_xxl.xml",

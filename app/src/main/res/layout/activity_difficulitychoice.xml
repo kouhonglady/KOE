@@ -26,7 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="20dp"
                 android:gravity="center"
                 android:orientation="vertical">
 
@@ -43,13 +43,15 @@
                         android:layout_marginLeft="10dp"
                         android:text="难度选择"
                         android:textColor="#000"
-                        android:textSize="22dp" />
+                        android:textSize="22dp"
+                        />
                 </RelativeLayout>
 
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="20dp">
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/diff_choice_1">
 
                     <RadioGroup
                         android:id="@+id/difficultygroup"
