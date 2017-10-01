@@ -29,6 +29,7 @@ import android.widget.TabHost.TabSpec;
 import com.cokus.wavelibrary.draw.WaveCanvas;
 import com.cokus.wavelibrary.view.WaveSurfaceView;
 import com.cokus.wavelibrary.view.WaveformView;
+import com.voice.MainActivity;
 import com.voice.util.MusicSimilarityUtil;
 import com.voice.util.U;
 import com.cokus.wavelibrary.utils.SamplePlayer;
@@ -164,11 +165,12 @@ public class StudyActivity extends TabActivity implements OnClickListener {
     private File yourWaveFile;
     private File exampleWaveFile;
     SamplePlayer mPlayer;
+    final MainActivity m=new MainActivity();
 
     public StudyActivity() {
     }
 
-    int num = Hornor.getstudynum();
+    int num = m.hornor.getstudynum();
     SimpleDateFormat sDateFormat = new SimpleDateFormat("yyyy-MM-dd    hh:mm:ss");
     String date = sDateFormat.format(new java.util.Date());
 
@@ -183,8 +185,8 @@ public class StudyActivity extends TabActivity implements OnClickListener {
         Bundle b = intent.getExtras();
         String name = b.getString("list");
         listnum = name;
-        Hornor.setstudynum(num + 1);
-        Hornor.setdate(date);
+        m.hornor.setstudynum(num + 1);
+        m.hornor.setdate(date);
         this.setTitle("学习LIST-" + name);
         DataAccess data = new DataAccess(this);
         list = data.QueryWord("LIST = '" + name + "'", null);

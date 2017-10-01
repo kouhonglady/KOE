@@ -39,6 +39,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
 	
 
 	public static User user;
+	public static Hornor hornor=new Hornor(0,"暂无",0,0,0);
 
 
 

@@ -99,7 +99,7 @@ public class DynamicFragment extends Fragment {
 		//折线图
 		 LinearLayout layout = (LinearLayout)mBaseView.findViewById(R.id.linearmian); 
         layout.setBackgroundResource(R.drawable.online_bj);
-		 series = new XYSeries("动态折线测试");
+		 series = new XYSeries("近期学习动态");
 	        //创建一个数据集的实例，这个数据集将被用来创建图表
 	        mDataset = new XYMultipleSeriesDataset();  
 	        //将点集添加到这个数据集中
