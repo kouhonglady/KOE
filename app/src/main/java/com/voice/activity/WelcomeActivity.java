@@ -45,6 +45,7 @@ public class WelcomeActivity extends Activity {
 				if (!isFirst) {
 					SDManager manager = new SDManager(mContext);
 					manager.moveUserIcon();
+					manager.movePronunciation();
 					SpUtil.getInstance().setBooleanSharedPerference(sp,
 							"isFirst", true);
 					Intent intent = new Intent(mContext, LoginActivity.class);

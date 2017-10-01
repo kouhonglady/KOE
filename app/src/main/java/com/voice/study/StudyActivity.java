@@ -700,7 +700,7 @@ public class StudyActivity extends TabActivity implements OnClickListener {
                     }else {
                         exampleWaveFile.createNewFile();
                         output=new FileOutputStream(exampleWaveFile);
-                        byte[] buffer=new byte[4*1024];
+                        byte[] buffer=new byte[1024];
                         while (input.read(buffer)!=-1){
                             output.write(buffer);
                         }
