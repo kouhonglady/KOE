@@ -17,7 +17,7 @@
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="#d6d6fa">
+            android:background="@color/hornor_l_blue">
 
             <LinearLayout
                 android:id="@+id/ll_dynamic"
@@ -30,7 +30,7 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="172dp"
-                    android:background="#acacfd" >
+                    android:background="#B4CDCD" >
 
                     <com.voice.view.CircleImageView
                         android:id="@+id/head_change"
@@ -71,7 +71,8 @@
                         android:layout_centerVertical="true"
                         android:layout_marginLeft="10dp"
                         android:textSize="20dp"
-                        android:text="账号    ：" />
+                        android:text="账号    ："
+                        android:textColor="#4D4D4D"/>
                 </RelativeLayout>
 
                 <View
@@ -89,7 +90,8 @@
                         android:layout_centerVertical="true"
                         android:layout_marginLeft="10dp"
                         android:textSize="20dp"
-                        android:text="用户名：" />
+                        android:text="用户名："
+                        android:textColor="#4D4D4D"/>
 
                     <EditText
                         android:id="@+id/UsrName"
@@ -118,7 +120,7 @@
                         android:textSize="20dp"
                         android:layout_marginLeft="10dp"
                         android:text="性别    ："
-                        />
+                        android:textColor="#4D4D4D"/>
                     <Spinner
                         android:id="@+id/sex_choice"
                         android:layout_toRightOf="@id/text_sex"
@@ -177,7 +179,8 @@
                         android:layout_alignParentRight="true"
                         android:layout_alignParentTop="true"
                         android:textSize="20dp"
-                        android:text="加载中..." />
+                        android:text="加载中..."
+                        android:textColor="#4D4D4D"/>
 
                 </RelativeLayout>
             </LinearLayout>
@@ -187,7 +190,7 @@
                 android:layout_margin="10dp"
                 android:layout_below="@id/three"
                 android:id="@+id/ChangeFinish"
-                android:background="#8e8efb"
+                android:background="#B4CDCD"
                 >
 
                 <TextView
@@ -195,7 +198,7 @@
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:layout_centerVertical="true"
-                    android:textColor="#ffffff"
+                    android:textColor="#4D4D4D"
                     android:textSize="20dp"
                     android:text="保存" />
 

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        android:layout_width="match_parent"
+                  xmlns:tools="http://schemas.android.com/tools"
+                  android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="0dp"
@@ -20,7 +21,7 @@
             android:layout_width="match_parent"
             android:layout_height="180dp"
             android:scaleType="centerCrop"
-            android:src="@drawable/honor_bg_0007" />
+            android:src="@drawable/honor_bg_2" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -54,7 +55,8 @@
                     android:layout_centerHorizontal="true"
                     android:background="@color/detail_bgColor"
                     android:text="用户名"
-                    android:textSize="25dp" />
+                    android:textSize="25dp"
+                    android:textColor="#4D4D4D"/>
 
                 <TextView
                     android:id="@+id/Sign_h"
@@ -66,7 +68,8 @@
                     android:layout_marginTop="10dp"
                     android:background="@color/detail_bgColor"
                     android:text="加载中..."
-                    android:textSize="20dp" />
+                    android:textSize="20dp"
+                    android:textColor="#4D4D4D"/>
             </RelativeLayout>
 
         </RelativeLayout>
@@ -118,17 +121,38 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="left"
                             android:text="学习"
-                            android:textColor="#000000"
-                            android:textSize="20dp" />
+                            android:textColor="#4D4D4D"
+                            android:textSize="18sp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="3dp"/>
 
-                        <TextView
-                            android:id="@+id/studynum_new"
-                            android:layout_width="wrap_content"
+                        <LinearLayout
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:layout_gravity="center_horizontal"
-                            android:text="0次"
-                            android:textColor="#000000"
-                            android:textSize="40dp" />
+                            android:id="@+id/study_linear_layout"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/studynum_new"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_horizontal"
+                                android:text="0"
+                                android:textColor="#27408B"
+                                android:textSize="40dp"
+                                android:layout_marginLeft="70dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/study_time_text_view"
+                                android:layout_marginLeft="5dp"
+                                android:text="次"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginTop="8dp"
+                                android:textColor="#27408B"/>
+                        </LinearLayout>
+
+
                     </LinearLayout>
                 </LinearLayout>
 
@@ -157,17 +181,38 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="left"
                             android:text="练习"
-                            android:textColor="#000000"
-                            android:textSize="20dp" />
+                            android:textColor="#4D4D4D"
+                            android:textSize="18sp"
+                            android:id="@+id/test_text_view"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="3dp"/>
 
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/test_linear_layout"
+                            android:orientation="horizontal">
                         <TextView
                             android:id="@+id/testnum_new"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="0次"
-                            android:textColor="#000000"
+                            android:text="0"
+                            android:textColor="#27408B"
+                            android:layout_marginLeft="70dp"
                             android:textSize="40dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/test_time_text_view"
+                                android:layout_marginLeft="5dp"
+                                android:text="次"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginTop="8dp"
+                                android:textColor="#27408B"/>
+
+                        </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
 
@@ -196,18 +241,36 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="left"
                             android:text="发帖"
-                            android:textColor="#000000"
-                            android:textSize="20dp" />
+                            android:textColor="#4D4D4D"
+                            android:textSize="20dp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="3dp"/>
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/bbs_linear_layout"
+                            android:orientation="horizontal">
 
                         <TextView
                             android:id="@+id/bbsnum_new"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="0次"
-                            android:textColor="#000000"
-                            android:textSize="40dp" />
+                            android:text="0"
+                            android:textColor="#27408B"
+                            android:textSize="40dp"
+                            android:layout_marginLeft="70dp"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/bbs_time_text_view"
+                                android:layout_marginLeft="5dp"
+                                android:text="篇"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginTop="8dp"
+                                android:textColor="#27408B"/>
 
+                        </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
 
@@ -236,8 +299,10 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="left"
                             android:text="上次学习"
-                            android:textColor="#000000"
-                            android:textSize="20dp" />
+                            android:textColor="#4D4D4D"
+                            android:textSize="18sp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="3dp"/>
 
                         <TextView
                             android:id="@+id/date_new"
@@ -245,8 +310,8 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
                             android:text="暂无"
-                            android:textColor="#000000"
-                            android:textSize="18dp" />
+                            android:textColor="#27408B"
+                            android:textSize="25sp"/>
                     </LinearLayout>
                 </LinearLayout>
 
@@ -274,17 +339,37 @@
                             android:layout_height="wrap_content"
                             android:layout_gravity="left"
                             android:text="最高成绩"
-                            android:textColor="#000000"
-                            android:textSize="20dp" />
+                            android:textColor="#4D4D4D"
+                            android:textSize="18dp"
+                            android:layout_marginLeft="3dp"
+                            android:layout_marginTop="3dp"/>
 
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/grade_linear_layout"
+                            android:orientation="horizontal">
                         <TextView
                             android:id="@+id/grade_new"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_horizontal"
-                            android:text="暂无"
-                            android:textColor="#000000"
+                            android:text="0"
+                            android:textColor="#27408B"
+                            android:layout_marginLeft="70dp"
                             android:textSize="40dp" />
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:id="@+id/grade_text_view"
+                                android:layout_marginLeft="5dp"
+                                android:text="分"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginTop="8dp"
+                                android:textColor="#27408B"/>
+
+                        </LinearLayout>
                     </LinearLayout>
                 </LinearLayout>
 

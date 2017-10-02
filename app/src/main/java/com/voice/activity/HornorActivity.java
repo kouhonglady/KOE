@@ -68,9 +68,9 @@ public class HornorActivity extends Activity{
 	}
 	void init(){
 
-		studynum.setText(""+m.hornor.getstudynum()+"次");
-		testnum.setText(""+m.hornor.gettestnum()+"次");
-		bbsnum.setText(""+m.hornor.getbbsnum()+"篇");
+		studynum.setText(""+m.hornor.getstudynum());
+		testnum.setText(""+m.hornor.gettestnum());
+		bbsnum.setText(""+m.hornor.getbbsnum());
 		grade.setText(""+m.hornor.getgrade());
 		date.setText(""+m.hornor.getdate());
 		UsrName_h.setText(""+m.user.getLogName());
