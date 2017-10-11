@@ -3,6 +3,7 @@ package com.voice;
 import java.io.File;
 
 import com.voice.bbs.BBSFragment;
+import com.voice.bbs.BBSFragmentTwo;
 import com.voice.bbs.BBS_MainActivity;
 import com.voice.fragment.DynamicFragment;
 import com.voice.fragment.NewsFatherFragment;
@@ -173,7 +174,7 @@ public class MainActivity extends FragmentActivity implements OnClickListener{
 		else if(v==mNews){
 			newFragment=new NewsFatherFragment();
 		}else if(v == mConstact){
-			newFragment=new BBSFragment();
+			newFragment=new BBSFragmentTwo();
 		}
 		else{
 			//this is a test
