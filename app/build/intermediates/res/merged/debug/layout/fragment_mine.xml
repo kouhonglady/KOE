@@ -30,7 +30,7 @@
                 <RelativeLayout
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
-                    android:background="#02b5c0" >
+                    android:background="@color/hornor_l_blue" >
                     <!--<com.voice.view.CircleImageView-->
                     <!--android:id="@+id/fresh"-->
                     <!--android:layout_width="50dp"-->
@@ -192,7 +192,8 @@
                         android:layout_centerHorizontal="true"
                         android:layout_centerVertical="true"
                         android:textSize="20dp"
-                        android:text="个性签名" />
+                        android:text="个性签名"
+                        android:textColor="#4D4D4D"/>
 
                 </RelativeLayout>
 
@@ -214,7 +215,9 @@
                         android:layout_alignParentRight="true"
                         android:layout_alignParentTop="true"
                         android:textSize="20dp"
-                        android:text="加载中..." />
+                        android:text="加载中..."
+                        android:layout_marginLeft="3dp"
+                        android:layout_marginRight="3dp"/>
 
                 </RelativeLayout>
                 <View
@@ -283,7 +286,7 @@
                 android:layout_margin="10dp"
                 android:layout_below="@id/three"
                 android:id="@+id/Logout"
-                android:background="#ff3535"
+                android:background="#FFEFD5"
                 >
 
                 <TextView
@@ -291,9 +294,11 @@
                     android:layout_height="wrap_content"
                     android:layout_centerHorizontal="true"
                     android:layout_centerVertical="true"
-                    android:textColor="#ffffff"
+                    android:textColor="#4D4D4D"
                     android:textSize="20dp"
                     android:text="注销" />
+
+
 
             </RelativeLayout>
 

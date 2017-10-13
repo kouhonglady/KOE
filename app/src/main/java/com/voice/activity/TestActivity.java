@@ -2,7 +2,6 @@ package com.voice.activity;
 
 import java.util.ArrayList;
 
-import com.voice.Hornor;
 import com.voice.MainActivity;
 import com.voice.R;
 import com.voice.wifi.foregin.Globals;
@@ -103,9 +102,9 @@ public class TestActivity extends Activity implements OnClickListener {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent("com.baidu.action.RECOGNIZE_SPEECH");
-                //intent.putExtra("sample", 16000); // 离线仅支持16000采样率
+                intent.putExtra("sample", 16000); // 离线仅支持16000采样率
                 intent.putExtra("language", "cmn-Hans-CN"); // 离线仅支持中文普通话
-                //intent.putExtra("prop", 20000); // 输入
+                intent.putExtra("prop", 20000); // 输入
 
                 //intent.putExtra(EXTRA_SOUND_START, R.raw.bdspeech_recognition_start);
                 //intent.putExtra(EXTRA_SOUND_END, R.raw.bdspeech_speech_end);

@@ -92,6 +92,7 @@ public class StudyMain extends Activity{
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
+
 		}
 
 		SharedPreferences settings=getSharedPreferences(SETTING_BOOKID, 0);

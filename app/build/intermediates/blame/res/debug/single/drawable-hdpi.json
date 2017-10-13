@@ -1,46 +1,46 @@
 [
     {
-        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\skin_indicator_unexpanded.9.png",
-        "source": "D:\\KOE\\app\\src\\main\\res\\drawable-hdpi\\skin_indicator_unexpanded.9.png"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_bottom_last_normal.9.png",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\drawable-hdpi\\btn_bottom_last_normal.9.png"
     },
     {
-        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\list_conversation_press.9.png",
-        "source": "D:\\KOE\\app\\src\\main\\res\\drawable-hdpi\\list_conversation_press.9.png"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_bottom_last_pressed.9.png",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\drawable-hdpi\\btn_bottom_last_pressed.9.png"
     },
     {
-        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\indicator_unexpanded.9.png",
-        "source": "D:\\KOE\\app\\src\\main\\res\\drawable-hdpi\\indicator_unexpanded.9.png"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\indicator_unexpanded.9.png",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\drawable-hdpi\\indicator_unexpanded.9.png"
     },
     {
-        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\acm_inputbox.9.png",
-        "source": "D:\\KOE\\app\\src\\main\\res\\drawable-hdpi\\acm_inputbox.9.png"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\skin_indicator_expanded.9.png",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\drawable-hdpi\\skin_indicator_expanded.9.png"
     },
     {
-        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lbs_popup_bg.9.png",
-        "source": "D:\\KOE\\app\\src\\main\\res\\drawable-hdpi\\lbs_popup_bg.9.png"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\contact_list_buddy_item_bg.9.png",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\drawable-hdpi\\contact_list_buddy_item_bg.9.png"
     },
     {
-        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_bottom_last_pressed.9.png",
-        "source": "D:\\KOE\\app\\src\\main\\res\\drawable-hdpi\\btn_bottom_last_pressed.9.png"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\acm_inputbox.9.png",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\drawable-hdpi\\acm_inputbox.9.png"
     },
     {
-        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\indicator_expanded.9.png",
-        "source": "D:\\KOE\\app\\src\\main\\res\\drawable-hdpi\\indicator_expanded.9.png"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\lbs_popup_bg.9.png",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\drawable-hdpi\\lbs_popup_bg.9.png"
     },
     {
-        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\skin_indicator_expanded.9.png",
-        "source": "D:\\KOE\\app\\src\\main\\res\\drawable-hdpi\\skin_indicator_expanded.9.png"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\skin_indicator_unexpanded.9.png",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\drawable-hdpi\\skin_indicator_unexpanded.9.png"
     },
     {
-        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ipaddress_bg.9.png",
-        "source": "D:\\KOE\\app\\src\\main\\res\\drawable-hdpi\\ipaddress_bg.9.png"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\list_conversation_press.9.png",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\drawable-hdpi\\list_conversation_press.9.png"
     },
     {
-        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\btn_bottom_last_normal.9.png",
-        "source": "D:\\KOE\\app\\src\\main\\res\\drawable-hdpi\\btn_bottom_last_normal.9.png"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\ipaddress_bg.9.png",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\drawable-hdpi\\ipaddress_bg.9.png"
     },
     {
-        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\contact_list_buddy_item_bg.9.png",
-        "source": "D:\\KOE\\app\\src\\main\\res\\drawable-hdpi\\contact_list_buddy_item_bg.9.png"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\indicator_expanded.9.png",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\drawable-hdpi\\indicator_expanded.9.png"
     }
 ]

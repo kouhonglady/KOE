@@ -77,8 +77,6 @@ private int pos=0;
 		addListenr();
 		return mBaseView;
 	}
-
-
     private void addListenr() {
 		// TODO Auto-generated method stub
     	tv_hf.setOnClickListener(new OnClickListener() {
@@ -87,13 +85,9 @@ private int pos=0;
 			public void onClick(View arg0) {
 				// TODO Auto-generated method stub
 				String content=et_pop.getText().toString();
-				
-			
-
 				//----获取当前用户信息-----------------------------
 				final MainActivity m=new MainActivity();
 				//------------------------------------------------
-				
 				Map<String, Object> map=new HashMap<String, Object>();
 				map.put("name",m.user.getLogName()+":");
 				map.put("content", content);
@@ -329,15 +323,6 @@ Log.i("test", ":"+mmList.size());
 		adapter=new MyAdapter();
 		mListView.setAdapter(adapter);
 	}
-
-
-//	@Override
-//    public boolean onCreateOptionsMenu(Menu menu) {
-//
-//        // Inflate the menu; this adds items to the action bar if it is present.
-//		getMenuInflater().inflate(R.menu.main, menu);
-//        return true;
-//    }
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
