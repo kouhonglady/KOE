@@ -4,58 +4,11 @@
               android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:layout_centerInParent="true"
+              android:weightSum="1"
+              android:background="@color/common_title"
     android:orientation="vertical" >
 
-<LinearLayout
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:layout_marginLeft="10dp"
-    android:layout_marginRight="10dp"
-    android:layout_weight="1"
-    android:gravity="center_vertical"
-    android:orientation="horizontal"
-    tools:gravity="top">
 
-    <ImageButton
-        android:id="@+id/choosebookbutton"
-        android:layout_width="80dp"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_weight="2.51"
-        android:background="#00000000"
-        android:src="@drawable/sidebar_add"
-        android:layout_marginBottom="0dp"/>
-
-    <LinearLayout
-        android:layout_width="179dp"
-        android:layout_height="match_parent"
-        android:layout_weight="0.81"
-        android:orientation="vertical"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="10dp">
-
-    <TextView
-        android:id="@+id/bookname"
-        style="@style/myschedule_current_month_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="你选择的书籍是《。。。》"
-        android:textSize="15sp" />
-      <TextView
-        android:id="@+id/finishtime"
-        style="@style/myschedule_current_month_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="15sp" />
-        <TextView
-        android:id="@+id/totaltime"
-        style="@style/myschedule_current_month_tv"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="15sp" />
-    </LinearLayout>
-</LinearLayout>
 
     <!-- 日历时间选择栏 -->
 
@@ -64,8 +17,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:layout_weight="0.03"
-        android:background="#ffffff"
+        android:layout_weight="0.1"
         android:gravity="center_vertical"
         android:paddingTop="3dp" >
 
@@ -130,11 +82,12 @@
 
     <LinearLayout
         android:layout_width="wrap_content"
-        android:layout_height="220dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:background="#ffffff"
-        android:orientation="vertical" >
+        android:layout_weight="0.35"
+        android:background="@drawable/sidebar_setplan_bg"
+        android:orientation="vertical"
+        android:layout_height="190dp">
 
         <com.voice.sidebar_datepicker.WeekDayView
             android:layout_width="match_parent"
@@ -145,6 +98,83 @@
             android:layout_width="fill_parent"
             android:layout_height="200dp" />
 
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight="0.35"
+        android:weightSum="1"
+        android:orientation="horizontal"
+        tools:gravity="top"
+        android:gravity="center_vertical|center_horizontal">
+
+
+
+        <LinearLayout
+            android:layout_width="179dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.6"
+            android:orientation="vertical"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/sidebar_setplan_bg"
+            android:paddingTop="10dp"
+            android:paddingLeft="5dp">
+
+            <TextView
+                android:id="@+id/bookname_cons"
+                style="@style/myschedule_current_month_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="您选择的书籍是:"
+                android:textSize="18sp"
+                android:textColor="@color/bond"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/bookname"
+                android:textStyle="bold"
+                android:textColor="@color/waveform_unselected_bkgnd_overlay"
+                android:layout_marginBottom="5dp"
+                android:textSize="20sp"/>
+
+            <TextView
+                android:id="@+id/finishtime_const"
+                style="@style/myschedule_current_month_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="18sp"
+                android:text="您选择的完成时间："
+                android:textColor="@color/bond"
+                android:layout_marginTop="5dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/finishtime"
+                android:textColor="@color/waveform_unselected_bkgnd_overlay"
+                android:textSize="20sp"/>
+            <TextView
+                android:id="@+id/totaltime"
+                style="@style/myschedule_current_month_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/choosebookbutton"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.4"
+            android:background="#00000000"
+            android:src="@drawable/sidebar_setplan_add"
+            android:layout_marginBottom="0dp"
+            android:scaleType="fitXY"
+            android:layout_gravity="bottom"/>
     </LinearLayout>
 
 </LinearLayout>

@@ -68,7 +68,7 @@ public class SetplanActivity extends FragmentActivity {
         	
         }	
         
-        bookname.setText("你选择的书籍是"+booknameStr);
+        bookname.setText(booknameStr);
 		monthDateView.setTextView(tv_date,tv_week);
 		monthDateView.setDaysHasThingList(list);
 		monthDateView.setDateClick(new DateClick() {
@@ -76,8 +76,8 @@ public class SetplanActivity extends FragmentActivity {
 			@Override
 			public void onClickOnDate() {
 				//Toast.makeText(getApplication(), "点击了：" + monthDateView.getmSelDay(), Toast.LENGTH_SHORT).show();
-				bookname.setText("你选择的书籍是"+booknameStr);
-				finishtime.setText("学习完成时间："+monthDateView.getmSelYear()+"年"+(monthDateView.getmSelMonth()+1)+"月"+monthDateView.getmSelDay()+"日") ;
+				bookname.setText(booknameStr);
+				finishtime.setText(+monthDateView.getmSelYear()+"年"+(monthDateView.getmSelMonth()+1)+"月"+monthDateView.getmSelDay()+"日") ;
 				//totaltime.setText("共需要。。天  每天需学习。。字") ;
 			}
 		});

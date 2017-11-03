@@ -1,20 +1,1181 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              android:orientation="vertical"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent">
 
-    <ScrollView
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:fillViewport="true">
+        android:layout_height="match_parent">
 
+    <LinearLayout
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:id="@+id/bbs_a_group_linear_layout_1"
+            android:layout_marginTop="3dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/bbs_head_iamge_view_1"
+                    android:src="@drawable/bbs_head_10"
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_height="50dp"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/author_time_linear_layout_1"
+                    android:orientation="vertical">
+                    <TextView
+                        android:text="猪小弟"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/bbs_author_text_view_1"
+
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="16sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:id="@+id/bbs_time_text_view_1"
+                        android:textSize="10sp"
+                        android:text="2017-09-23"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_title_text_view_1"
+                android:textStyle="bold"
+                android:text="第一课发音学习小组"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:text="猪小弟 第一课发音学习小组"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_abstract_text_View_1"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/time_hot_reply_1"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp">
+
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bbs_like"
+                    android:id="@+id/bbs_like_image_view_1"
+                    android:layout_weight="0.03"/>
+
+                <TextView
+                    android:text="3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_hot_text_view_1"
+                    android:layout_weight="0.3"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bbs_mail"
+                    android:id="@+id/bbs_reply_image_view_1"
+                    android:layout_weight="0.03"/>
+
+                <TextView
+                    android:text="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_reply_text_view_1"
+
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="0.3"/>
+
+            </LinearLayout>
 
             <ImageView
                 android:layout_width="match_parent"
+                android:id="@+id/bbs_line_before_comment_1"
+                android:src="@drawable/bbs_line"
+                android:layout_marginBottom="0dp"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:src="@drawable/bbs_final_bg_2"
-                android:scaleType="fitXY"
-                android:adjustViewBounds="true"/>
-    </ScrollView>
+                android:id="@+id/bbs_one_comment_linear_layout_1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="张大仙儿："
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_comment_one_A_1"
+                    android:textColor="@color/viewfinder_frame"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_one_comment_content_1"
+                    android:text="厉害了呀"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_two_comment_linear_layout_1"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:text="猪小弟"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_comment_two_author_1"
+                    android:textColor="@color/viewfinder_frame"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_two_comment_reply_1"
+                    android:text="回复"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"/>
+
+                <TextView
+                    android:text="张大仙儿："
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_comment_two_A_1"
+                    android:textColor="@color/viewfinder_frame"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_two_comment_content_1"
+                    android:text="加油！"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_comment_edit_text_1"
+                android:text="  评论 "
+                android:textSize="10sp"
+                android:background="@drawable/bbs_comment_bg"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="3dp"/>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bbs_line"
+            android:id="@+id/bbs_line_image_view_1"
+            android:layout_below="@+id/bbs_a_group_linear_layout"
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:id="@+id/bbs_a_group_linear_layout_2"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/bbs_head_iamge_view_2"
+                    android:src="@drawable/bbs_head_3"
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_height="50dp"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/author_time_linear_layout_2"
+                    android:orientation="vertical">
+                    <TextView
+                        android:text="苍生何辜"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/bbs_author_text_view_2"
+
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="16sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:id="@+id/bbs_time_text_view_2"
+                        android:textSize="10sp"
+                        android:text="2017-09-23"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_title_text_view_2"
+                android:textStyle="bold"
+                android:text="有了你，世界才有了声音"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:text="苍生何辜 有了你，世界才有了声音"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_abstract_text_View_2"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/time_hot_reply_2"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp">
+
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bbs_like"
+                    android:id="@+id/bbs_like_image_view_2"
+                    android:layout_weight="0.03"/>
+
+                <TextView
+                    android:text="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_hot_text_view_2"
+                    android:layout_weight="0.3"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bbs_mail"
+                    android:id="@+id/bbs_reply_image_view_2"
+                    android:layout_weight="0.03"/>
+
+                <TextView
+                    android:text="6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_reply_text_view_2"
+
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="0.3"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/bbs_line_before_comment_2"
+                android:src="@drawable/bbs_line"
+                android:layout_marginBottom="0dp"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_one_comment_linear_layout_2"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="凌雪："
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_comment_one_A_2"
+                    android:textColor="@color/viewfinder_frame"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_one_comment_content_2"
+                    android:text="今天学的怎么样？"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_two_comment_linear_layout_2"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:text="苍生何辜"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_comment_two_author_2"
+                    android:textColor="@color/viewfinder_frame"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_two_comment_reply_2"
+                    android:text="回复"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"/>
+
+                <TextView
+                    android:text="凌雪："
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_comment_two_A_2"
+                    android:textColor="@color/viewfinder_frame"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_two_comment_content_2"
+                    android:text="一般啦~"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_comment_edit_text_2"
+                android:text="  评论 "
+                android:textSize="10sp"
+                android:background="@drawable/bbs_comment_bg"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="3dp"/>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bbs_line"
+            android:id="@+id/bbs_line_image_view_2"
+            android:layout_below="@+id/bbs_a_group_linear_layout"
+            />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bbs_a_group_linear_layout_3"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/bbs_head_iamge_view_3"
+                    android:src="@drawable/bbs_head_5"
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_height="50dp"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/author_time_linear_layout_3"
+                    android:orientation="vertical">
+                    <TextView
+                        android:text="凌雪"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/bbs_author_text_view_3"
+
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="16sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:id="@+id/bbs_time_text_view_3"
+                        android:textSize="10sp"
+                        android:text="2017-09-23"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_title_text_view_3"
+                android:textStyle="bold"
+                android:text="你是怎样将词汇量提升到2万以上的？"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:text="凌雪 第二课发音学习小组"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_abstract_text_View_3"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/time_hot_reply_3"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp">
+
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bbs_like"
+                    android:id="@+id/bbs_like_image_view_3"
+                    android:layout_weight="0.03"/>
+
+                <TextView
+                    android:text="10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_hot_text_view_3"
+                    android:layout_weight="0.3"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bbs_mail"
+                    android:id="@+id/bbs_reply_image_view_3"
+                    android:layout_weight="0.03"/>
+
+                <TextView
+                    android:text="22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_reply_text_view_3"
+
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="0.3"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/bbs_line_before_comment_3"
+                android:src="@drawable/bbs_line"
+                android:layout_marginBottom="0dp"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_one_comment_linear_layout_3"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="黄纯纯："
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_comment_one_A_3"
+                    android:textColor="@color/viewfinder_frame"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_one_comment_content_3"
+                    android:text="一起讨论吧！"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_two_comment_linear_layout_3"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:text="凌雪"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_comment_two_author_3"
+                    android:textColor="@color/viewfinder_frame"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_two_comment_reply_3"
+                    android:text="回复"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"/>
+
+                <TextView
+                    android:text="凌雪："
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_comment_two_A_3"
+                    android:textColor="@color/viewfinder_frame"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_two_comment_content_3"
+                    android:text="来，一起加油！"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_comment_edit_text_3"
+                android:text="  评论 "
+                android:textSize="10sp"
+                android:background="@drawable/bbs_comment_bg"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="3dp"/>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bbs_line"
+            android:id="@+id/bbs_line_image_view_3"
+            android:layout_below="@+id/bbs_a_group_linear_layout"
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bbs_a_group_linear_layout_4"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/bbs_head_iamge_view_4"
+                    android:src="@drawable/bbs_head_4"
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_height="50dp"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/author_time_linear_layout_4"
+                    android:orientation="vertical">
+                    <TextView
+                        android:text="俞娟"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/bbs_author_text_view_4"
+
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="16sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:id="@+id/bbs_time_text_view_4"
+                        android:textSize="10sp"
+                        android:text="2017-09-23"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_title_text_view_4"
+                android:textStyle="bold"
+                android:text="同城学习小组"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:text="俞娟 同城学习小组"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_abstract_text_View_4"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/time_hot_reply_4"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp">
+
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bbs_like"
+                    android:id="@+id/bbs_like_image_view_4"
+                    android:layout_weight="0.03"/>
+
+                <TextView
+                    android:text="2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_hot_text_view_4"
+                    android:layout_weight="0.3"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bbs_mail"
+                    android:id="@+id/bbs_reply_image_view_4"
+                    android:layout_weight="0.03"/>
+
+                <TextView
+                    android:text="6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_reply_text_view_4"
+
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="0.3"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/bbs_line_before_comment_4"
+                android:src="@drawable/bbs_line"
+                android:layout_marginBottom="0dp"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_one_comment_linear_layout_4"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="俞娟："
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_comment_one_A_4"
+                    android:textColor="@color/viewfinder_frame"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_one_comment_content_4"
+                    android:text="一起讨论吧！"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_two_comment_linear_layout_4"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:text="凌雪"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_comment_two_author_4"
+                    android:textColor="@color/viewfinder_frame"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_two_comment_reply_4"
+                    android:text="回复"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"/>
+
+                <TextView
+                    android:text="俞娟："
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_comment_two_A_4"
+                    android:textColor="@color/viewfinder_frame"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_two_comment_content_4"
+                    android:text="成都约起"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_comment_edit_text_4"
+                android:text="  评论 "
+                android:textSize="10sp"
+                android:background="@drawable/bbs_comment_bg"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="3dp"/>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bbs_line"
+            android:id="@+id/bbs_line_image_view_4"
+            android:layout_below="@+id/bbs_a_group_linear_layout"
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bbs_a_group_linear_layout_5"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/bbs_head_iamge_view_5"
+                    android:src="@drawable/bbs_head_2"
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_height="50dp"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/author_time_linear_layout_5"
+                    android:orientation="vertical">
+                    <TextView
+                        android:text="黄纯纯"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/bbs_author_text_view_5"
+
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="16sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:id="@+id/bbs_time_text_view_5"
+                        android:textSize="10sp"
+                        android:text="2017-09-23"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_title_text_view_5"
+                android:textStyle="bold"
+                android:text="学习小组Excalibar"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:text="黄纯纯 同城学习小组Excalibar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_abstract_text_View_5"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/time_hot_reply_5"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp">
+
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bbs_like"
+                    android:id="@+id/bbs_like_image_view_5"
+                    android:layout_weight="0.03"/>
+
+                <TextView
+                    android:text="8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_hot_text_view_5"
+                    android:layout_weight="0.3"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bbs_mail"
+                    android:id="@+id/bbs_reply_image_view_5"
+                    android:layout_weight="0.03"/>
+
+                <TextView
+                    android:text="12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_reply_text_view_5"
+
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="0.3"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/bbs_line_before_comment_5"
+                android:src="@drawable/bbs_line"
+                android:layout_marginBottom="0dp"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_one_comment_linear_layout_5"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="凌雪："
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_comment_one_A_5"
+                    android:textColor="@color/viewfinder_frame"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_one_comment_content_5"
+                    android:text="什么鬼。。。"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_two_comment_linear_layout_5"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:text="黄纯纯"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_comment_two_author_5"
+                    android:textColor="@color/viewfinder_frame"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_two_comment_reply_5"
+                    android:text="回复"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"/>
+
+                <TextView
+                    android:text="凌雪："
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_comment_two_A_5"
+                    android:textColor="@color/viewfinder_frame"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_two_comment_content_5"
+                    android:text="凡人你是不懂的"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_comment_edit_text_5"
+                android:text="  评论 "
+                android:textSize="10sp"
+                android:background="@drawable/bbs_comment_bg"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="3dp"/>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bbs_line"
+            android:id="@+id/bbs_line_image_view_5"
+            android:layout_below="@+id/bbs_a_group_linear_layout"
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bbs_a_group_linear_layout_6"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="3dp"
+                android:layout_marginRight="3dp"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/bbs_head_iamge_view_6"
+                    android:src="@drawable/bbs_head_6"
+                    android:layout_width="50dp"
+                    android:layout_marginLeft="2dp"
+                    android:layout_height="50dp"/>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/author_time_linear_layout_6"
+                    android:orientation="vertical">
+                    <TextView
+                        android:text="姜昭熊"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/bbs_author_text_view_6"
+
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginTop="15dp"
+                        android:textSize="16sp"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="2dp"
+                        android:id="@+id/bbs_time_text_view_6"
+                        android:textSize="10sp"
+                        android:text="2017-09-23"/>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_title_text_view_6"
+                android:textStyle="bold"
+                android:text="今天晚上吃什么"
+                android:textSize="16sp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="5dp"/>
+
+            <TextView
+                android:text="姜昭熊 今天晚上吃什么来讨论一下"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_abstract_text_View_6"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="3dp"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/time_hot_reply_6"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="3dp">
+
+
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bbs_like"
+                    android:id="@+id/bbs_like_image_view_6"
+                    android:layout_weight="0.03"/>
+
+                <TextView
+                    android:text="8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_hot_text_view_6"
+                    android:layout_weight="0.3"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bbs_mail"
+                    android:id="@+id/bbs_reply_image_view_6"
+                    android:layout_weight="0.03"/>
+
+                <TextView
+                    android:text="12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_reply_text_view_6"
+
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="0.3"/>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/bbs_line_before_comment_6"
+                android:src="@drawable/bbs_line"
+                android:layout_marginBottom="0dp"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_one_comment_linear_layout_6"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:text="凌雪："
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_comment_one_A_6"
+                    android:textColor="@color/viewfinder_frame"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_one_comment_content_6"
+                    android:text="emmmmm"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_two_comment_linear_layout_6"
+                android:orientation="horizontal"
+                android:layout_marginTop="5dp">
+
+                <TextView
+                    android:text="姜昭熊"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_comment_two_author_6"
+                    android:textColor="@color/viewfinder_frame"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_two_comment_reply_6"
+                    android:text="回复"
+                    android:layout_marginLeft="2dp"
+                    android:layout_marginRight="2dp"/>
+
+                <TextView
+                    android:text="凌雪："
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_comment_two_A_6"
+                    android:textColor="@color/viewfinder_frame"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bbs_two_comment_content_6"
+                    android:text="emmmmm"/>
+
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/bbs_comment_edit_text_6"
+                android:text="  评论 "
+                android:textSize="10sp"
+                android:background="@drawable/bbs_comment_bg"
+                android:layout_marginLeft="5dp"
+                android:layout_marginBottom="2dp"
+                android:layout_marginTop="3dp"/>
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/bbs_line"
+            android:id="@+id/bbs_line_image_view_6"
+            android:layout_below="@+id/bbs_a_group_linear_layout"
+            />
 </LinearLayout>
+</ScrollView>
