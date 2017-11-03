@@ -3,66 +3,66 @@
 
     <item
         is-multidex="false"
-        jar="F:\newKOE\KOE\app\libs\nineoldandroids-library-2.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="F:\newKOE\KOE\app\build\intermediates\pre-dexed\debug\nineoldandroids-library-2.4.0_392db15ea542c1009fdfba81276541a1ff2d1cfb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="F:\newKOE\KOE\wavelibrary\build\intermediates\bundles\default\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="646aa00efdf63e6c539601e49447d57393e942a8">
-        <dex dex="F:\newKOE\KOE\app\build\intermediates\pre-dexed\debug\classes_0166ec22d23f007180276e25986498addae7cd3b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="F:\newKOE\KOE\app\libs\achartengine-1.1.0.jar"
+        jar="D:\KOE\app\libs\achartengine-1.1.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="9932e3fb9fbe54e80873e77f72a99f79e33b3250">
-        <dex dex="F:\newKOE\KOE\app\build\intermediates\pre-dexed\debug\achartengine-1.1.0_7daaca3a0a00bffb4b75fdd38ce5d7cce66e2ef3.jar" />
+        <dex dex="D:\KOE\app\build\intermediates\pre-dexed\debug\achartengine-1.1.0_b1c729473a2269fe9c0220a109bf0331a6b6fcf1.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="F:\newKOE\KOE\app\libs\zxing-1.6.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="327bddfe22740db0419bd719a0f950b6ad2b3c3f">
-        <dex dex="F:\newKOE\KOE\app\build\intermediates\pre-dexed\debug\zxing-1.6_cab25d296ff197133ccc9e25fa21ed9261865437.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="F:\newKOE\KOE\app\libs\musicg-1.4.2.0.jar"
+        jar="D:\KOE\app\libs\musicg-1.4.2.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="e4cc5194d9313717e173c63eb38dd220a63b5532">
-        <dex dex="F:\newKOE\KOE\app\build\intermediates\pre-dexed\debug\musicg-1.4.2.0_7dfc7ac2d71867966020f8ac1786c64e83182a05.jar" />
+        <dex dex="D:\KOE\app\build\intermediates\pre-dexed\debug\musicg-1.4.2.0_72094a2b62ffd1998b921302044430d5838dafc5.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="F:\newKOE\KOE\app\libs\VoiceRecognition-2.1.20.jar"
+        jar="D:\KOE\app\libs\nineoldandroids-library-2.4.0.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="f6f1c929343ec741b10a82084c33ea4bfa5c9306">
-        <dex dex="F:\newKOE\KOE\app\build\intermediates\pre-dexed\debug\VoiceRecognition-2.1.20_89aec05b6ff7f8b0d97bf1ae69680f508c517f0e.jar" />
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="D:\KOE\app\build\intermediates\pre-dexed\debug\nineoldandroids-library-2.4.0_8120a7c8bf37196d64872ef12eeba74ea13b143d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="F:\newKOE\KOE\app\libs\android-support-v7-recyclerview.jar"
+        jar="D:\KOE\app\libs\bdasr_V3_20170801_60da871.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="baed09882e710e648fbbd0ae77604a2b20e506c8">
+        <dex dex="D:\KOE\app\build\intermediates\pre-dexed\debug\bdasr_V3_20170801_60da871_7360a1245d82776d1f21b060e3de461139bd5b55.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\KOE\wavelibrary\build\intermediates\bundles\default\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="646aa00efdf63e6c539601e49447d57393e942a8">
+        <dex dex="D:\KOE\app\build\intermediates\pre-dexed\debug\classes_854259a1677398216536328c41a8ce79c2b17869.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\KOE\app\libs\android-support-v7-recyclerview.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="95c892d244f49414bbdf92c2235a32ea06bc68aa">
-        <dex dex="F:\newKOE\KOE\app\build\intermediates\pre-dexed\debug\android-support-v7-recyclerview_d5674b1505498f4fccc6b2b0bb97c2ebd1bc5b5d.jar" />
+        <dex dex="D:\KOE\app\build\intermediates\pre-dexed\debug\android-support-v7-recyclerview_5b08b70a492baef25bb6de3cdec5fb484ae4432a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\KOE\app\libs\zxing-1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="327bddfe22740db0419bd719a0f950b6ad2b3c3f">
+        <dex dex="D:\KOE\app\build\intermediates\pre-dexed\debug\zxing-1.6_8ffd5bcb98e1e04b2f607d6dcc00dde1a91210fd.jar" />
     </item>
 
 </items>

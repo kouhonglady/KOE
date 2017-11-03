@@ -37,7 +37,6 @@ android {
 dependencies {
     compile files('libs/achartengine-1.1.0.jar')
     compile files('libs/nineoldandroids-library-2.4.0.jar')
-    compile files('libs/VoiceRecognition-2.1.20.jar')
     compile files('libs/zxing-1.6.jar')
     compile 'com.android.support:support-v4:25.3.0'
     compile files('libs/recyclerview-v7-25.0.0-sources.jar')
@@ -49,6 +48,7 @@ dependencies {
     compile 'com.jakewharton:butterknife:8.8.1'
     compile 'com.github.hotchemi:permissionsdispatcher:3.0.0'
     compile files('libs/musicg-1.4.2.0.jar')
+    compile files('libs/bdasr_V3_20170801_60da871.jar')
 }
 
 

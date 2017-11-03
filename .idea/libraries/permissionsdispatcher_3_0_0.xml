@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="permissionsdispatcher-3.0.0">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.android/build-cache/5f58e4dc84093daf19193172e46e74fe5e358955/output/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.android/build-cache/5f58e4dc84093daf19193172e46e74fe5e358955/output/res" />
+      <root url="jar://$USER_HOME$/.android/build-cache/3ccdcc3755a2e4f62bf92cabdf046add5e699eb7/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/3ccdcc3755a2e4f62bf92cabdf046add5e699eb7/output/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

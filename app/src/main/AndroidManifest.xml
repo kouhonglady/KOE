@@ -58,10 +58,10 @@
             另外需要注意的是离线功能只是在线功能的“增强”，不能永久不联网使用（特别是首次使用）。
         -->
         <!-- 请填写真实的APP_ID API_KEY SECRET_KEY -->
-        <meta-data android:name="com.baidu.speech.APP_ID" android:value="8874298"/>
-        <meta-data android:name="com.baidu.speech.API_KEY" android:value="1YdpG2iHsdgvrGFQGABqlXen"/>
-        <meta-data android:name="com.baidu.speech.SECRET_KEY" android:value="00ff6b8d30fb73cfeace5ee3bb1379ad"/>
-		<service android:name="com.baidu.speech.VoiceRecognitionService" android:exported="false" />
+        <!--<meta-data android:name="com.baidu.speech.APP_ID" android:value="8874298"/>-->
+        <!--<meta-data android:name="com.baidu.speech.API_KEY" android:value="1YdpG2iHsdgvrGFQGABqlXen"/>-->
+        <!--<meta-data android:name="com.baidu.speech.SECRET_KEY" android:value="00ff6b8d30fb73cfeace5ee3bb1379ad"/>-->
+		<!--<service android:name="com.baidu.speech.VoiceRecognitionService" android:exported="false" />-->
         <activity
                 android:name="com.baidu.voicerecognition.android.ui.BaiduASRDigitalDialog"
                 android:configChanges="orientation|keyboardHidden|screenLayout"
@@ -181,7 +181,18 @@
         </receiver>
         
         <service android:name="com.voice.wifi.foregin.FTPServerService"/>
-        
+
+        <meta-data android:name="com.baidu.speech.APP_ID"
+                   android:value="10255204" />
+        <meta-data
+            android:name="com.baidu.speech.API_KEY"
+            android:value="Y7B57pscRNsFx9GKpiGAdawZ" />
+        <meta-data
+            android:name="com.baidu.speech.SECRET_KEY"
+            android:value="2acdf89878427b6826a0497db50dd433" />
+        <service
+            android:name="com.baidu.speech.VoiceRecognitionService"
+            android:exported="false" />
     
     </application>
 

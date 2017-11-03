@@ -61,7 +61,7 @@
             android:background="@drawable/test_content_bg"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="15dp"
-            android:layout_marginTop="35dp">
+            android:layout_marginTop="15dp">
 
             <TextView
                 android:id="@+id/tips"
@@ -186,9 +186,61 @@
                         android:text="0"
                         android:textColor="#ffcf0a"
                         android:textSize="24dp" />
+
                 </RelativeLayout>
 
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:id="@+id/answer_linear_layout">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:id="@+id/std_ans_linear_layout"
+                    android:background="@drawable/ans_line_left_bg"
+                    android:layout_weight="0.5">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:id="@+id/std_ans_title_image_view"
+                        android:background="@drawable/std_ans_bg"
+                        android:layout_gravity="center_horizontal"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/std_ans_text_view"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="0.7"/>
+                </LinearLayout>
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:id="@+id/user_ans_linear_layout"
+                    android:layout_weight="0.5"
+                    android:background="@drawable/ans_line_left_bg">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.3"
+                        android:id="@+id/user_ans_title_image_view"
+                        android:background="@drawable/user_ans_bg"
+                        android:layout_gravity="center_horizontal"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/user_ans_text_view"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_weight="0.7"/>
+                </LinearLayout>
             </LinearLayout>
 
         </LinearLayout>
@@ -197,7 +249,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="20dp"
             android:layout_weight="1">
 
             <ImageButton
@@ -214,7 +266,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="20dp"
             android:layout_weight="1">
 
             <RelativeLayout

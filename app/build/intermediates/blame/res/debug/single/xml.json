@@ -1,10 +1,18 @@
 [
     {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preference.xml",
+        "source": "D:\\KOE\\app\\src\\main\\res\\xml\\preference.xml"
+    },
+    {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\xml\\preference.xml",
         "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\xml\\preference.xml"
     },
     {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\xml\\widget_info.xml",
         "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\xml\\widget_info.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\xml\\widget_info.xml",
+        "source": "D:\\KOE\\app\\src\\main\\res\\xml\\widget_info.xml"
     }
 ]

@@ -1,35 +1,87 @@
 [
     {
-        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_up.xml",
-        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\anim\\pop_up.xml"
-    },
-    {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_up.xml",
         "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\anim\\activity_up.xml"
     },
     {
-        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_down.xml",
-        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\anim\\activity_down.xml"
-    },
-    {
-        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_enter.xml",
-        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\anim\\pop_enter.xml"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_up.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\anim\\pop_up.xml"
     },
     {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in.xml",
         "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\anim\\push_bottom_in.xml"
     },
     {
-        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_out.xml",
-        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\anim\\pop_out.xml"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_enter.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\anim\\pop_enter.xml"
     },
     {
-        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
-        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\anim\\abc_popup_exit.xml"
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in.xml",
+        "source": "D:\\KOE\\app\\src\\main\\res\\anim\\push_bottom_in.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_up.xml",
+        "source": "D:\\KOE\\app\\src\\main\\res\\anim\\pop_up.xml"
     },
     {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
         "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\login_anim.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\anim\\login_anim.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_down.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\anim\\pop_down.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\tangyubao\\.android\\build-cache\\72c4a6d5adb8b15ff7644784bc89aedb673b732a\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\tangyubao\\.android\\build-cache\\72c4a6d5adb8b15ff7644784bc89aedb673b732a\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_out.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\anim\\push_bottom_out.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_down.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\anim\\activity_down.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\tangyubao\\.android\\build-cache\\72c4a6d5adb8b15ff7644784bc89aedb673b732a\\output\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_out.xml",
+        "source": "D:\\KOE\\app\\src\\main\\res\\anim\\pop_out.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_out.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\anim\\pop_out.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\tangyubao\\.android\\build-cache\\72c4a6d5adb8b15ff7644784bc89aedb673b732a\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\login_anim.xml",
+        "source": "D:\\KOE\\app\\src\\main\\res\\anim\\login_anim.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
+        "source": "D:\\KOE\\app\\src\\main\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\anim\\abc_popup_exit.xml"
     },
     {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
@@ -40,12 +92,8 @@
         "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
-        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\login_anim.xml",
-        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\anim\\login_anim.xml"
-    },
-    {
-        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_down.xml",
-        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\anim\\pop_down.xml"
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\tangyubao\\.android\\build-cache\\72c4a6d5adb8b15ff7644784bc89aedb673b732a\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
     },
     {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
@@ -60,27 +108,63 @@
         "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\anim\\fade_in.xml"
     },
     {
-        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
-        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\anim\\abc_slide_out_top.xml"
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\tangyubao\\.android\\build-cache\\72c4a6d5adb8b15ff7644784bc89aedb673b732a\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_down.xml",
+        "source": "D:\\KOE\\app\\src\\main\\res\\anim\\pop_down.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\tangyubao\\.android\\build-cache\\72c4a6d5adb8b15ff7644784bc89aedb673b732a\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_enter.xml",
+        "source": "D:\\KOE\\app\\src\\main\\res\\anim\\pop_enter.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\tangyubao\\.android\\build-cache\\72c4a6d5adb8b15ff7644784bc89aedb673b732a\\output\\res\\anim\\abc_slide_out_top.xml"
     },
     {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
         "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\anim\\fade_out.xml"
     },
     {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\tangyubao\\.android\\build-cache\\72c4a6d5adb8b15ff7644784bc89aedb673b732a\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
         "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\fade_out.xml",
+        "source": "D:\\KOE\\app\\src\\main\\res\\anim\\fade_out.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_up.xml",
+        "source": "D:\\KOE\\app\\src\\main\\res\\anim\\activity_up.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_down.xml",
+        "source": "D:\\KOE\\app\\src\\main\\res\\anim\\activity_down.xml"
     },
     {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
         "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
     },
     {
-        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_out.xml",
-        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\anim\\push_bottom_out.xml"
-    },
-    {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
         "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_out.xml",
+        "source": "D:\\KOE\\app\\src\\main\\res\\anim\\push_bottom_out.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\tangyubao\\.android\\build-cache\\72c4a6d5adb8b15ff7644784bc89aedb673b732a\\output\\res\\anim\\abc_fade_in.xml"
     }
 ]
