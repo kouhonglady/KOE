@@ -10,14 +10,14 @@
         android:layout_height="match_parent"
         android:background="#fff"
         android:orientation="vertical"
-        android:weightSum="5">
+        android:weightSum="1">
 
         <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="center_vertical"
-            android:layout_marginTop="15dp"
-            android:layout_weight="1"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.1"
             android:orientation="horizontal">
 
             <RelativeLayout
@@ -55,13 +55,15 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:id="@+id/test_content_linear_layout"
             android:orientation="vertical"
             android:background="@drawable/test_content_bg"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="15dp"
-            android:layout_marginTop="15dp">
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.7"
+            android:weightSum="1">
 
             <TextView
                 android:id="@+id/tips"
@@ -80,9 +82,9 @@
             <LinearLayout
                 android:id="@+id/image_linear_layout"
                 android:layout_width="match_parent"
-                android:layout_height="0dp"
+                android:layout_height="match_parent"
                 android:layout_marginTop="10dp"
-                android:layout_weight="1"
+                android:layout_weight="0.6"
                 android:orientation="horizontal">
 
                 <RelativeLayout
@@ -112,7 +114,7 @@
                 android:layout_height="wrap_content"
                 android:gravity="center"
                 android:layout_marginTop="5dp"
-                android:layout_weight="1"
+                android:layout_weight="0.1"
                 android:orientation="vertical"
                 android:id="@+id/word_linear_layout">
 
@@ -153,7 +155,7 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="20dp"
-                android:layout_weight="1"
+                android:layout_weight="0.1"
                 android:orientation="horizontal"
                 android:id="@+id/point_linear_layout">
 
@@ -194,7 +196,7 @@
                 android:orientation="horizontal"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_weight="1"
+                android:layout_weight="0.2"
                 android:id="@+id/answer_linear_layout">
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -203,20 +205,31 @@
                     android:id="@+id/std_ans_linear_layout"
                     android:background="@drawable/ans_line_left_bg"
                     android:layout_weight="0.5">
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="0.3"
-                        android:id="@+id/std_ans_title_image_view"
-                        android:background="@drawable/std_ans_bg"
-                        android:layout_gravity="center_horizontal"
-                        />
+                    <!--<ImageView-->
+                        <!--android:layout_width="wrap_content"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="0.3"-->
+                        <!--android:id="@+id/std_ans_title_image_view"-->
+                        <!--android:background="@drawable/std_ans_bg"-->
+                        <!--android:layout_gravity="center_horizontal"-->
+                        <!--/>-->
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.7"
+                        android:id="@+id/std_ans_title_text_view"
+                        android:text="正确答案"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:background="@drawable/user_ans_title_bg"
+                        android:textColor="@color/common_title"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
                         android:id="@+id/std_ans_text_view"
                         android:layout_gravity="center_horizontal"
-                        android:layout_weight="0.7"/>
+                        android:layout_weight="0.3"/>
                 </LinearLayout>
 
                 <LinearLayout
@@ -226,20 +239,30 @@
                     android:id="@+id/user_ans_linear_layout"
                     android:layout_weight="0.5"
                     android:background="@drawable/ans_line_left_bg">
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_weight="0.3"
-                        android:id="@+id/user_ans_title_image_view"
-                        android:background="@drawable/user_ans_bg"
-                        android:layout_gravity="center_horizontal"
-                        />
+                    <!--<ImageView-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:layout_weight="0.5"-->
+                        <!--android:id="@+id/user_ans_title_image_view"-->
+                        <!--android:background="@drawable/user_ans_bg"-->
+                        <!--android:layout_gravity="center_horizontal"-->
+                        <!--/>-->
                     <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.7"
+                        android:id="@+id/user_ans_title_text_view"
+                        android:text="您的答案"
+                        android:gravity="center_horizontal|center_vertical"
+                        android:layout_marginRight="2dp"
+                        android:background="@drawable/user_ans_title_bg"
+                        android:textColor="@color/common_title"/>
+                    <TextView
+                        android:layout_width="match_parent"
                         android:id="@+id/user_ans_text_view"
                         android:layout_gravity="center_horizontal"
-                        android:layout_weight="0.7"/>
+                        android:layout_weight="0.3"
+                        android:layout_height="match_parent"/>
                 </LinearLayout>
             </LinearLayout>
 
@@ -247,10 +270,10 @@
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="20dp"
-            android:layout_weight="1">
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.1">
 
             <ImageButton
                 android:id="@+id/fayin"
@@ -258,16 +281,27 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:background="#ffffff"
-                android:src="@drawable/fayin_start"
-                android:text="Button" />
+                android:src="@drawable/start_test_button_bg"
+                android:layout_weight="0.5"
+                android:text="Button"
+                android:layout_marginRight="5dp"/>
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:src="@drawable/stop_test_button_bg"
+                android:background="#ffffff"
+                android:id="@+id/stop_test_image_button"
+                android:layout_marginLeft="5dp"/>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_gravity="center"
-            android:layout_marginTop="20dp"
-            android:layout_weight="1">
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.1">
 
             <RelativeLayout
                 android:layout_width="wrap_content"

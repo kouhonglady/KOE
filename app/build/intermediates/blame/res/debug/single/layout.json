@@ -8,12 +8,12 @@
         "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list5.xml",
-        "source": "D:\\KOE\\app\\src\\main\\res\\layout\\list5.xml"
-    },
-    {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
         "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\list5.xml",
+        "source": "D:\\KOE\\app\\src\\main\\res\\layout\\list5.xml"
     },
     {
         "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page3.xml",
@@ -32,12 +32,16 @@
         "source": "D:\\KOE\\app\\src\\main\\res\\layout\\fragment_qq_friend.xml"
     },
     {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bbs.xml",
+        "source": "D:\\KOE\\app\\src\\main\\res\\layout\\fragment_bbs.xml"
+    },
+    {
         "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_waterphoto_save.xml",
         "source": "D:\\KOE\\app\\src\\main\\res\\layout\\fragment_news_waterphoto_save.xml"
     },
     {
-        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_bbs.xml",
-        "source": "D:\\KOE\\app\\src\\main\\res\\layout\\fragment_bbs.xml"
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\test_two.xml",
+        "source": "D:\\KOE\\app\\src\\main\\res\\layout\\test_two.xml"
     },
     {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\common_loading_view.xml",
@@ -60,12 +64,12 @@
         "source": "C:\\Users\\tangyubao\\.android\\build-cache\\72c4a6d5adb8b15ff7644784bc89aedb673b732a\\output\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_difficulitychoice.xml",
-        "source": "D:\\KOE\\app\\src\\main\\res\\layout\\activity_difficulitychoice.xml"
-    },
-    {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_hornor.xml",
         "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\activity_hornor.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_difficulitychoice.xml",
+        "source": "D:\\KOE\\app\\src\\main\\res\\layout\\activity_difficulitychoice.xml"
     },
     {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
@@ -76,12 +80,12 @@
         "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\tiezi_item.xml"
     },
     {
-        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page2.xml",
-        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\water_camera_page2.xml"
-    },
-    {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
         "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\water_camera_page2.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\water_camera_page2.xml"
     },
     {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
@@ -92,12 +96,12 @@
         "source": "D:\\KOE\\app\\src\\main\\res\\layout\\activity_register_result.xml"
     },
     {
-        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news.xml",
-        "source": "D:\\KOE\\app\\src\\main\\res\\layout\\fragment_news.xml"
-    },
-    {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_item.xml",
         "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\fragment_news_item.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news.xml",
+        "source": "D:\\KOE\\app\\src\\main\\res\\layout\\fragment_news.xml"
     },
     {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
@@ -216,12 +220,12 @@
         "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\layout\\water_camera_page4.xml"
     },
     {
-        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_camera.xml",
-        "source": "D:\\KOE\\app\\src\\main\\res\\layout\\fragment_news_camera.xml"
-    },
-    {
         "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
         "source": "C:\\Users\\tangyubao\\.android\\build-cache\\72c4a6d5adb8b15ff7644784bc89aedb673b732a\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_news_camera.xml",
+        "source": "D:\\KOE\\app\\src\\main\\res\\layout\\fragment_news_camera.xml"
     },
     {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_qq_constact.xml",

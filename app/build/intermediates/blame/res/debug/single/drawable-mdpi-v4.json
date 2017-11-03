@@ -44,16 +44,16 @@
         "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\drawable-mdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\honor_bg.png",
-        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\drawable-mdpi\\honor_bg.png"
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\tangyubao\\.android\\build-cache\\72c4a6d5adb8b15ff7644784bc89aedb673b732a\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
         "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
         "source": "C:\\Users\\tangyubao\\.android\\build-cache\\72c4a6d5adb8b15ff7644784bc89aedb673b732a\\output\\res\\drawable-mdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
-        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png",
-        "source": "C:\\Users\\tangyubao\\.android\\build-cache\\72c4a6d5adb8b15ff7644784bc89aedb673b732a\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\honor_bg.png",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\drawable-mdpi\\honor_bg.png"
     },
     {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_focused_holo.9.png",
@@ -108,12 +108,12 @@
         "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_36dp.png"
     },
     {
-        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png",
-        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
-    },
-    {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
         "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",

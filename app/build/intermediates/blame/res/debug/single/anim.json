@@ -1,19 +1,19 @@
 [
     {
-        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_up.xml",
-        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\anim\\activity_up.xml"
-    },
-    {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_up.xml",
         "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\anim\\pop_up.xml"
     },
     {
-        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in.xml",
-        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\anim\\push_bottom_in.xml"
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\activity_up.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\anim\\activity_up.xml"
     },
     {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\pop_enter.xml",
         "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\anim\\pop_enter.xml"
+    },
+    {
+        "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in.xml",
+        "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\anim\\push_bottom_in.xml"
     },
     {
         "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in.xml",

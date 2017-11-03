@@ -100,6 +100,10 @@
         "source": "D:\\KOE\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
     },
     {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\stop_test_button_bg.png",
+        "source": "D:\\KOE\\app\\src\\main\\res\\drawable-xhdpi\\stop_test_button_bg.png"
+    },
+    {
         "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\act_local.png",
         "source": "D:\\KOE\\app\\src\\main\\res\\drawable-xhdpi\\act_local.png"
     },
@@ -224,6 +228,10 @@
         "source": "C:\\Users\\tangyubao\\.android\\build-cache\\72c4a6d5adb8b15ff7644784bc89aedb673b732a\\output\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\start_test_button_bg.png",
+        "source": "D:\\KOE\\app\\src\\main\\res\\drawable-xhdpi\\start_test_button_bg.png"
+    },
+    {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png",
         "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
@@ -326,6 +334,10 @@
     {
         "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bbs_head_12.png",
         "source": "D:\\KOE\\app\\src\\main\\res\\drawable-xhdpi\\bbs_head_12.png"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\user_ans_title_bg.png",
+        "source": "D:\\KOE\\app\\src\\main\\res\\drawable-xhdpi\\user_ans_title_bg.png"
     },
     {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bbs_head_10.png",
@@ -480,6 +492,10 @@
         "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
     },
     {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\right_arrow.png",
+        "source": "D:\\KOE\\app\\src\\main\\res\\drawable-xhdpi\\right_arrow.png"
+    },
+    {
         "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
         "source": "C:\\Users\\tangyubao\\.android\\build-cache\\72c4a6d5adb8b15ff7644784bc89aedb673b732a\\output\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
     },
@@ -534,6 +550,10 @@
     {
         "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bbs_head_9.png",
         "source": "D:\\KOE\\app\\src\\main\\res\\drawable-xhdpi\\bbs_head_9.png"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\left_arrow.png",
+        "source": "D:\\KOE\\app\\src\\main\\res\\drawable-xhdpi\\left_arrow.png"
     },
     {
         "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bbs_head_3.png",

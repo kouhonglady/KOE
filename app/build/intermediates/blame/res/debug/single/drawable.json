@@ -12,12 +12,12 @@
         "source": "F:\\newKOE\\KOE\\app\\src\\main\\res\\drawable\\bdspeech_right_redlight_normal.9.png"
     },
     {
-        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\Users\\tangyubao\\.android\\build-cache\\72c4a6d5adb8b15ff7644784bc89aedb673b732a\\output\\res\\drawable\\abc_ic_clear_material.xml"
-    },
-    {
         "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
         "source": "C:\\Users\\tangyubao\\.android\\build-cache\\72c4a6d5adb8b15ff7644784bc89aedb673b732a\\output\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\tangyubao\\.android\\build-cache\\72c4a6d5adb8b15ff7644784bc89aedb673b732a\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
         "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bdspeech_btn_greendeep_pressed.9.png",
@@ -112,12 +112,12 @@
         "source": "C:\\Users\\admin\\.android\\build-cache\\7012788fa8db1fbf1918c7757a1e0c3128842fdf\\output\\res\\drawable\\notification_bg.xml"
     },
     {
-        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\scan_ercode.xml",
-        "source": "D:\\KOE\\app\\src\\main\\res\\drawable\\scan_ercode.xml"
-    },
-    {
         "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\pop_bg.xml",
         "source": "D:\\KOE\\app\\src\\main\\res\\drawable\\pop_bg.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\scan_ercode.xml",
+        "source": "D:\\KOE\\app\\src\\main\\res\\drawable\\scan_ercode.xml"
     },
     {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bdspeech_btn_recognizing_deep.9.png",
@@ -184,12 +184,12 @@
         "source": "D:\\KOE\\app\\src\\main\\res\\drawable\\bdspeech_left_deep_normal.9.png"
     },
     {
-        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bdspeech_btn_greendeep_normal.9.png",
-        "source": "D:\\KOE\\app\\src\\main\\res\\drawable\\bdspeech_btn_greendeep_normal.9.png"
-    },
-    {
         "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
         "source": "C:\\Users\\tangyubao\\.android\\build-cache\\72c4a6d5adb8b15ff7644784bc89aedb673b732a\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bdspeech_btn_greendeep_normal.9.png",
+        "source": "D:\\KOE\\app\\src\\main\\res\\drawable\\bdspeech_btn_greendeep_normal.9.png"
     },
     {
         "merged": "F:\\newKOE\\KOE\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\bdspeech_left_deep_normal.9.png",
